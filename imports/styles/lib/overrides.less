@@ -1,0 +1,105 @@
+// Reference Variables & Mixins
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+@import (reference) "mixins.less";
+
+// Fix color of AutoComplete Input BG
+input:-webkit-autofill {
+    &, &:hover, &:focus, &:active {
+        -webkit-box-shadow: 0 0 0 1000px white inset;
+    }
+}
+
+// Fix default focus style
+*:focus {
+    outline: none !important;
+}
+
+.owner-label {
+    .text-ellipsis;
+}
+
+.navbar-default {
+    .navbar-toggle {
+        .icon-bar {
+            background-color: @offwhite;
+        }
+    }
+}
+
+.display-inputs {
+    .input-group {
+        margin-bottom: 20px;
+        border-color: @gray-lighter;
+        cursor: pointer;
+
+        .input-group-addon {
+            position: relative;
+            border-color: inherit;
+
+            .shading {
+                display: block;
+                .pos-abs(0, 0, 0, 0);
+                background: rgba(255, 255, 255, 0.3);
+                border-top-left-radius: @border-radius-base;
+                border-bottom-left-radius: @border-radius-base;
+                z-index: 1;
+            }
+
+            .fixed-label {
+                position: relative;
+                display: inline-block;
+                width: 70px;
+                z-index: 2;
+
+                .text-muted {
+                    color: inherit;
+                    font-size: 0.6em;
+                }
+
+                &.month-label {
+                    width: 90px;
+                }
+            }
+        }
+
+        &.input-group-sm {
+            > .form-control,
+            > .input-group-addon,
+            > .input-group-btn > .btn {
+                height: 30px;
+                line-height: 16px;
+            }
+            .input-group-addon {
+                .shading {
+                    border-top-left-radius: @border-radius-small;
+                    border-bottom-left-radius: @border-radius-small;
+                }
+            }
+        }
+
+        &.input-group-lg {
+            .input-group-addon {
+                .shading {
+                    border-top-left-radius: @border-radius-large;
+                    border-bottom-left-radius: @border-radius-large;
+                }
+            }
+        }
+
+        .form-control {
+            text-align: center;
+            box-shadow: none;
+            border-color: inherit;
+
+            &[disabled] {
+                background: @white;
+                cursor: inherit;
+                pointer-events: none;
+            }
+        }
+
+        &.first-place  { opacity: 1.0; }
+        &.second-place { opacity: 0.85; }
+        &.third-place  { opacity: 0.7; }
+    }
+}

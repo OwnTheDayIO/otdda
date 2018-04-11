@@ -1,0 +1,37 @@
+// Reference Variables & Mixins
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+@import (reference) "/imports/styles/lib/mixins.less";
+
+
+// Accounts Component
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.component-wrapper {
+    &.accounts-component {
+        margin-bottom: 30px;
+
+        .balance-input-group {
+            max-width: 300px;
+        }
+
+        .media-body {
+            .col-sm-6 {
+                margin-bottom: 20px;
+            }
+        }
+
+    }
+}
+
+@media (min-width: @screen-sm-min) {
+    .component-wrapper {
+        &.accounts-component {
+
+            .media-body {
+                .col-sm-6 {
+                    margin-bottom: 0;
+                }
+            }
+
+        }
+    }
+}

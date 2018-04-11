@@ -1,0 +1,72 @@
+<template name="bodyLayout">
+    <div class="component-wrapper root-component body-layout-component">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/"><span class="otd-logo">{{{getSvg '/otd_logo_bordered.svg'}}}</span> &nbsp; {{_ 'body.navbar.title'}}</a>
+                </div>
+
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right locale-selector">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{getActiveLangName}} <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                {{#each lang in getLanguages}}
+                                    <li><a href="#" class="{{getActiveLangClass lang}}" data-action="change-lang" data-lang="{{lang}}">{{getLangName lang}}</a></li>
+                                {{/each}}
+                            </ul>
+                        </li>
+                    </ul>
+                    <span class="navbar-right hidden-xs">
+                        {{#if hasInvalidAccountOrNetwork}}
+                            <span class="ethereum-offline" data-toggle="tooltip" data-placement="bottom" title="{{getOfflineReason}}" data-original-title="{{getOfflineReason}}"></span>
+                        {{else}}
+                            {{> dapp_identicon identity=getAccountAddress class="dapp-small"}}
+                        {{/if}}
+                    </span>
+                    <ul class="nav navbar-nav navbar-right">
+                        {{#if hasPendingTxs}}
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{_ 'body.navbar.link.pendingTxs'}} <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    {{#each tx in getPendingTxs}}
+                                        <li>
+                                            <a href="https://etherscan.io/tx/{{tx.hash}}" target="_blank">{{getFriendlyDate tx}} <span class="glyphicon glyphicon-remove" aria-hidden="true"></span></a>
+
+                                        </li>
+                                    {{/each}}
+                                </ul>
+                            </li>
+                        {{/if}}
+                        <li class="{{getActiveClass 'calendar'}}"><a href="{{getCalendarRoute}}">{{_ 'body.navbar.link.calendar'}}</a></li>
+                        <li class="{{getActiveClass 'account'}}"><a href="{{getAccountRoute}}">{{_ 'body.navbar.link.account'}}</a></li>
+                        {{#if hasValidAccountAndNetwork}}
+                            <li class="owner-label-wrapper">
+                                <a href="#" class="text-large" data-toggle="modal" data-target="#setNicknameModal" role="button" aria-expanded="false">
+                                    <span class="label label-info owner-label" style="{{getColorFromAddress}}">{{getAccountNickname}}</span>
+                                </a>
+                            </li>
+                        {{/if}}
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid">
+            <div class="content-primary">
+                {{> Template.dynamic template=main data=componentData}}
+            </div>
+        </div>
+    </div>
+
+    {{> errorModal}}
+    {{> nicknameModal}}
+    {{> claimModal}}
+
+</template>

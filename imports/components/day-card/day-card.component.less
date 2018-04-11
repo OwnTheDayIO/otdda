@@ -1,0 +1,51 @@
+// Reference Variables & Mixins
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+@import (reference) "/imports/styles/lib/mixins.less";
+
+
+// Day-Card Component
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.component-wrapper {
+  &.day-card-component {
+
+    .panel-day-card {
+      cursor: pointer;
+
+      .panel-heading {
+        color: #666;
+        font-size: 1.2em;
+        font-weight: bold;
+      }
+
+      .panel-body {
+        position: relative;
+        //height: 120px;
+
+        .day-label {
+          font-size: 4em;
+          font-weight: bold;
+          text-shadow: 3px 3px #ddd;
+          text-align: center;
+        }
+
+        .owner-label {
+          display: block;
+          font-size: 0.9em;
+          padding: 2px;
+          text-align: center;
+          border-radius: @border-radius-small;
+        }
+
+        .holiday-icon {
+          .pos-abs(10px, 10px);
+        }
+      }
+
+      .panel-footer {
+        color: #888;
+        padding-top: 0;
+        padding-bottom: 0;
+      }
+    }
+  }
+}

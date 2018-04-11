@@ -1,0 +1,57 @@
+// Reference Variables & Mixins
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+@import (reference) "/imports/styles/lib/mixins.less";
+
+
+// Claim-Panel Component
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.component-wrapper {
+  &.claim-component {
+    margin-top: 75px;
+
+    .claim-day-card {
+      .panel-heading {
+        color: #666;
+        font-size: 1.2em;
+        font-weight: bold;
+      }
+
+      .panel-body {
+        position: relative;
+        padding: 0;
+
+        .day-label {
+          font-size: 4em;
+          line-height: 2em;
+          font-weight: bold;
+          text-shadow: 3px 3px #ddd;
+          text-align: center;
+        }
+
+        .owner-label {
+          display: block;
+          width: 96%;
+          margin: 2%;
+          font-size: 1em;
+          padding: 3px;
+          text-align: center;
+          cursor: pointer;
+          border: 1px solid @white;
+          box-shadow: none;
+
+          &:hover {
+            box-shadow: 0 0 3px @brand-info;
+          }
+        }
+
+        .holiday-icon {
+          .pos-abs(10px, 10px);
+        }
+      }
+
+      .panel-footer {
+      }
+    }
+
+  }
+}

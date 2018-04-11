@@ -1,0 +1,50 @@
+{
+  "name": "OwnTheDay-DApp",
+  "version": "1.5.3",
+  "description": "Own the Day or Get Paid for it - Blockchain Collectibles",
+  "author": "OwnTheDay <owntheday.io>",
+  "keywords": [],
+  "license": "MIT",
+  "homepage": "https://github.com/xeroblood/OwnTheDay-DApp#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xeroblood/OwnTheDay-DApp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xeroblood/OwnTheDay-DApp/issues"
+  },
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "@babel/runtime": "7.0.0-beta.36",
+    "autoprefixer": "6.5.0",
+    "bignumber.js": "6.0.0",
+    "bootstrap": "3.3.7",
+    "core-js": "2.4.1",
+    "date-fns": "1.29.0",
+    "es6-promise": "4.2.4",
+    "jquery": "3.3.1",
+    "lodash": "4.17.4",
+    "meteor-node-stubs": "0.3.2",
+    "profanity-filter": "0.2.1",
+    "toastr": "2.1.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "7.0.0",
+    "eslint": "3.6.1",
+    "eslint-import-resolver-meteor": "0.3.3",
+    "eslint-plugin-import": "2.0.0",
+    "eslint-plugin-meteor": "4.0.0",
+    "eslint-plugin-react": "7.1.0"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {
+        "browsers": [
+          "last 2 versions"
+        ]
+      }
+    }
+  }
+}

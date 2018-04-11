@@ -1,0 +1,25 @@
+<template name="about">
+    <div class="component-wrapper about-page">
+
+        <div class="top-banner">
+            <h1>{{_ 'about.topBanner.title'}}</h1>
+            <p class="sub-title">{{_ 'about.topBanner.subtitle'}}</p>
+        </div>
+
+        <div class="row game-breakdown">
+            <div class="col-md-6 col-md-offset-3 col-sm-12 col-sm-offset-0">
+
+                <h3>{{{_ 'about.section1.title'}}}</h3>
+                <p>{{{getLinkedTranslationFor 'about.section1.line1'}}}</p>
+                <p>{{{getLinkedTranslationFor 'about.section1.line2'}}}</p>
+                <p>{{{getLinkedTranslationFor 'about.section1.line3'}}}</p>
+                <p>{{{getLinkedTranslationFor 'about.section1.line4'}}}</p>
+
+                {{> priceLevelComponent}}
+
+            </div>
+        </div>
+
+        {{>footerComponent}}
+    </div>
+</template>

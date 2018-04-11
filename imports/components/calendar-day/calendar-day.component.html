@@ -1,0 +1,11 @@
+<template name="calendarDayComponent">
+    <div class="component-wrapper calendar-day-component {{getClass}}">
+        {{#if hasHoliday}}
+            <div class="holiday-icon calendar-day-icon" data-toggle="popover" data-placement="auto right" data-container="body" data-original-title="{{getHolidayTitle}}" title="{{getHolidayTitle}}" data-content="{{getHolidayDesc}}">{{{getSvg getHolidayIcon}}}</div>
+        {{/if}}
+        <div class="day-label">{{getDay}}</div>
+
+        <div class="owner-label" style="{{getColorFromAddress}}"><strong>{{getCurrentOwner}}</strong></div>
+        <div class="price-label">{{_ 'generic.etherUnit'}}: {{getCurrentPrice}}</div>
+    </div>
+</template>

@@ -1,0 +1,9 @@
+.idea
+node_modules/
+raw_images/
+OTD-Logo/
+notes.txt
+ideas.txt
+.DS_Store
+npm-debug.log
+.coverage

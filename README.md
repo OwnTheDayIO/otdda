@@ -1,2 +1,2 @@
-# otdda
-Own the Day - Dapp
+# OwnTheDay-DApp
+Decentralized App for OwnTheDay

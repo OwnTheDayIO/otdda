@@ -1,0 +1,30 @@
+// Reference Variables & Mixins
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+@import (reference) "/imports/styles/lib/mixins.less";
+
+.otd-logo {
+    display: inline-block;
+    &, svg {
+        .square(30px);
+    }
+}
+
+.ethereum-offline {
+    display: inline-block;
+    .pos-rel(10px, auto, auto, -20px);
+    .square(30px);
+    margin-left: 30px;
+    background: transparent url('/img/ethereum-white.png') no-repeat center;
+    background-size: 90%;
+    z-index: 10;
+}
+
+
+.holiday-icon {
+    width: 20%;
+    max-width: 60px;
+
+    &.icon-sm {
+        .square(30px);
+    }
+}

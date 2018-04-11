@@ -1,0 +1,98 @@
+// Reference Variables & Mixins
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+@import (reference) "/imports/styles/lib/mixins.less";
+
+
+// Calendar Component
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.component-wrapper {
+  &.calendar-component {
+    margin-bottom: 30px;
+
+    .month-selection {
+      position: relative;
+      padding-bottom: 10px;
+      text-align: center;
+
+      .month-dominator {
+        .pos-abs(auto, auto, 10px);
+        margin-left: 20px;
+
+        .owner-label {
+          display: inline-block;
+          .pos-rel(5px);
+          max-width: 200px;
+          cursor: pointer;
+        }
+      }
+
+      > .btn-group {
+        > .btn {
+          margin-top: 10px; // arrows
+        }
+      }
+
+      .btn-group {
+        .btn.btn-default {
+          border: 0 none;
+
+          &.dropdown-toggle {
+            font-size: 2em;
+            font-weight: bold;
+          }
+
+          &:hover,
+          &:active,
+          &:focus,
+          &.active {
+            background: transparent;
+            box-shadow: none;
+          }
+        }
+
+        &.open {
+          .dropdown-toggle {
+            box-shadow: none;
+          }
+        }
+
+        &.open {
+          > .dropdown-toggle.btn-default {
+            background: transparent;
+          }
+        }
+      }
+    }
+
+    .table {
+      border-collapse: separate;
+      border-spacing: 7px;
+      border: 0 none;
+
+      tbody {
+        tr {
+          td {
+            height: 110px;
+            width: 14.28571429% !important;
+            padding: 0;
+            box-shadow: 0 0 2px 1px @ghostwhite;
+            border-radius: @border-radius-base;
+            cursor: pointer;
+
+            &:hover {
+              border: 1px solid lighten(@brand-info, 30%);
+              box-shadow: 0 0 2px 1px lighten(@brand-info, 30%);
+            }
+
+            &.active {
+              background-color: @white;
+              border: 1px solid @brand-info;
+              box-shadow: 0 0 2px 1px lighten(@brand-info, 20%);
+            }
+          }
+        }
+      }
+    }
+
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "env": {
+    "PROD_CONTRACT_ADDRESS": "@prod-contract-address"
+  }
+}

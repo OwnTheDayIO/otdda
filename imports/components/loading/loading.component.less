@@ -1,0 +1,44 @@
+// Reference Variables & Mixins
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+@import (reference) "/imports/styles/lib/mixins.less";
+
+// Loading Component
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.component-wrapper {
+  &.loading-component {
+    .pos-rel(0, auto, auto, 0); // T, R, B, L
+    height: 100%;
+    width: 100%;
+    min-height: 200px;
+
+    .loading-wrapper {
+      display: block;
+      .pos-abs(45%, auto, auto, 52%); // T, R, B, L
+      transform: translate(-50%, -50%);
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 42rem;
+      border: 1px solid @input-border;
+      border-radius: @border-radius-base;
+      background-color: @white;
+
+      .spinner-container {
+        .pos-rel(40px, auto, auto, 35px); // T, R, B, L
+      }
+      .loading-message {
+        padding: 30px 30px 30px 70px;
+
+        p {
+          color: #777;
+          font-size: 1em;
+
+          &.title {
+            color: @jet;
+            font-weight: bold;
+            font-size: 1.2em;
+          }
+        }
+      }
+    }
+  }
+}

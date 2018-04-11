@@ -1,0 +1,19 @@
+<template name="account">
+    <div class="component-wrapper account-page">
+
+    {{> accountWarningComponent}}
+
+    {{#if hasValidAccountAndNetwork getAccountId}}
+        {{> accountsComponent accountId=getAccountId}}
+
+        <div class="row">
+            <div class="col-md-12">
+                {{> myDaysComponent accountId=getAccountId}}
+            </div>
+        </div>
+    {{/if}}
+
+    </div>
+
+    {{>footerComponent}}
+</template>

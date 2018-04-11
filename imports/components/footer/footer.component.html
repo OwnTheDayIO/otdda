@@ -1,0 +1,47 @@
+<template name="footerComponent">
+    <div class="component-wrapper footer-component">
+
+        <div class="footer">
+            <div class="row">
+                <div class="col-xs-6 col-sm-2 col-sm-offset-1 links">
+                    <p class="heading">{{_ 'generic.information'}}</p>
+                    <ul>
+                        <li><a href="/">{{_ 'welcome.pageTitle'}}</a></li>
+                        <li><a href="{{getRoute 'about'}}">{{_ 'about.pageTitle'}}</a></li>
+                        <li><a href="{{getRoute 'faq'}}">{{_ 'faq.pageTitle'}}</a></li>
+                        <li><a href="{{getRoute 'terms'}}">{{_ 'tos.pageTitle'}}</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-6 col-sm-2 links">
+                    <p class="heading">{{_ 'body.navbar.title'}}</p>
+                    <ul>
+                        <li><a href="{{getRoute 'calendar'}}">{{_ 'body.navbar.link.calendar'}}</a></li>
+                        <li><a href="{{getRoute 'account'}}">{{_ 'body.navbar.link.account'}}</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-3 social">
+                    <p class="heading">{{_ 'generic.social'}}</p>
+                    <div class="social-icons">
+                        <a href="https://twitter.com/OwnTheDayDAPP" title="{{_ 'component.footer.social.visitUs' social='Twitter'}}" data-toggle="tooltip" data-placement="bottom" target="_blank">{{{getSvg '/img/social/twitter.svg'}}}</a>
+                        <a href="https://medium.com/@owntheday.io" title="{{_ 'component.footer.social.visitUs' social='Medium'}}" data-toggle="tooltip" data-placement="bottom" target="_blank">{{{getSvg '/img/social/medium.svg'}}}</a>
+                        <a href="https://discord.gg/sWmjmfa" title="{{_ 'component.footer.social.visitUs' social='Discord'}}" data-toggle="tooltip" data-placement="bottom" target="_blank">{{{getSvg '/img/social/discord.svg'}}}</a>
+                        <a href="https://t.me/owntheday" title="{{_ 'component.footer.social.visitUs' social='Telegram'}}" data-toggle="tooltip" data-placement="bottom" target="_blank">{{{getSvg '/img/social/telegram.svg'}}}</a>
+                    </div>
+                    <div class="dapp-lists">
+                        <a href="https://www.stateofthedapps.com/" title="{{_ 'component.footer.social.visitUs' social='State of the DApps'}}" data-toggle="tooltip" data-placement="bottom" target="_blank"><img src="/img/social/state-of-the-dapps.png" class="state-of-the-dapps"/></a>
+                        <!-- <a href="https://dappradar.com/" title="{{_ 'component.footer.social.visitUs' social='DappRadar'}}" data-toggle="tooltip" data-placement="bottom" target="_blank"><img src="/img/social/dapp-radar.png" class="dapp-radar"/></a> -->
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 copyright">
+                    <div class="tech-icons">
+                        <a href="https://www.ethereum.org" class="eth" target="_blank"><img src="/img/eth.png" /></a>
+                        <a href="https://metamask.io" class="mm" target="_blank"><img src="/img/mm.png" /></a>
+                    </div>
+
+                    <p>&copy; {{_ 'generic.copyright1'}}<br>{{_ 'generic.copyright2'}}</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</template>

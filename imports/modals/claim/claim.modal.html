@@ -1,0 +1,48 @@
+<template name="claimModal">
+    <div class="modal fade claim-modal" id="layClaimModal" tabindex="-1" role="dialog" aria-labelledby="layClaimModalLabel">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="{{_ 'generic.close'}}"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="layClaimModalLabel">{{_ 'generic.own'}} {{getDateLabel 'MMMM Do' false false}}</h4>
+                </div>
+                <div class="modal-body">
+                    {{#if isLoading}}
+                        {{> loading}}
+                    {{else}}
+                        <div class="row">
+                            <div class="col-md-3">
+                                {{> dayCardComponent day=getDayIndex tipPlacement="right"}}
+                            </div>
+                            <div class="col-md-9">
+                                <blockquote>
+                                    <p>
+                                        {{{getInfo "1"}}}
+                                        {{#if hasCurrentOwner}}
+                                            {{_ 'generic.from'}} <span class="label label-default owner-label" style="{{getColorFromAddress}}">{{getCurrentOwner}}</span>
+                                        {{/if}}
+                                    </p>
+                                    <p>{{{getInfo "2"}}}</p>
+
+                                    <footer>
+                                        <p>{{getInfo "3"}}</p>
+                                        <p>{{getInfo "4"}}</p>
+                                        <p>{{getInfo "5"}} <a href="https://etherscan.io/gastracker" target="_blank">(EtherScan)</a></p>
+                                        <p><strong>{{_ 'generic.disclaimer'}}</strong>: {{_ 'modal.claim.disclaimer'}}</p>
+                                    </footer>
+                                </blockquote>
+                            </div>
+                        </div>
+                    {{/if}}
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">{{_ 'generic.cancel'}}</button>
+                    {{#unless isLoading}}
+                        <button type="button" class="btn btn-primary" data-action="claim-day">{{_ 'generic.claim'}}!</button>
+                    {{/unless}}
+                </div>
+            </div>
+        </div>
+    </div>
+</template>

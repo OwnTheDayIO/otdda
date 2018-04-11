@@ -1,0 +1,43 @@
+<template name="mostDaysComponent">
+    <div class="component-wrapper most-days-component">
+        {{#if isLoaded}}
+            <h3 class="page-header">{{_ 'component.mostDays.title'}}</h3>
+
+            <div class="most-days display-inputs">
+                {{#if hasOwnerAtIndex 0}}
+                    <div class="input-group input-group-lg first-place" style="{{getBorderColorFromAddress 0}}" data-goto="{{getAddressAtIndex 0}}">
+                        <span class="input-group-addon" id="sizing-addon1" style="{{getColorFromAddress 0}}">
+                            <span class="shading"></span>
+                            <span class="fixed-label">{{getMostDaysAtIndex 0}} <span class="text-muted text-uppercase">{{_ 'generic.days'}}</span></span>
+                        </span>
+                        <input class="form-control disabled" value="{{getMostDaysOwnerAtIndex 0}}" aria-describedby="sizing-addon1" disabled>
+                    </div>
+                {{/if}}
+
+                {{#if hasOwnerAtIndex 1}}
+                    <div class="input-group second-place" style="{{getBorderColorFromAddress 1}}" data-goto="{{getAddressAtIndex 1}}">
+                        <span class="input-group-addon" id="sizing-addon2" style="{{getColorFromAddress 1}}">
+                            <span class="shading"></span>
+                            <span class="fixed-label">{{getMostDaysAtIndex 1}} <span class="text-muted text-uppercase">{{_ 'generic.days'}}</span></span>
+                        </span>
+                        <input class="form-control disabled" value="{{getMostDaysOwnerAtIndex 1}}" aria-describedby="sizing-addon2" disabled>
+                    </div>
+                {{/if}}
+
+                {{#if hasOwnerAtIndex 2}}
+                    <div class="input-group input-group-sm third-place" style="{{getBorderColorFromAddress 2}}" data-goto="{{getAddressAtIndex 2}}">
+                        <span class="input-group-addon" id="sizing-addon3" style="{{getColorFromAddress 2}}">
+                            <span class="shading"></span>
+                            <span class="fixed-label">{{getMostDaysAtIndex 2}} <span class="text-muted text-uppercase">{{_ 'generic.days'}}</span></span>
+                        </span>
+                        <input class="form-control disabled" value="{{getMostDaysOwnerAtIndex 2}}" aria-describedby="sizing-addon3" disabled>
+                    </div>
+                {{/if}}
+            </div>
+        {{else}}
+            {{#if showLoading}}
+                {{> loading}}
+            {{/if}}
+        {{/if}}
+    </div>
+</template>

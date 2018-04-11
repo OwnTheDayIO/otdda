@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="57" height="57" viewBox="0 0 57 57" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <rect id="a" width="57" height="57" rx="8"/>
+    <mask id="b" width="57" height="57" x="0" y="0" fill="white">
+      <use xlink:href="#a"/>
+    </mask>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <use fill="#FFFFFF" stroke="#EAEAEA" stroke-width="2" mask="url(#b)" xlink:href="#a"/>
+    <g fill-rule="nonzero" transform="translate(6 6)">
+      <rect width="15.03" height="15.03" y="15.51" fill="#C07AF7"/>
+      <rect width="15.03" height="15.03" x="15.03" y="15.51" fill="#9DB5FB"/>
+      <rect width="15.03" height="15.03" x="30.06" y="15.51" fill="#78F2FF"/>
+      <rect width="15.03" height="15.03" y="30.54" fill="#6375F1"/>
+      <rect width="15.03" height="15.03" x="15.03" y="30.54" fill="#649DF8"/>
+      <polygon fill="#D4D4D4" points="30.05 45.6 30.05 30.57 45.08 30.57"/>
+      <path fill="#0158FF" d="M0,0.48 L45.08,0.48 L45.08,15.51 L0,15.51 L0,0.48 Z M14.75,10.73 C15.9926408,10.73 17.0000001,9.72264069 17.0000001,8.48 C17.0000001,7.23735931 15.9926408,6.23 14.75,6.23 C13.5073593,6.23 12.5,7.23735931 12.5,8.48 C12.5,9.72264069 13.5073593,10.73 14.75,10.73 Z M29.78,10.73 C31.0226407,10.73 32.03,9.72264069 32.03,8.48 C32.03,7.23735931 31.0226407,6.23 29.78,6.23 C28.5373593,6.23 27.53,7.23735931 27.53,8.48 C27.53,9.72264069 28.5373593,10.73 29.78,10.73 Z"/>
+    </g>
+  </g>
+</svg>

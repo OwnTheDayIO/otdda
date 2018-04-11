@@ -1,0 +1,61 @@
+// Reference Variables & Mixins
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+@import (reference) "/imports/styles/lib/mixins.less";
+
+// Calendar-Day Component
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.component-wrapper {
+    &.calendar-day-component {
+        position: relative;
+        height: 110px;
+        padding: 0;
+        margin: 0;
+
+        &.standalone {
+            height: 150px;
+            border: 1px solid @platinum;
+        }
+
+        .day-label {
+            height: 110px;
+            line-height: 110px;
+            font-size: 2em;
+            font-weight: bold;
+            text-shadow: 3px 3px #ddd;
+            text-align: center;
+        }
+
+        .holiday-icon {
+            .pos-abs(28px, 5px);
+            //.square(30px);
+            width: 15%;
+
+            svg {
+                //.square(30px);
+              width: 100%;
+            }
+        }
+
+        .owner-label {
+            .pos-abs(0, auto, auto, 0);
+            width: 100%;
+            height: 1.7em;
+            line-height: 1.7em;
+            padding: 0 8px;
+            background-color: @ghostwhite;
+            border-bottom: 1px solid @table-border-color;
+            border-top-left-radius: @border-radius-base;
+            border-top-right-radius: @border-radius-base;
+        }
+
+        .price-label {
+            .pos-abs(auto, auto, 0, 0);
+            width: 100%;
+            height: 1.7em;
+            line-height: 1.7em;
+            padding: 0 8px;
+            border-top: 1px solid @table-border-color;
+        }
+
+    }
+}

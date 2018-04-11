@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 440 440" style="enable-background:new 0 0 440 440;" xml:space="preserve">
+<g transform="translate(0 -1020.36)" shape-rendering="auto" image-rendering="auto" color-rendering="auto" color-interpolation="sRGB">
+	<path style="fill:#464C63;" d="M220,1020.36c-21.997,0-40,18.005-40,40c0,21.996,18.003,40,40,40s40-18.004,40-40
+		C260,1038.365,241.997,1020.36,220,1020.36z"/>
+	<path style="fill:#FFB900;" d="M220,1036.36c13.35,0,24,10.65,24,24s-10.65,24-24,24c-13.349,0-24-10.65-24-24
+		S206.651,1036.36,220,1036.36z"/>
+	<g>
+		<path style="fill:#464C63;" d="M20,1108.36c-4.418,0-8,3.582-8,8v40c0,4.418,3.582,8,8,8h128v288c0,4.418,3.582,8,8,8h128
+			c4.418,0,8-3.582,8-8v-288h128c4.418,0,8-3.582,8-8v-40c0-4.418-3.582-8-8-8H20z M28,1124.36h384v24H284
+			c-5.506,0.336-7.918,3.91-7.906,8.064v288h-112v-288c0.024-3.967-4.211-7.859-7.904-7.934h-128L28,1124.36z"/>
+		<g>
+			<path style="fill:#464C63;" d="M212.005,1180.36v144h16v-144H212.005z"/>
+			<path style="fill:#464C63;" d="M180.005,1212.36v16h80v-16H180.005z"/>
+		</g>
+	</g>
+</g>
+</svg>

@@ -1,0 +1,31 @@
+<template name="calendar">
+    <div class="component-wrapper calendar-page">
+
+        {{> accountWarningComponent}}
+
+        {{#if hasValidNetwork}}
+            <div class="row">
+                <div class="col-md-6">
+                    {{> mostPopularDayComponent}}
+                </div>
+                <div class="col-md-3">
+                    {{> mostDaysComponent}}
+                </div>
+                <div class="col-md-3">
+                    {{> monthDominatorsComponent}}
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-10">
+                    {{> calendarComponent}}
+                </div>
+                <div class="col-md-2">
+                    {{> claimComponent}}
+                </div>
+            </div>
+        {{/if}}
+
+    </div>
+
+    {{>footerComponent}}
+</template>

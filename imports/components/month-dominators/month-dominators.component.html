@@ -1,0 +1,43 @@
+<template name="monthDominatorsComponent">
+    <div class="component-wrapper month-dominators-component">
+        {{#if isLoaded}}
+            <h3 class="page-header">{{_ 'component.monthDominators.title'}}</h3>
+
+            <div class="month-dominators display-inputs">
+                {{#if hasOwnerAtIndex 0}}
+                    <div class="input-group input-group-lg first-place" style="{{getBorderColorFromAddress 0}}" data-goto="{{getAddressAtIndex 0}}">
+                        <span class="input-group-addon" id="sizing-addon1" style="{{getColorFromAddress 0}}">
+                            <span class="shading"></span>
+                            <span class="fixed-label month-label">{{getMonthDominatorsMonthAtIndex 0}}</span>
+                        </span>
+                        <input class="form-control disabled" value="{{getMonthDominatorsOwnerAtIndex 0}}" aria-describedby="sizing-addon1" disabled>
+                    </div>
+                {{/if}}
+
+                {{#if hasOwnerAtIndex 1}}
+                    <div class="input-group second-place" style="{{getBorderColorFromAddress 1}}" data-goto="{{getAddressAtIndex 1}}">
+                        <span class="input-group-addon" id="sizing-addon2" style="{{getColorFromAddress 1}}">
+                            <span class="shading"></span>
+                            <span class="fixed-label month-label">{{getMonthDominatorsMonthAtIndex 1}}</span>
+                        </span>
+                        <input class="form-control disabled" value="{{getMonthDominatorsOwnerAtIndex 1}}" aria-describedby="sizing-addon2" disabled>
+                    </div>
+                {{/if}}
+
+                {{#if hasOwnerAtIndex 2}}
+                    <div class="input-group input-group-sm third-place" style="{{getBorderColorFromAddress 2}}" data-goto="{{getAddressAtIndex 2}}">
+                        <span class="input-group-addon" id="sizing-addon3" style="{{getColorFromAddress 2}}">
+                            <span class="shading"></span>
+                            <span class="fixed-label month-label">{{getMonthDominatorsMonthAtIndex 2}}</span>
+                        </span>
+                        <input class="form-control disabled" value="{{getMonthDominatorsOwnerAtIndex 2}}" aria-describedby="sizing-addon3" disabled>
+                    </div>
+                {{/if}}
+            </div>
+        {{else}}
+            {{#if showLoading}}
+                {{> loading}}
+            {{/if}}
+        {{/if}}
+    </div>
+</template>

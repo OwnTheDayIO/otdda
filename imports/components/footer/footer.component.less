@@ -1,0 +1,108 @@
+// Reference Variables & Mixins
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+@import (reference) "/imports/styles/lib/mixins.less";
+
+// Footer Component
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.component-wrapper {
+    &.footer-component {
+
+        .footer {
+            display: block;
+            padding: 20px;
+            margin: 0 -20px -20px -20px;
+            color: @silver;
+            background-color: #545454;
+            box-shadow: inset 0 5px 5px @jet;
+
+            .heading {
+                color: @platinum;
+                font-size: 1.1em;
+            }
+
+            ul {
+                list-style-type: none;
+                padding-inline-start: 15px;
+
+                li {
+                    a {
+                        color: @silver;
+
+                        &.active,
+                        &:hover {
+                            color: @lightGrey;
+                        }
+                    }
+                }
+            }
+
+            .tech-icons {
+                margin-bottom: 30px;
+                img { margin: 30px 20px 0 0; }
+                .eth img { width: 130px; }
+                .mm img { width: 150px; }
+            }
+
+            .social-icons {
+                a {
+                    margin: 0 8px 0 0;
+
+                    svg {
+                        .square(20px);
+                        .cls_1 { fill: darken(@lightGrey, 25%); }
+                    }
+
+                    &:hover {
+                        svg {
+                            .cls_1 { fill: @lightGrey; }
+                        }
+                    }
+                }
+            }
+
+            .dapp-lists {
+                .state-of-the-dapps {
+                    width: 150px;
+                    margin-top: 20px;
+                }
+            }
+        }
+
+    }
+}
+
+@media (min-width: @screen-sm-min) {
+    .component-wrapper {
+        &.footer-component {
+
+            .footer {
+                padding: 40px 0;
+                margin: 0 -20px;
+
+                .tech-icons {
+                    margin-bottom: 0;
+                    img { margin: 0 20px 30px 0; }
+                }
+            }
+
+        }
+    }
+}
+
+@media (min-width: @screen-md-min) {
+    .component-wrapper {
+        &.footer-component {
+
+            .footer {
+                padding: 40px 30px;
+                margin: 0 -20px -20px -20px;
+
+                .tech-icons {
+                    margin-bottom: 0;
+                    img { margin: 0 20px 30px 0; }
+                }
+            }
+
+        }
+    }
+}

@@ -1,0 +1,815 @@
+{
+  "page" : {
+    "title" : "Bezit de dag!",
+    "defaultSuffix" : "ERC20 Tokens op de blockchain!",
+    "desc" : "Bezit de dag of krijg er voor betaald! Alleen op de Ethereum Blockchain!"
+  },
+  "body" : {
+    "navbar" : {
+      "title" : "Bezit de dag",
+      "link" : {
+        "calendar" : "Kalender",
+        "account" : "Mijn dagen",
+        "pendingTxs" : "Wachtende Transacties"
+      },
+      "notConnected" : "je bent niet ingelogd",
+      "noNetwork"    : "U bent niet verbonden met het netwerk"
+    }
+  },
+  "welcome" : {
+    "pageTitle" : "Welkom",
+    "topBanner" : {
+      "title" : "Bezit de dag",
+      "tooltip" : "op de Ethereum Blockchain",
+      "subtitle" : "of krijg ervoor betaald!",
+      "enterButton" : "Open kalender",
+      "productHunt" : {
+        "title" : "Welkom productjagers!",
+        "content" : "Holiday Token System komt binnenkort met een speciale, beperkte beloning voor productjagers - blijf op de hoogte!"
+      }
+    },
+    "intro1" : {
+      "titleLine" : "Bezit uw favoriete dag op de Blockchain!",
+      "line1" : "Bezit uw verjaardag, een vakantie of een andere dag die u maar wilt!",
+      "line2" : "Koop elke dag van het jaar een Ethereum-token (DAYS) met de blockchain en wees de echte eigenaar van die dag!",
+      "line3" : "Je zou de trotse eigenaar kunnen zijn van je favoriete vakantie, zoals Nieuwjaarsdag, Onafhankelijkheidsdag of zelfs Halloween!",
+      "line4" : "Own The Day is een interactieve game & crypto-collectible waarmee iedereen dagen van het jaar kan kopen en bezitten als ERC20-compatibele tokens op de Ethereum-blockchain. Zodra u een dag claimt, neemt u het eigendom van het token voor die dag over en neemt het automatisch in waarde toe.",
+      "line5" : "Maar bedenk dat iemand anders uw dag kan claimen door de prijs die u hebt betaald te verdubbelen. U verliest dan het eigendom van die dag, maar u ontvangt tot een verdubbeling van de prijs in ETH die automatisch in uw portemonnee wordt gestort!",
+      "line6" : "Je kunt niet verliezen! Own The Day of krijg er voor betaald!"
+    },
+    "intro2" : {
+      "titleLine" : "Welke dag is het belangrijkst voor u?",
+      "line1" : "Wilt u uw verjaardag bezitten? Wat dacht je van een jubileum? Of wil je Gift a Day cadeau geven aan een speciaal iemand?",
+      "line2" : "Onze speciale Day-Collectibles zijn Ethereum-tokens die kunnen worden overgedragen aan vrienden of geliefden, wat het perfecte cadeau is!",
+      "line3" : "Elke dag op de kalender is beschikbaar om te worden geclaimd en eigendom te zijn! Maar vergeet niet dat iemand anders een dag kan claimen die je bezit door de prijs te betalen!",
+      "line4" : "Veel van de dagen op de kalender zijn speciaal gemarkeerde vakanties die een grotere wenselijkheid kunnen veroorzaken. Welke dag zal het opperste regeren als de meest wenselijke dag op de kalender? En zal JIJ degene zijn die het bezit?"
+    },
+    "intro3" : {
+      "titleLine" : "De grootste meerwaarde!",
+      "line1" : "Own the Day heeft eenvoudigweg het beste waardevermeerderingsmodel voor spelers, waardoor u de grootst mogelijke winst voor uw verzamelobjecten behaalt. We bereiken dit door extreem lage commissies te reserveren voor onze ontwikkelaars. In vergelijking met andere crypto-verzamelobjecten die grote commissies vragen voor elke transactie, is het gemakkelijk om te herkennen dat Own The Day de spelers waardeert.",
+      "line2" : "Ons slimme contract is beschikbaar voor iedereen om te lezen, en onze hele applicatie zal open source zijn voor het publiek tijdens fase 4 van onze routekaart!"
+    },
+    "intro4" : {
+      "titleLine" : "Introductie vakantie!",
+      "line1" : "Veel van de kalenderdagen zijn al gemarkeerd met speciale Holiday-pictogrammen, maar het wordt nog spannender tijdens fase 3 met de release van het Holiday Token-systeem!",
+      "line2" : "Met Holiday Tokens hebben spelers meer mogelijkheden om winst te maken met hun Day-Collectibles! En daar eindigt het niet, alle spelers zullen een kans hebben om ether te verdienen zonder Day-Collectibles te bezitten!",
+      "line3" : "Met spannende nieuwe gamespel aan de horizon, vergeet niet om je agenda-dag-verzamelobjecten in de gaten te houden en de dag te bezitten!"
+    },
+    "intro5" : {
+      "titleLine" : "roadmap",
+      "line1" : "Fase 1",
+      "line2" : "Release van initiële MVP! Leef naar de wereld in verschillende talen, we beginnen met een minimale gebruikersinterface en beperkte marketinginspanningen, samen met de laagste initiële invoerprijzen!",
+      "line3" : "Fase 2",
+      "line4" : "Grote UI / UX-oververharing met veel verbeterde functies en het laten zien van de broodnodige liefde voor de interface! Leaderboards zoals Most Popular Day, Most Days Owned, Month Dominators en nog veel meer komen binnenkort!",
+      "line5" : "Fase 3",
+      "line6" : "Tijdens deze fase zullen we de release van het vakantiesysteem zien, die een opwindend nieuw spel zal toevoegen met mogelijkheden om nog meer winst te maken! Dit komt samen met voortdurende verbeteringen aan de UI / UX.",
+      "line7" : "Fase 4",
+      "line8" : "Op dit punt zullen we het hele project vrijgeven als open-source. De gedecentraliseerde toepassing en de Smart Contract-broncode zullen voor iedereen beschikbaar zijn om te lezen en van te leren! We zullen ook onze reguliere marketingcampagnes lanceren om onze kalender naar de wereld te brengen!"
+    },
+    "intro6" : {
+      "titleLine" : "Zult u eigenaar zijn van de grootste dag op aarde?"
+    },
+    "intro7" : {
+      "titleLine" : "Bezit de dag of krijg er voor betaald!"
+    }
+  },
+  "calendar" : {
+    "pageTitle" : "Kalender",
+    "title" : "Zoek een dag en maak het jouwe!"
+  },
+  "account" : {
+    "pageTitle" : "Mijn dagen",
+    "title" : "Mijn dagen"
+  },
+  "about" : {
+    "pageTitle" : "Over",
+    "topBanner" : {
+      "title" : "Over",
+      "subtitle" : "Waar gaat deze site over?"
+    },
+    "section1" : {
+      "title" : "Hoe te spelen",
+      "line1" : "Elke beschikbare kalenderdag is een uniek verzamelobject vertegenwoordigd door een ERC20-compatibel token op de Ethereum-blockchain en kan slechts door één persoon tegelijk worden beheerd. Zodra je een kalenderdag hebt opgeëist, is hij van jou en de jouwe alleen!",
+      "line2" : "De kalenderdagen die je hebt geclaimd, worden weergegeven op de algemene agenda samen met je bijnaam (je bijnaam is standaard de laatste 6 tekens van je openbare portemonnee-adres, maar je kunt je bijnaam op elk gewenst moment wijzigen).",
+      "line3" : "Aangezien uw verzamelplaats-collectibles Ethereum Tokens zijn, kunnen ze ook in uw MetaMask-portemonnee onder 'Tokens' worden bekeken. Zie de __faq__-pagina voor meer informatie over het weergeven van DAYS-tokens in uw portemonnee.",
+      "line4" : "Je kunt elke dag op de kalender claimen, ze zijn allemaal up-for-grabs! Dit betekent ook dat iemand anders een kalenderdag van u kan claimen, en daarmee betalen zij u de hogere prijs van de kalenderdag. De prijs neemt automatisch toe telkens wanneer er een dag wordt geclaimd, die wordt berekend door het slimme contract volgens de tabel 'Prijsniveauregroei'."
+    }
+  },
+  "faq" : {
+    "pageTitle" : "Veelgestelde vragen",
+    "topBanner" : {
+      "title" : "Veel Gestelde Vragen",
+      "subtitle" : "Heb je een vraag? Een antwoord vinden!"
+    },
+    "block1" : "Ermee beginnen",
+    "block2" : "Het spel begrijpen",
+    "questions" : {
+      "section1" : {
+        "q" : "Wat is nodig om Own the Day te spelen?",
+        "a" : {
+          "l1" : "Om kalenderdagen te gaan claimen, is alles wat je nodig hebt:",
+          "l2" : "Een moderne webbrowser zoals Chrome of Firefox met de MetaMask-extensie,",
+          "l3" : "Als alternatief kan een op Ethereum gebaseerde browser zoals Mist of Bravo,",
+          "l4" : "Ether in je portemonnee om kalenderdagen te claimen!"
+        }
+      },
+      "section2" : {
+        "q" : "Hoe installeer ik MetaMask?",
+        "a" : {
+          "l1" : "Als u collectiekalendergerelateerde items wilt kopen (en deze wilt ontvangen), moet u een browserextensie installeren met de naam MetaMask (door MetaCert) in Chrome of Firefox.",
+          "l2" : "Download en installeer de extensie voor uw browser;",
+          "l3" : "Maak een nieuwe account / portemonnee in MetaMask,",
+          "l4" : "Metamask zal je voorzien van 12 zaadwoorden die je een veilige plaats zou moeten besparen (dit is in wezen de sleutel tot je portemonnee),",
+          "l5" : "Zodra u bent aangemeld bij uw account in MetaMask heeft u volledige toegang tot Own the Day!"
+        }
+      },
+      "section3" : {
+        "q" : "Hoe voeg ik ether (ETH) toe aan mijn portemonnee?",
+        "a" : {
+          "l1" : "Door middel van een uitwisseling: het populairste middel om ether aan te schaffen is van een uitwisseling zoals Coinbase, Binance, Kraken en vele anderen. Nadat u ether van een centrale hebt gekocht, moet u de ether uit de centrale en in uw MetaMask-portemonnee overbrengen.",
+          "l2" : "Via MetaMask: MetaMask biedt een optie om ether rechtstreeks via de portefeuille aan te schaffen, maar deze functie is momenteel alleen beschikbaar voor inwoners van de VS.",
+          "l3" : "Als u al over Ether beschikt, kunt u geld rechtstreeks naar uw MetaMask-portemonnee overboeken via het openbare portefeuille-adres.",
+          "l4" : "Als u verdere hulp nodig heeft bij het verkrijgen van ether of het gebruik van MetaMask, zijn er veel geweldige gidsen & amp; tutorials op Google en YouTube!"
+        }
+      },
+      "section4" : {
+        "q" : "Wat kopen we precies in?",
+        "a" : {
+          "l1" : "Own the Day is een spel over het verzamelen en bezitten van je favoriete kalenderdagen op de Ethereum Blockchain. Wanneer u een dag koopt, bent u de enige eigenaar van die dag totdat iemand het van u beweert, op welk moment u ether verdient als de verkoper van de dag.",
+          "l2" : "Kalenderdagen zijn crypto-verzamelobjecten die lijken op sportkaarten en stripboeken, alleen deze verzamelobjecten worden steeds waardevoller! Wat je bezit is een ERC20-token op de Ethereum-blockchain, beperkt tot slechts 366 DAYS-tokens (we hebben de extra dag in februari toegevoegd voor het schrikkeljaar). Net als traditionele verzamelobjecten, is hun waarde direct gerelateerd aan hun wenselijkheid door andere verzamelaars.",
+          "l3" : "De interactieve, wereldwijde agenda van het spel geeft uw bijnaam weer op alle dagen die u bezit en wordt ook weergegeven met een unieke kleur op basis van de laatste zes tekens van het openbare adres van uw portemonnee.",
+          "l4" : "Als iemand anders besluit een dag te claimen waarvan jij de eigenaar bent, moeten ze je betalen tot het dubbele van de prijs in ETH, die automatisch wordt overgemaakt naar je portemonnee door het slimme contract.",
+          "l5" : "Je hebt je eigen dag als een uniek Crypto-Collectible, of je profiteert ervan - je kunt niet verliezen! Uiteindelijk, hoe meer je speelt, hoe meer je kunt verdienen!"
+        }
+      },
+      "section5" : {
+        "q" : "Hoe leg ik beslag op een kalenderdag?",
+        "a" : {
+          "l1" : "Begin met het bezoeken van de globale __calendar__-pagina en vind uw favoriete dag van het jaar. Het kan uw verjaardag, een jubileum of uw favoriete vakantie zijn.",
+          "l2" : "Zodra u uw gewenste kalenderdag heeft gevonden, selecteert u deze om hem te kopen. De game zal u vragen om uw aankoop te bevestigen en u naar de MetaMask-extensie te verwijzen om de transactie te starten. Nadat de Ethereum Blockchain je transactie heeft bevestigd, heb je die dag met succes geclaimd! In de algemene agenda en op uw accountpagina wordt uw eigendom van de dag weergegeven."
+        }
+      },
+      "section6" : {
+        "q" : "Kan ik fiat currency (CAD, USD, enz.) Gebruiken om een dag te claimen?",
+        "a" : {
+          "l1" : "Own the Day is een op een blockchain-gebaseerde game die op het Ethereum Network draait en als zodanig is ether (ETH) de enige manier om te spelen.",
+          "l2" : "U moet een centrale gebruiken om ether te verkrijgen met behulp van uw standaardvaluta."
+        }
+      },
+      "section7" : {
+            "q" : "Kan ik weigeren de dagen te verkopen die ik heb verzameld?",
+        "a" : {
+          "l1" : "Als iemand een dag wil claimen waarvan jij de eigenaar bent, kunnen ze dit doen op voorwaarde dat ze de prijs kunnen betalen.",
+          "l2" : "Als u echter de eigenaar van de dag bent, wordt u ook de verkoper van de dag en ontvangt u tot tweemaal de prijs die u in eerste instantie hebt betaald."
+        }
+      },
+      "section8" : {
+        "q" : "Hoe verdien je geld?",
+        "a" : {
+          "l1" : "Een klein deel van elke transactie wordt uitbetaald aan de ontwikkelaars van het spel. Dit deel is gerelateerd aan de waarde van de transactie en is hard gecodeerd in het slimme contract (nooit te wijzigen). Het slimme contract is volledig transparant en online beschikbaar voor iedereen om te lezen. Je kunt ook de __about__-pagina bezoeken om de prijsstructuur van de game te bekijken."
+        }
+      },
+      "section9" : {
+        "q" : "Hoe bekijk ik mijn DAYS-tokens in mijn Wallet?",
+        "a" : {
+          "l1" : "Aangepaste Ethereum-tokens, zoals DAYS-tokens, kunnen aan de meeste Ethereum-compatibele portefeuilles worden toegevoegd door de portemonnee te configureren om het token te herkennen.",
+          "l2" : "In MetaMask kunt u bijvoorbeeld het tabblad 'Tokens' van uw portemonnee selecteren en vervolgens 'Token toevoegen' selecteren. Geef de volgende details voor het token:",
+          "l3" : "Token contractadres: 0x16d790ad4e33725d44741251f100e635c323beb9",
+          "l4" : "Token Symbol: DAYS",
+          "l5" : "Decimalen van precisie: 0",
+          "l6" : "Hiermee kun je je portemonnee DAGEN-fiches herkennen die je tijdens het spel verzamelt. Er worden geen nieuwe DAYS-tokens aan je portefeuille toegevoegd."
+        }
+      }
+    }
+  },
+  "tos" : {
+    "pageTitle" : "Servicevoorwaarden",
+    "topBanner" : {
+      "title" : "Servicevoorwaarden",
+      "subtitle" : ""
+    },
+    "intro" : {
+      "line1" : "Deze toepassing (& quot; OwnTheDay & quot;) wordt uitgevoerd op het Ethereum-netwerk en maakt gebruik van slimme contracten om gebruikers toe te staan unieke en unieke collectiekalender-collectibles te kopen en te bezitten als ERC20-compatibele tokens met het symbool DAGEN.",
+      "line2" : "In deze Servicevoorwaarden staan de slimme overeenkomst (en) en de site die de game host, bekend als de 'Game'. De kurktagmuntjes die via het spel zijn gekocht, worden 'Collectibles' genoemd.",
+      "line3" : "By choosing to use the Game, users can purchase and own calendar-day Collectibles. OwnTheDay is making the Game available to you. Prior to using the Game, you must agree to these Terms of Service.",
+      "line4" : "Lees de volgende Servicevoorwaarden zorgvuldig en grondig door voordat u het spel gebruikt, Collectibles koopt of de site gebruikt. Tenzij we een afzonderlijke, schriftelijke overeenkomst met u hebben die verschilt van de onderstaande Servicevoorwaarden, zijn de volgende Servicevoorwaarden absoluut en ondubbelzinnig van toepassing op uw gebruik van de Site, evenals uw aankoop en eigendom van Collectibles. We staan u alleen toe deze Site te gebruiken, eigen Collectibles te bezitten en / of Collectibles te kopen als u al deze Servicevoorwaarden accepteert.",
+      "line5" : "Door deze Game, deze Site en / of deze Collectibles te gebruiken, of door te klikken op 'akkoord gaan', bevestigt u dat u deze Voorwaarden begrijpt en deze Voorwaarden accepteert. In het geval dat u deze site, dit spel of deze collectibles in naam van een ander bedrijf of rechtspersoon gebruikt, geeft u aan dat u de wettelijke bevoegdheid hebt om deze voorwaarden namens de andere partij te accepteren en dat elke vermelding van & quot; u & quot; in dit contract betekent de andere partij die u vertegenwoordigt. Als je niet bevoegd bent om een andere partij te vertegenwoordigen, dan heb je geen toestemming om deze game, deze site of deze verzamelobjecten te gebruiken."
+    },
+    "terms" : {
+      "section1" : {
+        "title" : "WIJ KEUREN GEEN AANBETALINGEN AAN",
+        "note" : "OwnTheDay.io is een UI-interface waarmee u direct kunt communiceren met een slim blockchainchaincontract op het Ethereum-netwerk met behulp van de & quot; Metamask & quot; browserextensie. De website en de makers ervan accepteren of houden geen betalingen van spelers. Alle ethertransfers die via de website worden gedaan, worden rechtstreeks overgebracht naar het blockchain contractadres: 0xD35eF25873bd9BA3e67dcCd1a5634F49a32E44f0. Elke Ether- of fiat-valuta die in uw Metamask-extensie wordt gestort, is volledig eigendom van en wordt beheerd door u, de speler. De game heeft geen toegang tot het geld dat is gestort in uw Metamask-browserextensie. Overschrijvingen van Ether worden rechtstreeks vanuit uw Metamask-account doorgegeven aan een slim contract op het Ethereum-netwerk. Omdat het spel je stortingen niet accepteert en er geen controle over heeft, zijn het spel en de makers ervan niet aansprakelijk voor enige schade of verlies van geld."
+      },
+      "section2" : {
+        "title" : "SPEEL VERANTWOORDELIJK",
+        "note" : "Met deze game kun je digitale assets kopen en verzamelen. Er is geen garantie dat andere spelers of iemand anders deze activa van u zullen kopen. Terwijl sommige spelers speculeren over hun vermogen om hun digitale activa in de toekomst voor een hogere waarde door te verkopen, is er geen garantie dat een andere persoon zal beslissen om uw digitale activa te kopen. Als u ervoor kiest om ETH over te dragen in ruil voor een dag waarnaar in het spel wordt verwezen als Collectibles, moet u het risico accepteren en begrijpen dat u mogelijk uw Collectibles in de toekomst mogelijk niet meer kunt verkopen. De game is bedoeld voor verzamelaars die ervoor kiezen om te betalen voor het eigendom van digitale producten die worden aangeduid als Collectibles. Als u ervoor kiest om te speculeren over de toekomstige waarde en liquiditeit van uw activum, moet u dit op eigen risico doen en de makers van het spel of de slimme overeenkomst niet aansprakelijk houden voor verlies of schade. Speel op een verantwoorde manier en besteed niet meer dan dat je het digitale bezit de moeite waard vindt."
+      },
+      "section3" : {
+        "title" : "SLIMME CONTRACTEN",
+        "note" : "We hebben de dagen van het jaar gebruikt om unieke, unieke Collectibles te maken die worden gerepresenteerd door ERC20-compatibele Tokens op de Ethereum BlockChain. Deze verzamelobjecten worden niet ondersteund of ondersteund door de persoon die op de kalender staat. Alle beschikbare dagen van het jaar (inclusief 29 februari) zijn van tevoren vrijgegeven. Elke dag Collectible kan door u worden gekocht met behulp van ether. U kunt elke gewenste dag kopen en elke andere partij kan een dag kopen die u momenteel bezit als de andere partij bereid is een hoger bedrag te betalen. De prijs van de tokens is hard gecodeerd in het slimme contract zelf en kan door niemand worden gewijzigd, inclusief de makers van het spel. U mag een andere partij er niet van weerhouden een dag te kopen die u momenteel bezit, en geen andere derde partij kan u ervan weerhouden een dag te kopen die u wenst te bezitten. Welke partij ook bereid is de kosten van de dag te betalen, kan het slimme contract bezitten nadat hij of zij de transactie heeft voltooid."
+      },
+      "section4" : {
+        "title" : "HET SPEL",
+        "note" : "Voor deze game moet je een Google Chrome- of Firefox-webbrowser gebruiken waarop momenteel een Metamask-browserextensie is geïnstalleerd. Metamask is een elektronische portemonnee die is gemaakt door een derde partij en waarmee u transacties met Ethereum-cryptocurrency kunt kopen, opslaan en eraan deelnemen. U mag geen andere elektronische portemonnee op de Game gebruiken dan Metamask; U kunt echter andere elektronische portefeuilles en applicaties van derden gebruiken om geld naar uw Metamask-portemonnee over te zetten om aankopen te doen en betalingen te ontvangen voor het spel. Als u zich niet aanmeldt bij het spel met de juiste browser (Google Chrome of Mozilla Firefox) en / of als de browser de Metamask-extensie niet heeft geïnstalleerd, wordt u herkend door het spel, maar kunt u niet op welke manier dan ook met het spel interacteren. Alle transacties die plaatsvinden in het spel vinden plaats via de blockchain van Ethereum. U begrijpt dat door het gebruik van het spel uw openbare adres van Ethereum zichtbaar wordt voor andere gebruikers van het spel en voor derden, elke keer dat u deelneemt aan een transactie op het spel. Wij zijn niet de eigenaar en wij hebben geen controle over de volgende producten van derden die worden gebruikt voor de functie van dit spel: Metamask, Coinbase, Google Chrome, Mozilla Firefox of het Ethereum-netwerk. Wij zijn niet de eigenaar van en wij hebben geen controle over enige andere site, product of dienst van derden die u kiest voor toegang, bezoeken of gebruik met het oog op interactie met of het gebruik van het spel. Wij zullen niet aansprakelijk worden gesteld en zijn niet aansprakelijk voor de handelingen of nalatigheden van een dergelijke derde partij, noch zijn wij aansprakelijk, of zullen wij aansprakelijk worden gesteld voor enige schade die u lijdt als gevolg van interactie met of gebruik van een van de genoemde of niet genoemde derden. U moet correcte en volledige registratie-informatie verstrekken wanneer u een account aanmaakt om het spel te gebruiken. U bent als enige verantwoordelijk voor de veiligheid en beveiliging van uw Metamask-portemonnee en / of elke andere elektronische portemonnee die u gebruikt voor interactie met het spel. U bent als enige verantwoordelijk voor de veiligheid en beveiliging van uw account bij ons. Als u een beveiligingslek constateert met betrekking tot uw wachtwoord of uw account, stemt u ermee in ons onmiddellijk op de hoogte te stellen bij ontdekking op security@owntheday.io."
+      },
+      "section5" : {
+        "title" : "VERGOEDINGEN EN BETALINGEN",
+        "note" : "Als u ervoor kiest om dagen in het spel te kopen, worden alle transacties uitgevoerd via het Ethereum-netwerk met behulp van een elektronische Metamask-portefeuille die rechtstreeks is gekoppeld aan een slim contract op de blockchain, die niet wordt beheerd door de makers van de spellen. We hebben geen inzicht in of controle over deze betalingen of transacties, en we zullen ook niet in staat zijn om een ​​transactie die plaatsvindt te storneren. Om deze reden zijn wij niet aansprakelijk jegens u of enige andere derde partij voor claims of schadevergoedingen die kunnen optreden als gevolg van een transactie die plaatsvindt in het spel en / of met betrekking tot een van de slimme Smart Contracts die we hebben gecreëerd . Het Ethereum-netwerk vereist dat u transactiekosten betaalt, gewoonlijk 'Gas' genoemd, voor elke transactie die plaatsvindt op het Ethereum-netwerk. Gas is bedoeld om de hardware en software die het Ethereum-netwerk beheren te financieren, evenals om misbruik en spam te voorkomen. Als u ervoor kiest om via onze site met het spel te communiceren of zonder het spel of onze site als een portal te gebruiken, moet u nog steeds een vergoeding betalen voor elke transactie die u in het ethereum-netwerk maakt. Het slimme contract houdt een commissie van 1-5% in rekening voor elke transactie die hierdoor wordt uitgevoerd, bovenop het gas dat wordt aangerekend door het Ethereum-netwerk. De makers van deze website en game hebben geen toegang tot of controle over deze kosten, omdat deze rechtstreeks worden afgehandeld op het gedistribueerde blockchain-netwerk. WIJ ACCEPTEREN DE BETALINGEN NIET RECHTSTREEKS OP ONZE WEBSITE."
+      },
+      "section6" : {
+        "title" : "EIGENDOM",
+        "note" : "Door dit spel te gebruiken, erkent u en stemt u ermee in dat wij en / of onze licenties alle wettelijke rechten, titels en interesses bezitten in en voor alle elementen van het spel, inclusief alle intellectuele eigendom. Dit omvat, maar is niet beperkt tot: afbeeldingen, ontwerpen, informatie, systemen, computercode, software, services, organisatie, inhoud, compilatie van inhoud, gegevens, ontwerp en alle andere elementen van het spel. We behouden het volledige en volledige eigendom van al deze elementen, evenals alle andere elementen met betrekking tot het spel die niet in deze Servicevoorwaarden staan ​​vermeld. Elk van deze elementen is eigendom van OwnTheDay en wordt beschermd door auteursrechten, handels-, kleding-, patent-, handelsmerkwetten, internationale conventies en alle andere toepasselijke eigendoms- en eigendomsrechtenwetten. Uw gebruik van het spel, de website of alle Smart Contracts van een bepaald land geeft u geen eigendom van of enige rechten op de inhoud, code, gegevens en andere materialen die u op de site kunt gebruiken en bekijken. Hoewel u de Smart Contract zelf bezit, bent u niet de eigenaar van de naam, de gelijkenis, het contractontwerp en andere elementen. Eventuele opmerkingen, bugrapporten, ideeën of andere feedback over het spel dat door u wordt verstrekt, is welkom bij OwnTheDay. Zodra u echter bereid bent om dergelijke opmerkingen, bugrapporten, ideeën of feedback in te dienen, stemt u ermee in dat wij vrij zijn om die informatie en die ideeën op elke gewenste manier te gebruiken zonder enige compensatie voor u. Wij zijn vrij om die informatie en die ideeën vrij te geven aan derden die wij nodig achten. Door opmerkingen, bugrapporten, ideeën of andere soorten feedback in te dienen, verleent u ons een eeuwigdurende, onherroepelijke licentie voor die inhoud en / of ideeën en we behouden onmiddellijk volledige rechten op die informatie, inhoud en / of ideeën. Door dit spel en deze site te gebruiken, gaat u ermee akkoord dat u volledig en ondubbelzinnig verantwoordelijk bent voor uw gedrag tijdens het gebruik van dit spel en deze site, evenals voor eventuele repercussies of consequenties die optreden als gevolg van dit gedrag. Door dit spel en deze site te gebruiken, stemt u ermee in dat u zich zult houden aan de bovenstaande en onderstaande Servicevoorwaarden, alle toepasselijke wet- en regelgeving en dat u het spel en de site alleen zult gebruiken voor legale en juiste doeleinden. Daarnaast is het u niet toegestaan ​​en mag u derden niet toestaan ​​om: onwettige, lasterlijke, beledigende, frauduleuze, obscene of anderszins verwerpelijke inhoud te uploaden of te verspreiden; verspreid virussen, wormen, defecten, Trojaanse paarden, beschadigde bestanden, hoaxes of andere items met een schadelijke of oneerlijke aard; zich voordoen als een andere persoon op welke manier, vorm of vorm dan ook; via het spel inhoud uploaden, plaatsen, verzenden of anderszins beschikbaar stellen die inbreuk maakt op de intellectuele eigendomsrechten van een partij, inclusief OwnTheDay, een derde partij die met ons is verbonden, en elke gebruiker van het spel of de site; het spel gebruiken om de wettelijke rechten van anderen te schenden of om deel te nemen, te promoten of om elk type illegale activiteit aan te moedigen; het spel gebruiken voor elk ongeoorloofd commercieel doel, of een deel van het spel aanpassen, aanpassen, vertalen of reverse-engineeren voor persoonlijke of commerciële doeleinden; een gedeelte van het spel opnieuw in te delen of in te kaderen, inclusief het verwijderen van alle auteursrechten, handelsmerken of andere aanduidingen van eigendomsrechten die zijn vervat in of op het spel; inhoud op het spel weergeven die haatgerelateerde of gewelddadige inhoud bevat; een robot, spider of ander apparaat of programma gebruiken om een ​​deel van het spel of de inhoud die op het spel is gepost te indexeren of te indexeren, of om informatie over zijn gebruikers te verzamelen voor welk doel dan ook; gebruikersaccounts maken op geautomatiseerde wijze of onder valse of frauduleuze voorwendselen; toegang hebben tot of gebruik maken van het spel met het doel een product of dienst te creëren die concurrerend is met een van onze producten of diensten."
+      },
+      "section7" : {
+        "title" : "TBEËINDIGING VAN DEZE VOORWAARDEN",
+        "note" : "De enige manier om de Voorwaarden hierin te beëindigen is door uw account op het spel te annuleren en alle gebruik of toegang tot het spel stop te zetten. Als u ervoor kiest om uw account te annuleren, ontvangt u geen geld terug voor transacties in het spel of betalingen aan ons. Door dit spel te gebruiken, ga je ermee akkoord dat we het recht hebben om deze voorwaarden te beëindigen en je account te annuleren of op te schorten om welke reden dan ook die we nodig achten. U stemt er ook mee in dat wij niet verplicht zijn om u vooraf kennis te geven van een opschorting of beëindiging van uw account en dat wij niet aansprakelijk zijn jegens u of enige andere derde partij voor enige schade of gevolgen veroorzaakt door de opschorting of beëindiging van uw account. account. In het geval dat we besluiten uw account op te schorten of te beëindigen, of uw toegang tot uw account of het spel beperken vanwege een vermoeden van fraude, misbruik of illegale activiteit van uw kant, dan kunnen we ook alle acties ondernemen die wettelijk zijn toegestaan . Als uw account door ons of door uw keuze is opgeschort of beëindigd, hebt u geen toegang meer tot informatie die u op het spel hebt gepost of informatie die betrekking heeft op uw account. In beide gevallen, of we uw account beëindigen of opschorten of u besluit uw account te beëindigen, erkent u en gaat u ermee akkoord dat we niet verplicht zijn om uw gegevens in onze databases te bewaren, noch zijn we verplicht om die informatie door te sturen naar onze u of een derde partij."
+      },
+      "section8" : {
+        "title" : "Disclaimer en garanties",
+        "note" : "Door dit spel te gebruiken, begrijpt u en stemt u ermee in dat uw toegang tot en gebruik van dit spel op eigen risico is. Je erkent en aanvaardt dat dit spel wordt geleverd op een as-is en as-available basis, en dat we geen uitdrukkelijke of impliciete garantie geven met betrekking tot dit spel of toegang tot dit spel. Wij en alle aan ons gelieerde partijen geven geen garantie en verwerpen alle impliciete garanties met betrekking tot het spel, inclusief de site en slimme contracten. Dit omvat elke geïmpliceerde garantie met betrekking tot productwaarde, geschiktheid voor een specifiek doel, niet-inbreuk, correctheid en / of betrouwbaarheid. Noch wij, noch een van onze dochterondernemingen of gelieerde ondernemingen garanderen of garanderen dat uw toegang tot of gebruik van het spel zal voldoen aan uw vereisten en / of verwachtingen; uw toegang tot het spel of de site zal ononderbroken zijn, vrij van fouten of veilig; of dat alle in de inhoud, services of functies vertegenwoordigde gegevens juist en / of vrij van virussen of andere schadelijke inhoud of componenten zijn."
+      },
+      "section9" : {
+        "title" : "Beperking van aansprakelijkheid",
+        "note" : "Door dit spel en deze site te gebruiken, begrijpt u en stemt u ermee in dat noch wij, noch onze dochtermaatschappijen of gelieerde ondernemingen aansprakelijk zijn jegens u of een andere derde partij voor enige indirecte, incidentele, gevolg- of voorbeeldschade die u mogelijk oploopt, ongeacht hoe die schade is opgetreden. Wij en onze dochterondernemingen en gelieerde ondernemingen zijn ook niet verantwoordelijk voor enig financieel verlies, verlies van goodwill, verlies van bedrijfsreputatie, verlies van persoonlijke reputatie, kosten van aankoop van vervangende goederen of diensten, of enige andere mogelijke immateriële verliezen, zelfs als we had voorkennis dat er een risico van schade en / of verliezen bestond. Door dit spel en deze site te gebruiken, stemt u ermee in dat onze totale aansprakelijkheid jegens u voor alle claims die voortvloeien uit of verband houden met deze voorwaarden of uw toegang tot of gebruik van dit spel of deze site beperkt is tot de som van $ 100. Door dit spel en deze site te gebruiken, begrijpt u en gaat u ermee akkoord dat we dit spel voor u beschikbaar hebben gemaakt en deze voorwaarden met u hebben aangegaan om u het spel te bieden. Deze aansprakelijkheidsbeperkingen zoals uiteengezet in deze Voorwaarden weerspiegelen een redelijke en eerlijke risicoverdeling tussen ons en u."
+      },
+      "section10" : {
+        "title" : "schadeloosstelling",
+        "note" : "Door dit spel en deze site te gebruiken, gaat u ermee akkoord om OwnTheDay onschadelijk te houden en ons en al onze dochterondernemingen en gelieerde ondernemingen, alsmede onze functionarissen, agenten, werknemers, adverteerders, leveranciers of licentiegevers schadeloos te stellen, tegen elke claim. , aansprakelijkheid, verlies, werkelijke schade en gevolgschade van welke aard of aard dan ook, met inbegrip van rechtszaken, vonnissen, proceskosten en advocatenhonoraria die ontstaan of ontstaan zijn als gevolg van uw schending van deze Voorwaarden en / of uw overtreding van toepasselijke wetgeving, regels en voorschriften."
+      },
+      "section11" : {
+        "title" : "Externe sites",
+        "note" : "In sommige gevallen kunnen dit spel en deze site hyperlinks naar andere websites en / of bronnen bevatten als een gemak voor u en onze andere gebruikers. We hebben geen controle over de veiligheid van of de inhoud van deze sites. U erkent en gaat ermee akkoord dat wij niet verantwoordelijk zijn voor de beschikbaarheid van links naar externe sites en dat we de advertenties op de sites, de producten of services die op die sites beschikbaar worden gemaakt of andere materialen die op die sites worden gevonden, niet onderschrijven. U erkent en gaat ermee akkoord dat wij niet aansprakelijk zijn voor enig verlies of enige schade die u of een derde partij zou kunnen lijden als gevolg van de beschikbaarheid of het gebrek aan beschikbaarheid van deze sites, inclusief het vertrouwen dat u stelt op de noodzaak van die sites en / of voor de volledigheid en / of nauwkeurigheid van die sites."
+      },
+      "section12" : {
+        "title" : "Wijzigingen in deze Servicevoorwaarden",
+        "note" : "Als we dit nodig achten, kunnen we deze Voorwaarden wijzigen. Wanneer we deze wijzigingen aanbrengen, zijn de bijgewerkte voorwaarden beschikbaar op het spel en op de site en hebben ze een & quot; Laatst bijgewerkte & quot; datum. Het is uw verantwoordelijkheid om deze voorwaarden regelmatig te controleren op eventuele wijzigingen. Uw voortdurende toegang tot het spel en de site vormt uw bindende acceptatie van de updates. Alle gemaakte wijzigingen zijn van toepassing op de datum waarop ze zijn gemaakt."
+      },
+      "section13" : {
+        "title" : "Veranderingen in het spel",
+        "note" : "We werken er altijd aan om het spel te verbeteren en uit te breiden om u en onze andere gebruikers de beste, meest robuuste ervaring te bieden. Door gebruik te maken van het spel en de site, begrijpt u en gaat u ermee akkoord dat elk deel van dit spel of deze site op elk moment kan veranderen zonder voorafgaande kennisgeving aan u. We kunnen en zullen nieuwe functies toevoegen en aspecten van het spel of de site op elk moment en zonder kennisgeving wijzigen."
+      },
+      "section14" : {
+        "title" : "Kinderen",
+        "note" : "Door dit spel en deze site te gebruiken, bevestig je dat je ouder bent dan 19. Dit spel en deze site zijn niet bedoeld voor gebruik door kinderen jonger dan 19 jaar."
+      },
+      "section15" : {
+        "title" : "Algemeen",
+        "note" : "Deze voorwaarden vormen in hun geheel de wettelijke overeenkomst tussen u en OwnTheDay en regelen uw toegang tot en gebruik van het spel en de site. Ze vervangen alle eerdere overeenkomsten tussen de partijen met betrekking tot uw toegang tot of gebruik van het spel of de site, zowel mondeling als schriftelijk. Er zijn geen derde-begunstigden van deze voorwaarden; elke derde partij is een onafhankelijke contractant en deze Voorwaarden vormen geen agentschap, partnerschap of joint venture. U begrijpt en gaat ermee akkoord dat de taal in deze voorwaarden moet en zal worden geïnterpreteerd als een goede betekenis, en niet strikt voor of tegen een partij. U mag geen van uw rechten of verplichtingen onder deze Voorwaarden overdragen zonder voorafgaande schriftelijke toestemming van ons. We kunnen echter onze rechten en verplichtingen onder deze voorwaarden overdragen aan een gelieerde onderneming of in verband met een overname, verkoop of fusie naar eigen goeddunken. In het geval dat een deel van deze Voorwaarden ongeldig of niet-afdwingbaar wordt geacht door de juiste juridische autoriteiten, zal dat gedeelte worden geschrapt terwijl de resterende delen volledig van kracht blijven. Elke mogelijke fout van onze kant om deze Voorwaarden af ​​te dwingen, is niet en zal niet worden beschouwd als een verklaring van afstand van deze Voorwaarden, geheel of gedeeltelijk. Elke juridische actie of procedure die voortvloeit uit deze Voorwaarden zal worden behandeld door de rechtbanken in Canada en de partijen stemmen onherroepelijk in met de persoonlijke jurisdictie en de locatie daar. Ten slotte zijn wij niet aansprakelijk en kunnen niet aansprakelijk worden gesteld voor het niet nakomen of vertragen van de nakoming van onze verplichting onder deze Voorwaarden die voortvloeit uit omstandigheden buiten onze macht. Dit omvat overheidsmaatregelen, terreurdaden, aardbevingen, overstromingen, brand, stroomstoringen, internetverstoringen of nalatigheid door een derde partij. U stemt ermee in dat wij u per e-mail, per post of door plaatsing op het spel of op de site een kennisgeving van wijzigingen in deze voorwaarden kunnen sturen. Door ons uw e-mailadres te geven, stemt u ermee in dat u geen kennisgevingen per post ontvangt."
+      }
+    }
+  },
+  "notfound" : {
+    "warning" : {
+      "title" : "404 Niet Gevonden",
+      "body"  : "404 Niet Gevonden."
+    }
+  },
+  "component" : {
+    "calendar" : {
+      "selectMonth"    : "Selecteer een maand",
+      "nextMonth"      : "Volgende maand",
+      "prevMonth"      : "Vorige maand",
+      "monthDominator" : "Maand Dominator"
+    },
+    "account" : {
+      "noDaysOwner" : {
+        "title" : "Je hebt geen dagen meer.",
+        "body" : "Je verjaardag is misschien een goed begin!"
+      },
+      "noDaysGuest" : {
+        "title" : "Deze gebruiker bezit geen dagen.",
+        "body" : "Misschien kun je een dag voor hen kopen als een geschenk?"
+      },
+      "viewTokens" : "Bekijk tokens op EtherScan"
+    },
+    "accountWarning" : {
+      "detectingBrowser" : {
+        "title" : "Browser-mogelijkheden detecteren",
+        "message" : "Even geduld terwijl we op zoek zijn naar Web3 Browser-mogelijkheden (MetaMask, Mist, etc.)"
+      },
+      "invalidBrowser" : {
+        "title" : "Niet-Web3-browser",
+        "message" : "U hebt een Ethereum-gebaseerde Web3-browser zoals MetaMask of Mist nodig om deze site te gebruiken."
+      },
+      "installMetaMask" : {
+        "title" : "Heb je geen Web3-browser?",
+        "line1" : "Download de MetaMask-browserextensie van MetaCert en Own the Day!"
+      },
+      "wrongNetwork" : {
+        "title" : "Wrong Ethereum Network!",
+        "messageTest" : "Verbind uw browser (of extensie) met een Custom Test Network.",
+        "messageMain" : "Sluit uw browser (of extensie) aan op het Main Ethereum-netwerk."
+      },
+      "noAccount" : {
+        "title" : "Geen account!",
+        "message" : "Log in op een Ethereum-account met uw Web3 Browser (MetaMask, Mist, etc.)"
+      }
+    },
+    "priceLevel" : {
+      "title" : "Verhoging prijsniveau",
+      "table" : {
+        "head" : {
+          "col1" : "Niveau",
+          "col2" : "Prijsklasse (ETH)",
+          "col3" : "Prijs verhoging",
+          "col4" : "Ontwikkelaar knippen"
+        },
+        "row1" : {
+          "col1" : "Niveau 1",
+          "col2" : "0.001 - 0.25",
+          "col3" : "100%",
+          "col4" : "5%"
+        },
+        "row2" : {
+          "col1" : "Niveau 2",
+          "col2" : "0.25 - 0.5",
+          "col3" : "36%",
+          "col4" : "4%"
+        },
+        "row3" : {
+          "col1" : "Niveau 3",
+          "col2" : "0.5 - 2.5",
+          "col3" : "26%",
+          "col4" : "3%"
+        },
+        "row4" : {
+          "col1" : "Niveau 4",
+          "col2" : "2.5 - 5",
+          "col3" : "18%",
+          "col4" : "3%"
+        },
+        "row5" : {
+          "col1" : "Niveau 5",
+          "col2" : "5 -",
+          "col3" : "15%",
+          "col4" : "2%"
+        }
+      }
+    },
+    "mostPopularDays" : {
+      "title" : "Meest populaire dagen"
+    },
+    "mostDays" : {
+      "title" : "De meeste dagen in bezit"
+    },
+    "monthDominators" : {
+      "title" : "Dominators van de maand"
+    },
+    "quickInstructions" : {
+      "title" : "Hoe te spelen",
+      "metamask" : "MetaMask-browserextensie",
+      "ethereum" : "Ethereum",
+      "line1" : "Om OwnTheDay te spelen, moet je de __mmbeLink__ voor je browser installeren. Hiermee kunt u aankopen in de browser uitvoeren met de cryptografische valuta __ethLink__.",
+      "line2" : "Vervolgens wilt u Ethereum kopen en overbrengen naar uw digitale MetaMask-portemonnee. Een populaire plek om Ethereum te kopen (direct) is op __coinbase__.",
+      "line3" : "Zie onze __faq__-pagina voor meer details!"
+    },
+    "footer" : {
+      "social" : {
+        "visitUs" : "Bezoek ons op __social__"
+      }
+    }
+  },
+  "modal" : {
+    "claim" : {
+      "claimDay"   : "Bezit de dag!",
+      "claimed"    : "Je hebt met succes __date__ geclaimd.",
+      "claimTitle" : "Jij bezit de dag!",
+      "errorTitle" : "Claim mislukt",
+      "failed"     : "Uw transactie is mislukt voor __date__.",
+      "info" : {
+        "line1" : "U kunt <strong> __ datum __ </ strong> claimen voor <strong> __ prijs __ </ strong>",
+        "line2" : "Iedereen kan deze dag van je claimen voor de prijs van <strong> __ prijs __ </ strong>.",
+        "line3" : "U kunt hoger bieden dan de huidige prijs om ervoor te zorgen dat u de dag claimt. Als uw bod hoger is dan de huidige prijs, krijgt u het verschil terug.",
+        "line4" : "Uw transactie kan mislukken als de prijs hoger is dan uw biedprijs. In dat geval krijgt u uw bod terug.",
+        "line5" : "Het aanpassen van de gasprijs (Gwei) kan uw transactie versnellen. Raadpleeg uw favoriete gasdetector voor de meest recente voorgestelde gasprijs"
+      },
+      "disclaimer" : "Dagen zijn verzamelobjecten en als zodanig is er geen garantie dat andere spelers dit collectible van je zullen claimen."
+    },
+    "nickname" : {
+      "title"       : "Stel uw bijnaam in op de Blockchain!",
+      "set"         : "Stel Bijnaam in",
+      "placeholder" : "Bijnaam",
+      "profanities" : "OPMERKING: vloeken in uw bijnaam worden gecensureerd dus verspil uw gas alstublieft niet!"
+    }
+  },
+  "generic" : {
+    "balance"      : "Balans",
+    "cancel"       : "Annuleer",
+    "claim"        : "vordering",
+    "close"        : "Dichtbij",
+    "days"         : "dagen",
+    "disclaimer"   : "DISCLAIMER",
+    "etherUnit"    : "ETH",
+    "from"         : "van",
+    "loading"      : "Laden even geduld aub...",
+    "loadingShort" : "bezig met laden..",
+    "loadingComm"  : "(communiceren met de Ethereum blockchain)",
+    "notice"       : "Merk op",
+    "own"          : "Eigen",
+    "owner"        : "Eigenaar",
+    "price"        : "Prijs",
+    "priceEther"   : "Prijs in ETH",
+    "priceCurrent" : "Huidige prijs",
+    "priceNext"    : "Volgende prijs",
+    "information"  : "Informatie",
+    "social"       : "sociaal",
+    "copyright1"   : "Copyright 2018 OwnTheDay.io",
+    "copyright2"   : "Alle rechten voorbehouden."
+  },
+  "holiday" : {
+    "jan1" : {
+      "title" : "New Year's Day",
+      "desc" : "Nieuwjaarsdag, ook wel Nieuwjaar of Nieuwjaar genoemd, wordt waargenomen op 1 januari, de eerste dag van het jaar op de moderne Gregoriaanse kalender en op de Juliaanse kalender."
+    },
+
+    "jan6" : {
+      "title" : "Driekoningen",
+      "desc" : "Driekoningen voor het jaar 2018 wordt gevierd / geobserveerd op zaterdag 6 januari. Driekoningen is een christelijke viering die elk jaar op 6 januari wordt gevierd. De dag staat ook bekend als de Dag van de Drie Koningen om ons te helpen de drie wijzen te herinneren die Jezus als baby bezochten."
+    },
+
+    "jan7" : {
+      "title" : "Orthodoxe Kerstdag",
+      "desc" : "Orthodoxe Kerstdag voor het jaar 2018 wordt gevierd / waargenomen op zondag 7 januari. Orthodoxe Kerstdag wordt elk jaar op of nabij 7 januari waargenomen volgens de Gregoriaanse kalender. Voor orthodoxe christenen viert de dag de geboorte van Jezus Christus."
+    },
+
+    "jan14" : {
+      "title" : "Makar Sankranti",
+      "desc" : "Makar Sankranti voor het jaar 2018 wordt gevierd / waargenomen op zondag 14 januari. Makar Sankranti wordt gevierd op of nabij 14 januari van elk jaar. Hindoe's vieren dit keer als een oogstfeest en markeren de komst van de lente en het einde van het winterseizoen."
+    },
+
+    "jan15" : {
+      "title" : "Martin Luther King dag",
+      "desc" : "Martin Luther King Day voor het jaar 2018 wordt gevierd / geobserveerd op maandag 15 januari. Martin Luther King Day valt elk jaar op de derde maandag van januari. De dag viert de rol van Martin Luther Kings in burgerrechten en rassengelijkheid."
+    },
+
+    "jan30" : {
+      "title" : "Tu B'Shevat",
+      "desc" : "Tu B'Shevat voor het jaar 2018 wordt gevierd / geobserveerd bij zonsondergang van 30 januari eindigend bij zonsondergang op woensdag 31 januari. Tu B'Shevat wordt waargenomen op de 15e dag van de maand Shevat op de Hebreeuwse kalender. De dag gaat over het planten van bomen en om het land gezond en levendiger te maken, vergelijkbaar met Arbor Day."
+    },
+
+    "feb1" : {
+      "title" : "Nationale Vrijheidsdag",
+      "desc" : "Nationale Vrijheidsdag voor het jaar 2018 wordt gevierd / geobserveerd op donderdag 1 februari. Nationale Vrijheidsdag wordt elk jaar op 1 februari geobserveerd ter ere van de ondertekening van de dertiende wijziging van de outlawslavernij."
+    },
+
+    "feb2" : {
+      "title" : "Groundhog Day",
+      "desc" : "Groundhog Day voor het jaar 2018 wordt gevierd / waargenomen op vrijdag 2 februari. Groundhog day wordt elk jaar op 2 februari gehouden. Het is de dag waarop de groundhog voorspelt of hun nog 6 maanden winter zal zijn."
+    },
+
+    "feb12" : {
+      "title" : "Lincoln's verjaardag",
+      "desc" : "Lincoln's verjaardag voor het jaar 2018 wordt gevierd / geobserveerd op maandag 12 februari. Lincoln's verjaardag valt elk jaar op 12 februari en viert de geboorte van een van onze beroemdste en meest gerespecteerde presidenten in de Verenigde Staten."
+    },
+
+    "feb13" : {
+      "title" : "Mardi Gras",
+      "desc" : "Mardi Gras voor het jaar 2018 wordt gevierd / geobserveerd op dinsdag 13 februari. Mardi Gras of Fat Tuesday of soms ook wel Shrove Tuesday valt de dag vóór Aswoensdag, wat het begin is van de vastentijd voor christenen. De dag omvat festivals met veel eten voorafgaand aan het snelle begin van de volgende dag."
+    },
+
+    "feb14" : {
+      "title" : "Valentijnsdag",
+      "desc" : "Valentijnsdag, ook Sint-Valentijnsdag of het Feest van Sint-Valentijn genoemd, wordt jaarlijks gevierd op 14 februari. Het wordt waargenomen door mensen in veel landen; Anglicaanse communie; Lutherse kerk."
+    },
+
+    "feb16" : {
+      "title" : "Chinees Nieuwjaar",
+      "desc" : "Chinees Nieuwjaar voor het jaar 2018 wordt gevierd / geobserveerd op vrijdag 16 februari. Chinees Nieuwjaar dat wordt waargenomen op de lunisolar Chinese kalender valt op de eerste dag van de nieuwe maan tussen 21 januari en 20 februari van elk jaar. De dag viert dat begin van het nieuwe jaar en weerspiegeling van het afgelopen jaar."
+    },
+
+    "mar1" : {
+      "title" : "Purim",
+      "desc" : "Purim voor het jaar 2018 wordt gevierd / geobserveerd bij zonsondergang van 28 februari, eindigend bij zonsondergang op donderdag 1 maart. Purim wordt gevierd op de 14e dag in de maand Adar volgens de Hebreeuwse kalender. Onder de Gregoriaanse kalender valt de dag in februari of maart. De dag herdenkt in de 4e eeuw voor Christus, toen het Joodse volk werd gered van een overlijdensakte volgens het boek van Esther."
+    },
+
+    "mar2" : {
+      "title" : "Holi",
+      "desc" : "Holi voor het jaar 2018 wordt gevierd / geobserveerd op vrijdag 2 maart. Holi valt elk jaar in de maanden februari en maart. Het is een tweedaags lentefestival met de eerste dag Chhoti of Holika Dahan en de tweede dag Dhuleti of Rangwali Holi. Het festival viert zowel delen en liefde als kleuren."
+    },
+
+    "mar17" : {
+      "title" : "St.Patrick's Day",
+      "desc" : "St Patrick's Day voor het jaar 2018 wordt gevierd / waargenomen op zaterdag 17 maart. St Patrick's Day wordt elk jaar op 17 maart gevierd. Deze dag eert de patroonheilige van Ierland, St. Patrick en de dag markeert de dood van de heilige."
+    },
+
+    "mar20" : {
+      "title" : "Lente-equinox",
+      "desc" : "De lente voor het jaar 2018 begint op 20 maart. De lente wordt vaak geassocieerd met nieuwe groei, bloeiende planten, gesmolten sneeuw of gesmolten en een nieuwe warmte in de lucht met planten / dieren die uit de lange winter van koude temperaturen komen. Op het noordelijk halfrond komt de lente in de maanden maart, april en juni en op het zuidelijk halfrond komt het in de maanden september, oktober en december. De lente komt tot stand doordat de aarde haar askanteling ten opzichte van de zon vergroot, waardoor de temperaturen (direct zonlicht) en de lengte van de dagen toenemen."
+    },
+
+    "mar25" : {
+      "title" : "Rama Navami",
+      "desc" : "Rama Navami voor het jaar 2018 wordt gevierd / geobserveerd op zondag 25 maart. Rama Navami wordt waargenomen op de negende dag van de maand Chaitra die deel uitmaakt van het lentefestival Navratri. De dag viert de verjaardag van de God Rama."
+    },
+
+    "mar30" : {
+      "title" : "Goede Vrijdag",
+      "desc" : "Goede vrijdag voor het jaar 2018 wordt gevierd / geobserveerd op vrijdag 30 maart. Goede vrijdag is de zesde dag van de Heilige Week voor christenen en valt twee dagen voor Pasen elk jaar. De dag herdenkt de kruisiging van Jezus Christus."
+    },
+
+    "apr1" : {
+      "title" : "April Fools'",
+      "desc" : "April Fools' Dag voor het jaar 2018 wordt gevierd / waargenomen op zondag 1 april. April Fools day wordt elk jaar op 1 april gevierd. De dag omvat praktische grappen en hoaxes die op elkaar werden gespeeld."
+    },
+
+    "apr2" : {
+      "title" : "Pasen",
+      "desc" : "Pasen is een christelijke feestdag die het geloof in de opstanding van Jezus Christus uit de dood viert. In het Nieuwe Testament van de Bijbel zou de gebeurtenis drie dagen hebben plaatsgevonden nadat Jezus door de Romeinen was gekruisigd en stierf in ongeveer 30 A.D."
+    },
+
+    "apr6" : {
+      "title" : "Orthodoxe Goede Vrijdag ",
+      "desc" : "Orthodoxe Goede Vrijdag voor het jaar 2018 wordt gevierd / waargenomen op vrijdag 6 april. Orthodoxe Goede Vrijdag wordt ook Grote Vrijdag genoemd en Heilige Vrijdag wordt twee dagen voorafgaand aan het orthodoxe Pasen waargenomen. Orthodoxe christenen observeren en gedenken de dood van Jezus Christus aan het kruis op deze dag."
+    },
+
+    "apr8" : {
+      "title" : "Orthodoxe Pasen",
+      "desc" : "Orthodoxe Pasen voor het jaar 2018 wordt gevierd / geobserveerd op zondag 8 april. De orthodoxe kerk gebruikt de Juliaanse kalender om hun heilige dagen te bepalen. Pasen voor de orthodoxe kerk valt altijd ergens tussen 4 april en 8 mei elk jaar. Orthodox Pasen wordt twee dagen na Orthodoxe Goede Vrijdag elk jaar waargenomen. Voor orthodoxe christenen herdenkt de dag de kruisiging van Jezus Christus."
+    },
+
+    "apr11" : {
+      "title" : "Yom Hashoah",
+      "desc" : "Yom Hashoah voor het jaar 2018 wordt gevierd / geobserveerd op zonsondergang van 11 april en eindigt op donderdag 12 april. Yom Hashoah wordt waargenomen op de 27e dag van Nison volgens de Hebreeuwse kalender. De dag is een herdenking en herdenkt de levens van het Joodse volk dat tijdens de Tweede Wereldoorlog in de Holocaust stierf."
+    },
+
+    "apr12" : {
+      "title" : "Isra and Mi'raj",
+      "desc" : "Isra and Mi'raj voor het jaar 2018 wordt gevierd / waargenomen bij zonsondergang van 12 april eindigend op zonsondergang op vrijdag 13 april. Isra en Mi'raj worden waargenomen op de 27e dag van Rajab op de Islamitische kalender. De dag herdenkt de reis van de profeet Mohammed van Mekka naar Jeruzalem en zijn hemelvaart."
+    },
+
+    "apr17" : {
+      "title" : "Nationale bibliotheekwerkdag",
+      "desc" : "De National Library Workers Day voor het jaar 2018 wordt gevierd / geobserveerd op dinsdag 17 april. De National Library Workers Day wordt elke dinsdag jaarlijks tijdens de National Library Week gehouden, die elk jaar in april wordt gehouden. De dag is om de bijdragen van bibliotheekmedewerkers aan onze samenleving te erkennen."
+    },
+
+    "apr22" : {
+      "title" : "dag van de Aarde",
+      "desc" : "Earth Day voor het jaar 2018 wordt gevierd / geobserveerd op zondag 22 april. De dag van de aarde wordt gevierd op 22 april van elk jaar. De dag brengt bewustzijn naar milieubescherming van onze planeet aarde."
+    },
+
+    "apr26" : {
+      "title" : "Breng je kind naar de werkdag",
+      "desc" : "Neem onze Daughters and Sons to Work Day voor het jaar 2018 wordt gevierd / geobserveerd op donderdag 26 april. Neem onze Daughters and Sons to Work Day wordt waargenomen op de vierde donderdag in april. De dag is om uw werk te delen met uw kinderen en wat u elke dag doet."
+    },
+
+    "apr27" : {
+      "title" : "Arbor Day",
+      "desc" : "Arbor Day voor het jaar 2018 wordt gevierd / waargenomen op vrijdag 27 april. Arbor Day wordt over het algemeen waargenomen op de laatste vrijdag van april, maar de data kunnen variëren afhankelijk van wanneer de lente in de lokale regio aankomt. De dag moedigt mensen aan om bomen te planten en te verzorgen."
+    },
+
+    "may2" : {
+      "title" : "Lag BaOmer",
+      "desc" : "Lag BaOmer voor het jaar 2018 wordt gevierd / geobserveerd op zonsondergang van 2 mei en eindigt op donderdag 3 mei. Lag BaOmer valt op de 18e dag van Lyar in de Hebreeuwse kalender. De dag viert de dood en het leven van Rabbi Shimon bar Yochai die in de 2e eeuw een Messias-wijsgeer was."
+    },
+
+    "may4" : {
+      "title" : "Star Wars-dag",
+      "desc" : "4 mei staat vaak bekend als \"Star Wars Day \". Het is gekscherend gezegd: \"Moge de 4e bij je zijn \", in verwijzing naar de populaire uitdrukking in Star Wars: \"Moge de Force bij je zijn \"."
+    },
+
+    "may5" : {
+      "title" : "Cinco de Mayo",
+      "desc" : "Cinco de Mayo voor het jaar 2018 wordt gevierd / geobserveerd op zaterdag 5 mei. Cinco de Mayo wordt elk jaar gevierd op 5 mei en viert de nederlaag van het Franse leger door het Mexicaanse leger tijdens de slag om Puebla in Mexico in 1862 ."
+    },
+
+    "may6" : {
+      "title" : "Nationale feestdag",
+      "desc" : "Nationale feestdag voor het jaar 2018 wordt gevierd / geobserveerd op zondag 6 mei. Nationale feestdag wordt elk jaar op 6 mei waargenomen. De dag eert de bijdragen die verpleegkundigen leveren aan onze samenleving."
+    },
+
+    "may10" : {
+      "title" : "Hemelvaartsdag",
+      "desc" : "Hemelvaart voor het jaar 2018 wordt gevierd / waargenomen op donderdag 10 mei. Hemelvaartsdag wordt elk jaar gehouden op donderdag 39 dagen na Paaszondag. Deze dag herdenkt de beklimming van Jezus Christus naar de hemel."
+    },
+
+    "may13" : {
+      "title" : "Moederdag",
+      "desc" : "Mother's Day for the year 2018 is celebrated/ observed on Sunday, May 13. Mother's Day is celebrated on the second Sunday of May each year. The day honors and celebrates mothers, grandmothers and great-grandmothers for their contribution to their families communities and society."
+    },
+
+    "may15" : {
+      "title" : "Ramadan begint",
+      "desc" : "Ramadan wordt voor het jaar 2018 gevierd / waargenomen bij zonsondergang van 15 mei en eindigt op donderdag 14 juni bij zonsondergang. Ramadan wordt waargenomen in de negende maand van de islamitische kalender. Het is een maand van vasten, gebed, geven en zelfevaluatie die door moslims wordt waargenomen. De maand duurt 29-30 dagen, afhankelijk van waarnemingen van de maansikkel."
+    },
+
+    "may19" : {
+      "title" : "Shavuot",
+      "desc" : "Shavuot voor het jaar 2018 wordt gevierd / geobserveerd op zonsondergang van 19 mei eindigend op zonsondergang op 21 mei. Sjavoeot wordt waargenomen op de 6e of 7e van Sivan op de Hebreeuwse kalender. Shavuot is een tweedaags festival. Het festival markeert de tarweoogst in Israël en herdenkt de dag dat God de Thora aan Israël gaf op de berg Sinaï."
+    },
+
+    "may20" : {
+      "title" : "Pinksteren",
+      "desc" : "Pinksteren voor het jaar 2018 wordt gevierd / waargenomen op zondag 20 mei. Pinksteren ook bekend als Pinksterzondag voor christenen wordt gevierd op de zevende zondag na Pasen. De dag viert de neerdaling van de Heilige Geest op de apostelen van Jezus Christus."
+    },
+
+    "may21" : {
+      "title" : "Victoria Day",
+      "desc" : "In sommige steden worden vuurwerkshows of optochten gehouden om Victoria Day te markeren. Een van de meest opvallende parades wordt gehouden in de stad Victoria, British Columbia, die is vernoemd naar Koningin Victoria. Veel mensen verzamelen zich in parken om te genieten van vuurwerkshows, die vooral indrukwekkend zijn in Hamilton en Toronto."
+    },
+
+    "may28" : {
+      "title" : "Amerikaanse herdenkingsdag",
+      "desc" : "Memorial Day voor het jaar 2018 wordt gevierd / geobserveerd op maandag 28 mei. Memorial Day wordt elk jaar op de laatste maandag in mei waargenomen. De dag eert al diegenen die zijn omgekomen bij het dienen van het Amerikaanse leger."
+    },
+
+    "may31" : {
+      "title" : "Corpus Christi",
+      "desc" : "Corpus Christi voor het jaar 2018 wordt gevierd / waargenomen op donderdag 31 mei. Corpus Christi wordt gevierd op de tweede donderdag na Pinksteren elk jaar. Voor katholieken is het een dag voor de heilige communie of eucharistie."
+    },
+
+    "jun6" : {
+      "title" : "D-Day",
+      "desc" : "D-Day voor het jaar 2018 wordt gevierd / waargenomen op woensdag 6 juni. D-Day wordt elk jaar gehouden op 6 juni ter ere van die mannen en vrouwen die hebben gevochten en offers hebben gebracht op 6 juni 1944 in de slag in Normandië, Frankrijk tijdens de Eerste Wereldoorlog II."
+    },
+
+    "jun10" : {
+      "title" : "Latlat al Qadr",
+      "desc" : "Laylat al Qadr voor het jaar 2018 wordt gevierd / geobserveerd op zonsondergang van 10 juni eindigend op zonsondergang op maandag 11 juni. Laylat al Qadr is een avond van de laatste 10 dagen van de Ramadan. Het observeert de nacht dat de profeet Mohammed de eerste tegenhanger van de Koran ontving."
+    },
+
+    "jun14" : {
+      "title" : "Eid al-Fitr",
+      "desc" : "Eid al-Fitr voor het jaar 2018 wordt gevierd / waargenomen op zonsondergang van 14 juni eindigend bij zonsondergang op vrijdag 15 juni. Eid al-Fitr valt op de eerste dag van de maand Shawwal op de Islamitische kalender die het einde van de Ramadan en het begin van het feest dat het vasten verbreekt."
+    },
+
+    "jun17" : {
+      "title" : "Vaderdag",
+      "desc" : "Vaderdag voor het jaar 2018 wordt gevierd / geobserveerd op zondag 17 juni. Vaderdag wordt gevierd op de derde zondag in juni. De dag viert het vaderschap en alle vaderfiguren in ons leven die helpen ons leven beter te maken."
+    },
+
+    "jun21" : {
+      "title" : "Zomer zonnewende",
+      "desc" : "De zomer voor het jaar 2018 begint op 21 juni. De zomer zorgt voor het warmste weer van de vier seizoenen, omdat de dagen heet worden en vaak droog zijn (regenachtig in sommige Aziatische gebieden) met 's avonds warm tot warm afhankelijk van je locatie. Op het noordelijk halfrond komt de zomer in de maanden juni, juli en augustus en op het zuidelijk halfrond komt het in de maanden december, januari en februari. De zomer komt tot stand doordat de aarde haar askanteling ten opzichte van de zon vergroot tot de zomerzonnewende (20-22 juni in het noordelijk halfrond), waarna de zon ten opzichte van de aarde van koers verandert en begint terug te gaan naar de evenaar."
+    },
+
+    "jul1" : {
+      "title" : "Canada dag",
+      "desc" : "Canada Dag is de nationale dag van Canada. Een federale wettelijke feestdag, het viert de verjaardag van de 1 juli 1867, de inwerkingtreding van de grondwet, die de drie afzonderlijke koloniën van Canada, Nova Scotia en New Brunswick verenigde tot een enkele Dominion binnen het Britse rijk genaamd Canada."
+    },
+
+    "jul4" : {
+      "title" : "Onafhankelijkheidsdag",
+      "desc" : "4 juli voor het jaar 2018 wordt gevierd / waargenomen op woensdag 4 juli. 4 juli of 4 juli wordt ook wel Onafhankelijkheidsdag genoemd altijd op de 4e dag van juli elk jaar. Dit is de Nationale Dag voor Amerika die de goedkeuring van de Onafhankelijkheidsverklaring viert op 17 juli 1776, waarmee de onafhankelijkheid van Groot-Brittannië wordt bevestigd"
+    },
+
+    "jul14" : {
+      "title" : "Rath Yatra",
+      "desc" : "Rath Yatra voor het jaar 2018 wordt gevierd / waargenomen op donderdag 14 juli. Rath Yatra is een hindoe-festival dat elk jaar midden in de zomer wordt gevierd. De drie goden, Jagannath, Subhadra en Balabhadra worden gevierd."
+    },
+
+    "jul21" : {
+      "title" : "Tisha B'Av",
+      "desc" : "Tisha B'Av wordt waargenomen op de negende dag van de maand Av op de Hebreeuwse kalender. De dag voor Joden brengt herinnering aan de vernietiging van de Eerste en Tweede Tempel in Jeruzalem"
+    },
+
+    "jul22" : {
+      "title" : "Ouderdag",
+      "desc" : "Ouders 'dag voor het jaar 2018 wordt gevierd / geobserveerd op zondag 22 juli. Oudersdag wordt gevierd op de vierde zondag van juli. De dag erkent en viert de bijdragen die ouders leveren aan hun families en gemeenschappen."
+    },
+
+    "aug5" : {
+      "title" : "Vriendschapsdag",
+      "desc" : "Vriendschapsdag voor het jaar 2018 wordt gevierd / waargenomen op zondag 5 augustus. De vriendschapsdag in de Verenigde Staten valt op de eerste zondag van augustus. Deze dag valt op verschillende datums over de hele wereld en viert vriendschap en moedigt iemand aan om tijd met vrienden door te brengen en te laten zien dankzij de mensen om wie het gaat."
+    },
+
+    "aug15" : {
+      "title" : "Veronderstelling van Maria",
+      "desc" : "Maria Hemelvaart voor het jaar 2018 wordt gevierd / waargenomen op woensdag 15 augustus. Maria Hemelvaart valt elk jaar op 15 augustus en viert door een feest voor Katholieken toen haar geest en lichaam naar de hemel ging."
+    },
+
+    "aug19" : {
+      "title" : "Nationale luchtvaartdag",
+      "desc" : "Nationale luchtvaartdag voor het jaar 2018 wordt gevierd / geobserveerd op zondag 19 augustus. Nationale luchtvaartdag wordt elk jaar op 19 augustus geobserveerd met de ontwikkeling en geschiedenis van de luchtvaart."
+    },
+
+    "aug20" : {
+      "title" : "Dag van Arafat",
+      "desc" : "De dag van Arafat voor het jaar 2018 wordt gevierd / geobserveerd bij zonsondergang van 20 augustus en eindigd op zonsondergang op dinsdag 21 augustus. Dag van Arafat valt op de negende dag van de maand Dhul-Hijjah op de islamitische maankalender. Voor moslims wordt deze dag geëerd door een pelgrimstocht naar de berg Arafat, waar ze samenkomen in gebed, wachtend op oordeel."
+    },
+
+    "aug25" : {
+      "title" : "Raksha Bandhan",
+      "desc" : "Raksha Bandhan voor het jaar 2018 wordt gevierd / waargenomen op zaterdag 25 augustus. Raksha Bandhan ook bekend als Rakhi Purnima of Rakhi is een hindoe-festival gevierd in de maand augustus. Het festival benadrukt de liefde tussen broers en zussen."
+    },
+
+    "aug26" : {
+      "title" : "gelijkheidsdag voor vrouwen",
+      "desc" : "de gelijkheidsdag voor vrouwen voor het jaar 2018 wordt gevierd / geobserveerd op zondag 26 augustus. Women's Equality Day wordt elk jaar gehouden op 26 augustus en herdenkt het stemrecht van vrouwen in de Verenigde Staten. Dit werd aangenomen als het 19e amendement op de Verenigde Staten in 1920."
+    },
+
+    "sept2" : {
+      "title" : "Krishna Janmashtami",
+      "desc" : "Krishna Janmashtami voor het jaar 2018 wordt gevierd / waargenomen op zondag 2 september. Krishna Janmashtami wordt waargenomen op de 8e dag van de maand Bhadon op de hindoeïstische kalender die in de maanden juli, augustus en september valt voor de Gregoriaanse kalender. De dag viert de geboorte van Heer Krishna."
+    },
+
+    "sept12" : {
+      "title" : "Muharram",
+      "desc" : "Muharram voor het jaar 2018 wordt gevierd / waargenomen op woensdag 12 september. Muharram is de eerste maand in de islamitische kalender met de eerste dag is Muharram het begin van het nieuwe jaar voor moslims. Sommige moslims zullen vasten tijdens de eerste maand van Muharram."
+    },
+
+    "sept18" : {
+      "title" : "Yom Kippur",
+      "desc" : "Yom Kippur voor het jaar 2018 wordt gevierd / waargenomen bij zonsondergang van 18 september, eindigend op zonsondergang op 19 september. Yom Kippur wordt waargenomen op de tiende dag van de maand Tishri op de Hebreeuwse kalender. Deze dag, ook bekend als de verzoendag, wordt doorgebracht in gebed en vasten onder het Joodse geloofsvolk."
+    },
+
+    "sept20" : {
+      "title" : "Ashura",
+      "desc" : "Ashura voor het jaar 2018 wordt gevierd / waargenomen bij zonsondergang van 20 september en eindigt op vrijdag 21 september as. Ashura valt op de 10e dag van de 1e maand van Muharram op de Islamitische maankalender. Voor sjiitische moslims herdenkt de dag de dood van Husayn ibn Ali en voor soennitische moslims heeft de dag betrekking op toen Mozes en zijn volgelingen Egypte ontvluchtten en waar gered door God die de Rode Zee scheidde."
+    },
+
+    "sept22" : {
+      "title" : "September Equinox",
+      "desc" : "De herfst voor het jaar 2018 begint op 22 september. In de herfst wordt het daglicht korter en worden de avonden koeler. De planten laten hun bladeren vallen en dieren bereiden zich voor op de koude winter die voor hen ligt. Op het noordelijk halfrond komt de herfst in de maanden september, oktober en november en op het zuidelijk halfrond komt het in de maanden maart, april en mei. De herfst komt tot stand doordat de aarde haar askanteling ten opzichte van de zon afneemt, waardoor de temperaturen (minder direct zonlicht) en de verkorting van de dagen afnemen."
+    },
+
+    "sept23" : {
+      "title" : "Sukkot",
+      "desc" : "Sukkot voor het jaar 2018 wordt gevierd / waargenomen op zonsondergang van 23 september, eindigend bij zonsondergang op zondag 30 september. Sukkot is een zeven dagen durend joods feest met de eerste dag beginnend op de 15e dag van de maand Tishri volgens de Hebreeuwse kalender. De dag heeft betrekking op de uittocht van het Joodse volk uit Egypte en hun rondzwerven door de woestijn gedurende 40 jaar."
+    },
+
+    "sept30" : {
+      "title" : "Shemini Atzeret",
+      "desc" : "Shemini Atzeret voor het jaar 2018 wordt gevierd / geobserveerd op zonsondergang van 31 september eindigend bij zonsondergang op maandag 1 oktober. Shemini Atzeret wordt waargenomen op de 22e van Tishrei volgens de Hebreeuwse kalender. Voor veel Joodse mensen vertegenwoordigt deze dag de achtste dag van Soekot en een dag om zich te concentreren op hun liefde voor God."
+    },
+
+    "oct1" : {
+      "title" : "Simchat Torah",
+      "desc" : "Simchat Torah voor het jaar 2018 wordt gevierd / waargenomen bij zonsondergang van 1 oktober en eindigend op zonsondergang op dinsdag 2 oktober. Simchat Torah wat inhoudt dat de Thora zich verheugen wordt waargenomen op 22 van Tishrei in Isreal en 23 van Tishrei buiten Isreal. De dag viert het einde van het lezen van de Torah voor het jaar met dansen en zingen."
+    },
+
+    "oct8" : {
+      "title" : "Thanksgiving Day - Canada",
+      "desc" : "Veel mensen hebben een vrije dag op de tweede maandag van oktober. Ze gebruiken vaak het driedaagse Thanksgiving-weekend om familie of vrienden te bezoeken die ver weg wonen, of om ze in hun eigen huis te ontvangen. Veel mensen bereiden ook op een bepaald moment tijdens het lange weekend een speciale maaltijd om te eten. Traditioneel omvatte dit geroosterde kalkoen en seizoensgebonden producten, zoals pompoen, maïsoren en pecannoten. Nu kan de maaltijd uit ander voedsel bestaan, vooral als het gezin van niet-Europese afkomst is."
+    },
+
+    "oct9" : {
+      "title" : "Navratri",
+      "desc" : "Navratri voor het jaar 2018 wordt gevierd / geobserveerd op dinsdag 9 oktober. Navratri is een festival dat begint op de eerste dag van de Lunar-maand Ashwin. Het festival duurt 9 nachten en is opgedragen aan de hindoeïstische godheid Durga."
+    },
+
+    "oct18" : {
+      "title" : "Dussehra",
+      "desc" : "Dussehra voor het jaar 2018 wordt gevierd / geobserveerd op donderdag 18 oktober. Dussehra, ook bekend als Maha Navami, wordt waargenomen in de maand Ashvin op de 10e dag van Shukla Paksha. De dag viert goed over kwaad."
+    },
+
+    "oct31" : {
+      "title" : "Halloween",
+      "desc" : "Halloween voor het jaar 2018 wordt gevierd / geobserveerd op woensdag 31 oktober. Halloween wordt elk jaar op 31 oktober gevierd. Halloween wordt jaarlijks gevierd op 31 oktober, de vooravond van het Westerse christelijke feest van Allerheiligen of beter bekend als Allerheiligen. Het is ook bekend als All Halloween, All Hallows 'Eve of All Saints' Day Eve."
+    },
+
+    "nov1" : {
+      "title" : "Allerheiligen",
+      "desc" : "Allerheiligen voor het jaar 2018 worden gevierd / geobserveerd op donderdag 1 november. Altijd gevierd op 1 november van elk jaar viert All Saints Day die heiligen die niet worden geëerd op een speciale afzonderlijke dag gedurende het jaar, zodat ze vereerd zijn op deze dag."
+    },
+
+    "nov2" : {
+      "title" : "Allerzielen",
+      "desc" : "All Souls 'Day voor het jaar 2018 wordt gevierd / geobserveerd op vrijdag 2 november. Allerzielen valt altijd elk jaar op de 2e dag van november. De dag herinnert ons aan degenen die dood zijn en degenen die in het vagevuur zijn en voor de levenden om een heilig leven te leiden voor de zuivering van hun ziel."
+    },
+
+    "nov7" : {
+      "title" : "Diwali",
+      "desc" : "Diwali voor het jaar 2018 wordt gevierd / waargenomen op woensdag 7 november. Diwali wordt waargenomen op de 15e dag van de maand van Kartika op de hindoeïstische kalender en viert het lichtfestival."
+    },
+
+    "nov11" : {
+      "title" : "Veteranendag",
+      "desc" : "Veteranendag voor het jaar 2018 wordt gevierd / geobserveerd op zondag 11 november. Veterans Day wordt elk jaar op 11 november geobserveerd en eert alle veteranen die eerder in de strijdkrachten van de Verenigde Staten hebben gediend."
+    },
+
+    "nov20" : {
+      "title" : "Profeet's verjaardag",
+      "desc" : "De verjaardag van de profeet voor het jaar 2018 wordt gevierd / geobserveerd bij zonsondergang van 20 november en eindigd op zonsondergang op 21 november. De verjaardag van de profeet wordt gevierd op de 12e of 17e dag van de Rabi 'al-awwal maand van de islamitische kalender. De dag markeert de verjaardag van de profeet Mohammed voor moslims."
+    },
+
+    "nov22" : {
+      "title" : "Thanksgiving Day",
+      "desc" : "Thanksgiving Day voor het jaar 2018 wordt gevierd / waargenomen op donderdag 22 november. Thanksgiving Day wordt elk jaar gevierd op de vierde donderdag van november. De dag viert de oogst en werd gevierd in de Verenigde Staten sinds 1863."
+    },
+
+    "dec2" : {
+      "title" : "Hanukkah begint",
+      "desc" : "Hanukkah voor het jaar 2018 wordt gevierd / waargenomen bij zonsondergang van 2 december en eindigt op zonsondergang op 10 december. Hanukkah valt op de 25e dag van Kislev op de Hebreeuwse kalender en tussen eind november en eind december op de Gregoriaanse kalender. Hanukkah is een achtdaags joods festival ter herdenking van de heraanwinning van de heilige tempel in Jeruzalem."
+    },
+
+    "dec21" : {
+      "title" : "Winter zonnewende",
+      "desc" : "De winter voor het jaar 2018 begint op 21 december. De winter heeft het koudste weer van de vier seizoenen als de dagen korter worden en kouder met sneeuw die valt in de koudste gebieden. Op het noordelijk halfrond komt de winter in de maanden december, januari en februari en op het zuidelijk halfrond komt het in de maanden juni, juli en augustus. De winter komt tot stand doordat de aarde haar askanteling ten opzichte van de zon tot de winterzonnewende verlaagt (20-23 december in het noordelijk halfrond), dan verandert de zon ten opzichte van de aarde van koers en begint ze terug te gaan naar de evenaar."
+    },
+
+    "dec24" : {
+      "title" : "kerstavond",
+      "desc" : "Kerstavond voor het jaar 2018 wordt gevierd / geobserveerd op maandag 24 december. Kerstavond wordt altijd gevierd op 24 december elk jaar, de dag voor Kerstdag. De avond wordt gevierd in afwachting van de volgende dag met de geboorte van Jezus Christus."
+    },
+
+    "dec25" : {
+      "title" : "kerstdag",
+      "desc" : "Kerstmis is een jaarlijks festival ter nagedachtenis aan de geboorte van Jezus Christus, voornamelijk waargenomen op 25 december als een religieuze en culturele viering onder miljarden mensen over de hele wereld."
+    },
+
+    "dec31" : {
+      "title" : "Oudejaarsavond",
+      "desc" : "In de Gregoriaanse kalender is Oudejaarsavond, de laatste dag van het jaar, op 31 december, de zevende dag van de Christmastide. In veel landen wordt oudejaarsavond gevierd tijdens sociale avondavonden, waar veel mensen dansen, eten, alcoholische dranken drinken en vuurwerk bekijken of aansteken om het nieuwe jaar te markeren."
+    }
+  }
+}

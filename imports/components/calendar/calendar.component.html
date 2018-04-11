@@ -1,0 +1,50 @@
+<template name="calendarComponent">
+    <div class="component-wrapper calendar-component">
+        {{#if isLoaded}}
+            <div class="row month-selection">
+                {{#if hasMonthDominator}}
+                    <h4 class="month-dominator">{{_ 'component.calendar.monthDominator'}}: <span class="label label-default owner-label" data-goto="{{getDominatorAddress}}" style="{{getColorFromAddress}}">{{getDominatorNickname}}</span></h4>
+                {{/if}}
+
+                <div class="btn-group btn-group-lg" role="group" aria-label="{{_ 'component.calendar.selectMonth'}}">
+                    <button type="button" class="btn btn-default" data-select-month="prev" title="{{_ 'component.calendar.prevMonth'}}"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span></button>
+                    <div class="btn-group btn-group-lg" role="group">
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            {{getDateLabel 'MMMM' false '1'}}
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            {{#each month in getMonths}}
+                                <li class="{{getActiveMonthClass @index}}">
+                                    <a href="#" data-select-month="{{@index}}">{{getDateLabel 'MMMM' month '1'}}</a>
+                                </li>
+                            {{/each}}
+                        </ul>
+                    </div>
+                    <button type="button" class="btn btn-default" data-select-month="next" title="{{_ 'component.calendar.nextMonth'}}"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
+                </div>
+            </div>
+
+            <div class="table-responsive" id="calendarViewport">
+                <table class="table table-bordered">
+                    <tbody>
+                        {{#each row in getCalendarRows}}
+                            <tr>
+                                {{#each col in getCalendarColumns}}
+                                    {{#if isValidDay row col}}
+                                        <td data-select-cell="{{getCalendarDay row col}}" class="{{getSelectedCellClass row col}}">
+                                            {{> calendarDayComponent data=(getCalendarDayData row col)}}
+                                        </td>
+                                    {{/if}}
+                                {{/each}}
+                            </tr>
+                        {{/each}}
+                    </tbody>
+                </table>
+            </div>
+        {{else}}
+            {{> loading}}
+        {{/if}}
+
+    </div>
+</template>

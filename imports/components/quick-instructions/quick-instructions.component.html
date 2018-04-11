@@ -1,0 +1,19 @@
+<template name="quickInstructionsComponent">
+    <div class="component-wrapper quick-instructions-component">
+
+        <div class="panel panel-success">
+            <div class="panel-heading"><strong>{{_ 'component.quickInstructions.title'}}</strong></div>
+            <div class="panel-body">
+                <p>{{{getLine '1'}}}</p>
+                <p class="text-center logo-group">
+                    <a href="https://www.ethereum.org" class="eth" target="_blank"><img src="/img/welcome/ethereum.png" /></a>
+                    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                    <a href="https://metamask.io" class="mm" target="_blank"><img src="/img/welcome/metamask-intro.png" /></a>
+                </p>
+                <p>{{{getLine '2'}}}</p>
+                <p>{{{getLinkedTranslationFor 'component.quickInstructions.line3'}}}</p>
+            </div>
+        </div>
+
+    </div>
+</template>

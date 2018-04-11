@@ -1,0 +1,62 @@
+// Reference Variables & Mixins
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+@import (reference) "variables.less";
+
+
+.position(@type; @top: auto; @right: auto; @bottom: auto; @left: auto; @width: auto; @height: auto) {
+  position: @type;
+  top: @top;
+  right: @right;
+  bottom: @bottom;
+  left: @left;
+  width: @width;
+  height: @height;
+}
+
+.coords(@top: auto; @right: auto; @bottom: auto; @left: auto) {
+  top: @top;
+  right: @right;
+  bottom: @bottom;
+  left: @left;
+}
+
+.pos-rel(@top: auto; @right: auto; @bottom: auto; @left: auto) {
+  position: relative;
+  .coords(@top, @right, @bottom, @left);
+}
+.pos-abs(@top: auto; @right: auto; @bottom: auto; @left: auto) {
+  position: absolute;
+  .coords(@top, @right, @bottom, @left);
+}
+.pos-fix(@top: auto; @right: auto; @bottom: auto; @left: auto) {
+  position: fixed;
+  .coords(@top, @right, @bottom, @left);
+}
+
+
+
+
+
+
+//
+// Deprecated in favour of AutoPrefixer
+//
+
+.box-shadow(@shadow) {
+//  -webkit-box-shadow: @shadow;
+//  -moz-box-shadow: @shadow;
+  box-shadow: @shadow;
+}
+
+.transition-all(@delay: 0.35s) {
+//  -webkit-transition: all @delay;
+//     -moz-transition: all @delay;
+          transition: all @delay;
+}
+
+.background-cover() {
+//  -webkit-background-size: cover;
+//     -moz-background-size: cover;
+//       -o-background-size: cover;
+          background-size: cover;
+}

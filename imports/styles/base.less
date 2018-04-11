@@ -1,0 +1,49 @@
+// Reference Variables & Mixins
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+@import (reference) "lib/mixins.less";
+
+
+// Primary Styles
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+html, body,
+#__blaze-root,
+.root-component {
+    background: @body-bg;
+}
+
+// Component Wrapper
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.component-wrapper.root-component {
+    position: relative;
+    //outline: 3px dotted red;
+
+    // Page Containers
+    // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    > .container-fluid {
+        .content-primary {
+            padding: 0;
+            margin-top: @navbar-height;
+        }
+
+        &, > .row {
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+    }
+
+    .panel-heading {
+        &.month0  { background-color: @blueBackground; }
+        &.month1  { background-color: @redBackground; }
+        &.month2  { background-color: @orangeBackground; }
+        &.month3  { background-color: @violetBackground; }
+        &.month4  { background-color: @greenBackground; }
+        &.month5  { background-color: @tealBackground; }
+        &.month6  { background-color: @purpleBackground; }
+        &.month7  { background-color: @pinkBackground; }
+        &.month8  { background-color: @brownBackground; }
+        &.month9  { background-color: @orangeBackground; }
+        &.month10 { background-color: @pinkBackground; }
+        &.month11 { background-color: @winterBackground; }
+    }
+}

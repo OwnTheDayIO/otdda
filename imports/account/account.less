@@ -1,0 +1,31 @@
+// Reference Variables & Mixins
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+@import (reference) "/imports/styles/lib/mixins.less";
+
+
+// Account Page
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.component-wrapper {
+    &.account-page {
+        min-height: 85vh;
+
+        .list-group {
+            .list-group-item {
+                .item-label {
+                    display: inline-block;
+                    width: 5rem;
+                }
+            }
+        }
+
+    }
+}
+
+@media (min-width: @screen-sm-min) {
+    .component-wrapper {
+        &.account-page {
+            min-height: 675px;
+            margin: auto 30px;
+        }
+    }
+}

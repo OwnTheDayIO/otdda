@@ -1,0 +1,31 @@
+<template name="myDaysComponent">
+    <div class="component-wrapper my-days-component">
+
+        {{#if isLoading}}
+            {{> loading}}
+        {{else}}
+            {{#if ownsDays}}
+                <div class="row">
+                    {{#each dayIndex in getDaysOwned}}
+                        <div class="col-xs-12 col-sm-4 col-md-3 col-lg-2">
+                            {{> dayCardComponent day=dayIndex tipPlacement="bottom"}}
+                        </div>
+                    {{/each}}
+                </div>
+            {{else}}
+                {{#if isCurrentUser}}
+                    <div class="alert alert-warning" role="alert">
+                        <strong>{{_ 'component.account.noDaysOwner.title'}}</strong><br>
+                        {{_ 'component.account.noDaysOwner.body'}}
+                    </div>
+                {{else}}
+                    <div class="alert alert-warning" role="alert">
+                        <strong>{{_ 'component.account.noDaysGuest.title'}}</strong><br>
+                        {{_ 'component.account.noDaysGuest.body'}}
+                    </div>
+                {{/if}}
+            {{/if}}
+        {{/if}}
+
+    </div>
+</template>

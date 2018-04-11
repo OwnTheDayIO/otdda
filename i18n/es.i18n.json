@@ -1,0 +1,795 @@
+{
+  "page" : {
+    "title" : "¡Poseer el día!",
+    "defaultSuffix" : "ERC20 Tokens en el blockchain!",
+    "desc" : "¡Sea el día o reciba un pago! ¡Solo en el Blockchain de Ethereum!"
+  },
+  "body" : {
+    "navbar" : {
+      "title" : "Poseer el día",
+      "link" : {
+        "calendar" : "Calendario",
+        "account" : "Mis días",
+        "pendingTxs" : "transacciones pendientes"
+      },
+      "notConnected" : "Usted no se ha identificado",
+      "noNetwork"    : "No estás conectado a la red"
+    }
+  },
+  "welcome" : {
+    "pageTitle" : "Bienvenido",
+    "topBanner" : {
+      "title" : "Poseer el día",
+      "tooltip" : "en la cadena de bloques de Ethereum",
+      "subtitle" : "¡o te pagan por eso!",
+      "enterButton" : "Abrir calendario"
+    },
+    "intro1" : {
+      "titleLine" : "¡Consigue tu día favorito en Blockchain!",
+      "line1" : "¡Sea dueño de su cumpleaños, vacaciones o cualquier otro día que desee!",
+      "line2" : "¡Compre cualquier día del año como un Token de Ethereum (DÍAS) usando blockchain y sea el verdadero dueño de ese día!",
+      "line3" : "¡Podrías ser el orgulloso propietario de tus vacaciones favoritas, como el Día de Año Nuevo, el Día de la Independencia o incluso Halloween!",
+      "line4" : "Own The Day es un juego interactivo y criptocobrable que permite comprar cualquier prenda como Tokens compatibles con ERC20 en el Ethereum Blockchain. Tan pronto como reclamo un día, toma posesión del Token para ese día y ahora aumenta de valor.",
+      "line5" : "Pero recuerde, cualquier persona puede reclamar su día pagando hasta el doble del precio que pagó. ¡Entonces perderá la propiedad de ese día, pero recibirá hasta el doble del precio en ETH depositado automáticamente en su billetera!",
+      "line6" : "No puedes perder! ¡Poseer el día o ser pagado por ello!"
+    },
+    "intro2" : {
+      "titleLine" : "¿Qué día es más importante para ti?",
+      "line1" : "¿Te gustaría tener tu cumpleaños? ¿Qué tal un aniversario? ¿O quizás le gustaría regalar un día a alguien especial?",
+      "line2" : "Nuestros Coleccionables de Día especiales son fichas de Ethereum que se pueden transferir a amigos o seres queridos, ¡lo que lo convierte en el regalo perfecto!",
+      "line3" : "Todos los días en el Calendario está disponible para ser reclamado y propiedad! ¡Pero recuerde, cualquier persona puede reclamar un día que sea suyo pagando el precio!",
+      "line4" : "Muchos de los días en el calendario son feriados especialmente marcados que podrían causar mayor deseabilidad. ¿Qué día reinará como el día más deseado del calendario? ¿Y tú serás tú el que lo posee?"
+    },
+    "intro3" : {
+      "titleLine" : "¡Mayor aumento de valor!",
+      "line1" : "Own the Day tiene simplemente el mejor modelo de aumento de valor para los jugadores, que le permite obtener los mayores beneficios posibles para sus coleccionables. Logramos esto reservando comisiones extremadamente bajas para nuestros desarrolladores. Cuando se compara con otros objetos criptográficos que toman grandes comisiones en cada transacción, es fácil reconocer que Own the Day valora a los jugadores.",
+      "line2" : "¡Nuestro Smart Contrato está disponible para que cualquiera lo lea, y toda nuestra aplicación será de fuente abierta para el público durante la Fase 4 de nuestra hoja de ruta!"
+    },
+    "intro4" : {
+      "titleLine" : "¡Presentando Vacaciones!",
+      "line1" : "Muchos de los días-calendario ya están marcados con íconos especiales de vacaciones, ¡pero se vuelven aún más emocionantes durante la Fase 3 con el lanzamiento del sistema Holiday Token!",
+      "line2" : "¡Con Holiday Tokens, los jugadores tendrán mayores posibilidades de obtener ganancias de sus Day-Collectibles! Y no termina ahí, todos los jugadores tendrán la oportunidad de ganar éter sin tener que tener Coleccionismo diurno.",
+      "line3" : "Con nuevos y excitantes juegos en el horizonte, ¡no olvides mantener a raya tus Coleccionables del Día del Calendario y el Día del Dueño!"
+    },
+    "intro5" : {
+      "titleLine" : "Mapa vial",
+      "line1" : "Fase 1",
+      "line2" : "Lanzamiento del MVP inicial! Viva el mundo en varios idiomas, comenzamos con una interfaz de usuario mínima y esfuerzos de marketing limitados, junto con los precios de entrada iniciales más bajos.",
+      "line3" : "Fase 2",
+      "line4" : "Recorrido excesivo de UI / UX con muchas funciones mejoradas y mostrando un amor muy necesario en la interfaz. Las tablas de clasificación como Día más popular, Más días poseídos, Dominadores de mes, y más están llegando muy pronto!",
+      "line5" : "Fase 3",
+      "line6" : "Durante esta fase veremos el lanzamiento del sistema de vacaciones que agregará un nuevo y emocionante juego con posibilidades de obtener aún mayores ganancias. Esto vendrá junto con mejoras continuas a la UI / UX.",
+      "line7" : "Fase 4",
+      "line8" : "En este punto, lanzaremos todo el proyecto como de código abierto. ¡La aplicación descentralizada junto con el código fuente de Smart Contract estará disponible para que todos la lean y aprendan! ¡También lanzaremos nuestras principales campañas de marketing para llevar nuestro Calendario al mundo!"
+    },
+    "intro6" : {
+      "titleLine" : "¿Serás dueño del mejor día de la Tierra?"
+    },
+    "intro7" : {
+      "titleLine" : "¡Sea el día o reciba un pago!"
+    }
+  },
+  "calendar" : {
+    "pageTitle" : "Calendario",
+    "title" : "¡Encuentra un día y hazlo tuyo!"
+  },
+  "account" : {
+    "pageTitle" : "Mis días",
+    "title" : "Mis días"
+  },
+  "about" : {
+    "pageTitle" : "Acerca de",
+    "topBanner" : {
+      "title" : "Acerca de",
+      "subtitle" : "¿De que se trata este sitio?"
+    },
+    "section1" : {
+      "title" : "Cómo jugar",
+      "line1" : "Cada día calendario disponible es una colección única representada por un Token compatible con ERC20 en la cadena de bloques de Ethereum, y solo puede ser propiedad de una sola persona a la vez. Una vez que ha reclamado un día calendario, ¡es suyo y solo suyo!",
+      "line2" : "Los días calendario que haya reclamado se mostrarán en el Calendario global junto con su Alias (su alias por defecto son los últimos 6 caracteres de su dirección de billetera pública, pero puede cambiar su alias en cualquier momento).",
+      "line3" : "Dado que los objetos coleccionables de su día calendario son fichas Ethereum, también se pueden ver en su billetera MetaMask en 'Fichas'. Consulte la página __faq__ para obtener más información sobre la visualización de los tokens DAYS en su billetera.",
+      "line4" : "Puede reclamar cualquier día en el Calendario, ¡todos están disponibles! Esto también significa que cualquier otra persona puede reclamar un día calendario de usted, y al hacerlo, le pagan el precio incrementado del día calendario. El precio aumenta automáticamente cada vez que se reclama un día, que se calcula mediante el contrato inteligente según la tabla 'Incremento del nivel de precios'."
+    }
+  },
+  "faq" : {
+    "pageTitle" : "Preguntas frecuentes",
+    "topBanner" : {
+      "title" : "Preguntas frecuentes",
+      "subtitle" : "¿Tienes una pregunta? ¡Encontrar una respuesta!"
+    },
+    "block1" : "Empezando",
+    "block2" : "Comprender el juego",
+    "questions" : {
+      "section1" : {
+        "q" : "¿Qué se necesita para jugar a Own the Day?",
+        "a" : {
+          "l1" : "Para comenzar a reclamar días calendario todo lo que necesita es:",
+          "l2" : "Un navegador web moderno como Chrome o Firefox con la Extensión MetaMask,",
+          "l3" : "Alternativamente, un navegador basado en Ethereum como Mist o Bravo,",
+          "l4" : "¡Éter en tu billetera para reclamar días calendario!"
+        }
+      },
+      "section2" : {
+        "q" : "¿Cómo instalo MetaMask?",
+        "a" : {
+          "l1" : "Para comprar (y recibir ganancias de) artículos coleccionables del día calendario, deberá instalar una extensión de navegador llamada MetaMask (por MetaCert) en Chrome o Firefox.",
+          "l2" : "Descargue e instale la extensión para su navegador;",
+          "l3" : "Crea una nueva cuenta / billetera en MetaMask,",
+          "l4" : "Metamask le proporcionará 12 palabras semilla que debe guardar en un lugar seguro (esta es esencialmente la clave de su billetera),",
+          "l5" : "¡Una vez que haya iniciado sesión en su cuenta en MetaMask, tendrá acceso completo a Own the Day!"
+        }
+      },
+      "section3" : {
+        "q" : "¿Cómo agrego ether (ETH) a mi billetera?",
+        "a" : {
+          "l1" : "A través de un intercambio: el medio más popular para adquirir el éter proviene de un intercambio como Coinbase, Binance, Kraken y muchos otros. Después de que hayas comprado el éter en un intercambio, tendrás que transferir el éter fuera del intercambio a tu billetera MetaMask.",
+          "l2" : "A través de MetaMask: MetaMask ofrece una opción para comprar el éter directamente a través de la billetera, pero esta función solo está disponible actualmente para los residentes de EE. UU.",
+          "l3" : "Si ya posee Ether, puede transferir fondos directamente a su billetera MetaMask a través de la dirección de la billetera pública.",
+          "l4" : "Si necesita más ayuda para adquirir el éter o usar MetaMask, hay muchas guías y & amp; tutoriales en Google y YouTube!"
+        }
+      },
+      "section4" : {
+        "q" : "¿Qué estamos comprando exactamente?",
+        "a" : {
+          "l1" : "Own the Day es un juego sobre coleccionar y ser dueño de tus días-calendario favoritos en Ethereum Blockchain. Cuando compra un día, usted es el único propietario de ese día hasta que alguien lo reclame, momento en el que gana el éter como vendedor del día.",
+          "l2" : "Los días calendario son criptos coleccionables similares a las tarjetas de deportes y libros de historietas, ¡solo estos coleccionables siempre aumentan su valor! Lo que posee es un Token ERC20 en el Blockchain de Ethereum, limitado a solo 366 DAYS Tokens (hemos incluido el día adicional en febrero para el año bisiesto). Al igual que los coleccionables tradicionales, su valor está directamente relacionado con su deseabilidad por parte de otros coleccionistas.",
+          "l3" : "El calendario global interactivo del juego mostrará su alias en todos los días que tenga y también estará representado por un color único basado en los últimos seis caracteres de la dirección pública de su billetera.",
+          "l4" : "Si alguien más decide reclamar un día que usted posee, tendrá que pagarle hasta el doble del precio en ETH, que se transferirá automáticamente a su billetera mediante el contrato inteligente.",
+          "l5" : "O es dueño de su día como un Crypto-Collectible único, o se beneficia de él, ¡no puede perder! ¡En definitiva, cuanto más juegas, más puedes ganar!"
+        }
+      },
+      "section5" : {
+        "q" : "¿Cómo reclamo un día calendario?",
+        "a" : {
+          "l1" : "Comience visitando la página global __calendar__ y encuentre su día favorito del año. Podría ser tu cumpleaños, un aniversario o tus vacaciones favoritas.",
+          "l2" : "Una vez que haya encontrado el día calendario deseado, selecciónelo para comprarlo. El juego te pedirá que confirmes tu compra y te dirija a la extensión de MetaMask para iniciar la transacción. ¡Después de que Ethereum Blockchain haya confirmado su transacción, habrá reclamado exitosamente ese día! El Calendario global, así como su página de Cuenta mostrarán su propiedad del día."
+        }
+      },
+      "section6" : {
+        "q" : "¿Puedo usar moneda fiduciaria (CAD, USD, etc.) para reclamar un día?",
+        "a" : {
+          "l1" : "Own the Day es un juego basado en blockchain que se ejecuta en la red Ethereum, y como tal, el éter (ETH) es la única forma de jugar.",
+          "l2" : "Deberá usar un intercambio para adquirir éter usando su moneda estándar."
+        }
+      },
+      "section7" : {
+        "q" : "¿Puedo negarme a vender los días que he recogido?",
+        "a" : {
+          "l1" : "Si alguien desea reclamar el día que posee, podrá hacerlo siempre que pueda pagar el precio.",
+          "l2" : "Sin embargo, si usted es el propietario del día, eso también lo convierte en el vendedor del día y se le pagará hasta el doble del precio que pagó inicialmente."
+        }
+      },
+      "section8" : {
+        "q" : "¿Cómo estás ganando dinero?",
+        "a" : {
+          "l1" : "Una pequeña porción de cada transacción se paga a los desarrolladores del juego. Esta parte está relacionada con el valor de la transacción y está codificada en el contrato inteligente (que nunca se modificará). El contrato inteligente es completamente transparente y está disponible en línea para que cualquiera pueda leer. También puede visitar la página __about__ para ver la estructura de precios del juego."
+        }
+      },
+      "section9" : {
+        "q" : "¿Cómo veo mis tokens DAYS dentro de mi billetera?",
+        "a" : {
+          "l1" : "Los Tokens personalizados de Ethereum, como los DÍAS de DAYS, se pueden agregar a la mayoría de los billeteros compatibles con Ethereum configurando el monedero para reconocer el token.",
+          "l2" : "En MetaMask, por ejemplo, puede seleccionar la pestaña 'Tokens' de su billetera y luego seleccionar 'Add Token'. Proporcione los siguientes detalles para el token:",
+          "l3" : "Dirección del contrato del token: 0x16d790ad4e33725d44741251f100e635c323beb9",
+          "l4" : "Símbolo de símbolo: DÍAS",
+          "l5" : "Decimales de precisión: 0",
+          "l6" : "Esto permitirá que tu billetera reconozca cualquier ficha de DAYS que recolectes a lo largo del juego; no agregará nuevos tokens de DAYS a tu billetera."
+        }
+      }
+    }
+  },
+  "tos" : {
+    "pageTitle" : "Términos de servicio",
+    "topBanner" : {
+      "title" : "Términos de servicio",
+      "subtitle" : ""
+    },
+    "intro" : {
+      "line1" : "Esta aplicación (& quot; OwnTheDay & quot;) se ejecuta en la red Ethereum y utiliza contrato (s) inteligente (s) para permitir a los usuarios comprar y poseer coleccionables únicos y únicos en el día calendario como tokens compatibles con ERC20 con el símbolo DAYS.",
+      "line2" : "A lo largo de estos Términos de Servicio, los contratos inteligentes y el Sitio que aloja el juego se conocerán como el 'Juego'. Los tokens de día calendario adquiridos a través del juego se conocerán como & quot; Coleccionables & quot ;.",
+      "line3" : "Al elegir usar el Juego, los usuarios pueden comprar y coleccionar objetos del día calendario. OwnTheDay pone el Juego a su disposición. Antes de usar el juego, debe aceptar estos Términos de servicio.",
+      "line4" : "Lea cuidadosamente los siguientes Términos de Servicio antes de utilizar el Juego, comprar Coleccionables o usar el Sitio. A menos que tengamos un acuerdo separado por escrito con usted que difiera de los Términos de servicio a continuación, los siguientes Términos de servicio rigen absoluta e inequívocamente su uso del Sitio, así como su compra y propiedad de Collectibles. Solo le permitiremos usar este Sitio, Collectibles propios y / o Comprar coleccionables si acepta todos estos Términos de servicio.",
+      "line5" : "Al utilizar este Juego, este Sitio y / o estos Coleccionables, o al hacer clic en & quot; aceptar & quot ;, usted confirma que comprende estos Términos y acepta estos Términos. En el caso de que esté utilizando este Sitio, este Juego o estos Coleccionables en nombre de otra empresa o entidad legal, usted indica que tiene la autoridad legal para aceptar estos Términos en nombre de la otra parte, y que cualquier mención de & quot; tu & quot; en este contrato significa la otra parte que usted representa. Si no tiene la autoridad para representar a otra parte, entonces no tiene permiso para utilizar este Juego, este Sitio o estos Coleccionables."
+    },
+    "terms" : {
+      "section1" : {
+        "title" : "NO ACEPTAMOS DEPÓSITOS",
+        "note" : "OwnTheDay.io es una interfaz de interfaz de usuario que le permite interactuar directamente con un contrato inteligente de cadena de bloques en la red de Ethereum utilizando el & quot; Metamask & quot; extensión del navegador El sitio web y sus creadores no aceptan ni retienen ningún pago de los jugadores. Las transferencias de correo electrónico realizadas en el sitio web se transfieren directamente a la dirección de contrato de blockchain: 0xD35eF25873bd9BA3e67dcCd1a5634F49a32E44f0. Cualquier Eter o moneda fiduciaria depositada en su extensión Metamask es propiedad y está bajo su control por usted, el jugador. El juego no tiene acceso a los fondos depositados en su extensión de navegador Metamask. Las transferencias de Ether se transfieren directamente desde su cuenta de Metamask a un contrato inteligente en la red de Ethereum. Como el juego no acepta tus depósitos y no tiene ningún control sobre él, el juego y sus creadores no son responsables de ningún daño o pérdida de fondos."
+      },
+      "section2" : {
+        "title" : "JUEGA RESPONSABLEMENTE",
+        "note" : "Este juego te permite comprar y coleccionar activos digitales. No hay garantía de que otros jugadores o cualquier otra persona te comprarán estos activos. Mientras algunos jugadores especulan sobre su capacidad de revender sus activos digitales por un valor mayor en el futuro, no hay garantía de que otra persona decida comprar su activo digital. Si opta por transferir ETH a cambio de un Día al que se hace referencia en el juego como Coleccionables, debe aceptar y comprender el riesgo de no poder vender sus Coleccionables en el futuro. El juego está diseñado para los coleccionistas que eligen pagar por la propiedad de los productos digitales que se denominan Coleccionables. Si opta por especular sobre el valor futuro y la liquidez de su activo, debe hacerlo bajo su propio riesgo y no responsabilizar a los creadores del juego o el contrato inteligente por cualquier pérdida o daño. Juega responsablemente y no gastes más de lo que crees que vale el activo digital."
+      },
+      "section3" : {
+        "title" : "CONTRATOS INTELIGENTES",
+        "note" : "Hemos utilizado los días del año para crear coleccionables únicos y únicos, representados por tokens compatibles con ERC20 en Ethereum BlockChain. Estos Coleccionables no son respaldados ni respaldados por la persona que aparece en el calendario. Todos los días disponibles del año (incluido el 29 de febrero) se han publicado por adelantado. Cada Día coleccionable puede ser comprado utilizando el éter. Puede comprar cualquier día que elija, y cualquier otra parte puede comprar un día que tenga actualmente si la otra parte está dispuesta a pagar una suma mayor. El precio de los tokens está codificado en el contrato inteligente y no puede ser modificado por nadie, incluidos los creadores del juego. No puede impedir que otra parte compre un día que usted posee actualmente, y ningún otro tercero puede impedirle comprar el día que desea. Cualquiera que sea la parte que esté dispuesta a pagar el costo del día, puede ser propietario de dicho Contrato inteligente después de completar la transacción."
+      },
+      "section4" : {
+        "title" : "EL JUEGO",
+        "note" : "Este juego requiere que utilices un navegador web Google Chrome o Firefox que actualmente tenga instalada una extensión de navegador Metamask. Metamask es una billetera electrónica creada por un tercero que le permite comprar, almacenar y participar en transacciones usando la criptomoneda Ethereum. No puede usar ninguna otra billetera electrónica en el juego que no sea Metamask; sin embargo, puede usar otras billeteras electrónicas y aplicaciones de terceros para transferir fondos a su billetera Metamask con el fin de realizar compras y recibir pagos en el Juego. Si no inicia sesión en el Juego con el navegador correcto (ya sea Google Chrome o Mozilla Firefox) y / o si el navegador no tiene instalada la extensión Metamask, el Juego lo reconocerá, pero no podrá interactuar con el juego de cualquier manera. Todas y cada una de las transacciones que tienen lugar en el Juego ocurren a través de la cadena de bloques de Ethereum. Usted comprende que al usar el Juego, su dirección pública Ethereum se hará visible a otros usuarios del Juego, así como a terceros cada vez que participe en una transacción en el Juego. No somos propietarios y no controlamos ninguno de los siguientes productos de terceros utilizados para la función de este juego: Metamask, Coinbase, Google Chrome, Mozilla Firefox o la red Ethereum. No somos propietarios y no controlamos ningún otro sitio, producto o servicio de terceros que pueda elegir acceder, visitar o utilizar con el fin de interactuar o utilizar el Juego. No seremos responsables, y no seremos responsables, por los actos u omisiones de dichos terceros, ni somos responsables, ni seremos responsables, de ningún daño que pueda sufrir como resultado de la interacción o el uso de cualquiera de los terceros mencionados o no mencionados. Debe proporcionar información de registro precisa y completa cuando crea una cuenta para utilizar el Juego. Usted es el único responsable de la seguridad de su billetera Metamask y / o de cualquier otra billetera electrónica que utilice para interactuar con el Juego. Usted es el único responsable de la seguridad de su cuenta con nosotros. Si tiene conocimiento de una violación de seguridad con respecto a su contraseña o su cuenta, usted acepta notificarnos inmediatamente después de su descubrimiento en security@owntheday.io."
+      },
+      "section5" : {
+        "title" : "HONORARIOS Y PAGOS",
+        "note" : "Si elige comprar cualquier día en el Juego, todas las transacciones se realizarán a través de la red Ethereum utilizando una billetera electrónica Metamask directamente vinculada a un Contrato Inteligente en la cadena de bloques, que no está controlada por los creadores de juegos. No tendremos ningún conocimiento o control sobre estos pagos o transacciones, ni podremos revertir ninguna transacción que ocurra. Debido a esto, no tendremos responsabilidad hacia usted o cualquier otro tercero por los reclamos o daños que puedan ocurrir debido a cualquier transacción que tenga lugar en el Juego y / o en relación con cualquiera de los Contratos Inteligentes del país que hemos creado. . La red de Ethereum requiere que usted pague una tarifa de transacción, comúnmente conocida como & quot; Gas & quot ;, por cada transacción que ocurra en la red de Ethereum. El objetivo del gas es financiar el hardware y el software que ejecuta la red Ethereum, así como evitar el uso indebido y el correo no deseado. Si decide interactuar con el Juego a través de nuestro Sitio o sin utilizar el Juego o nuestro Sitio como portal, deberá pagar una tarifa por cada transacción que realice en la red de Ethereum. El contrato inteligente mantiene una comisión de 1-5% por cada transacción realizada a través de ella, además del Gas que cobra la red Ethereum. Los creadores de este sitio web y juego no tienen acceso o control sobre estas tarifas, ya que se maneja directamente en la red de blockchain distribuida. NO ACEPTAMOS PAGOS DIRECTAMENTE EN NUESTRO SITIO WEB."
+      },
+      "section6" : {
+        "title" : "PROPIEDAD",
+        "note" : "Al usar este juego, usted reconoce y acepta que nosotros y / o nuestras licencias poseemos todos los derechos legales, títulos e intereses en y para todos y cada uno de los elementos del juego, incluida cualquier propiedad intelectual. Esto incluye, entre otros: gráficos, diseños, información, sistemas, código de computadora, software, servicios, organización, contenido, compilación de contenido, datos, diseño y cualquier otro elemento del juego. Conservamos la propiedad total y completa de todos estos elementos, así como de cualquier otro elemento relacionado con el Juego que no esté incluido en estas Condiciones del servicio. Todos y cada uno de estos elementos son propiedad de OwnTheDay y están protegidos por derechos de autor, comercio, vestimenta, patentes, leyes de marcas comerciales, convenciones internacionales y cualquier otra propiedad aplicable y las leyes de derechos de propiedad. El uso que usted haga del Juego, del Sitio o de cualquiera de los Contratos Smart de todo el país no le otorga la propiedad ni los derechos sobre el contenido, el código, los datos y otros materiales que pueda usar y ver en el Sitio. Aunque usted es dueño del Smart Contract en sí mismo, no posee el nombre, la semejanza, el diseño del contrato ni ningún otro elemento. Cualquier comentario, informe de errores, ideas o cualquier otro tipo de comentarios sobre el juego proporcionado por usted es bienvenido por OwnTheDay. Sin embargo, una vez que haya enviado voluntariamente dichos comentarios, informes de errores, ideas o comentarios, acepta que somos libres de utilizar esa información y esas ideas de la manera que consideremos conveniente sin compensación alguna para usted. Somos libres de divulgar esa información y esas ideas a cualquier tercero que consideremos necesario. Al enviar comentarios, informes de errores, ideas o cualquier otro tipo de comentarios, nos otorga una licencia perpetua e irrevocable para ese contenido y / o ideas, y de inmediato conservamos los derechos completos sobre esa información, contenido y / o ideas. Al utilizar este Juego y este Sitio, usted acepta que es total e inequívocamente responsable de su conducta durante el uso de este Juego y de este Sitio, así como de cualquier repercusión o consecuencia que se produzca debido a dicha conducta. Al usar este Juego y este Sitio, usted acepta cumplir con los Términos y Condiciones del Servicio mencionados anteriormente y con los términos y condiciones anteriores, y con que solo utilizará el Juego y el Sitio para fines legales y apropiados. Además de esto, no tiene permitido, y no puede permitir que un tercero: cargue o distribuya contenido ilegal, difamatorio, abusivo, fraudulento, obsceno u objetable; distribuir virus, gusanos, defectos, caballos de Troya, archivos corruptos, fraudes o cualquier otro elemento de naturaleza dañina o deshonesta; suplantar a otra persona de cualquier manera, forma o forma; cargar, publicar, transmitir o poner a disposición de cualquier manera a través del Juego cualquier contenido que infrinja los derechos de propiedad intelectual de cualquier parte, incluido OwnTheDay, cualquier tercero asociado con nosotros y cualquier usuario del Juego o del Sitio; usar el Juego para violar los derechos legales de otros o participar, promover o alentar cualquier tipo de actividad ilegal; utilizar el Juego para cualquier fin comercial no autorizado, o modificar, adaptar, traducir o aplicar ingeniería inversa a cualquier parte del Juego para fines personales o comerciales; reformatear o enmarcar cualquier porción del Juego, incluyendo eliminar cualquier derecho de autor, marca registrada u otros avisos de derechos de propiedad contenidos en o dentro del Juego; mostrar cualquier contenido del juego que contenga contenido violento o relacionado con el odio; utilizar cualquier robot, araña u otro dispositivo o programa para compilar o indexar cualquier parte del Juego o el contenido publicado en el Juego, o para recopilar información sobre sus usuarios para cualquier propósito; crear cuentas de usuario por medios automatizados o bajo pretextos falsos o fraudulentos; acceder o usar el Juego con el propósito de crear un producto o servicio que sea competitivo con cualquiera de nuestros productos o servicios."
+      },
+      "section7" : {
+        "title" : "FINALIZACIÓN DE ESTOS TÉRMINOS",
+        "note" : "La única manera de rescindir los Términos aquí contenidos es cancelar su cuenta en el Juego y descontinuar todo uso o acceso al Juego. Si elige cancelar su cuenta, no recibirá reembolsos por ninguna transacción realizada en el Juego ni por ningún pago realizado a nosotros. Al usar este juego, usted acepta que tenemos el derecho de rescindir estos términos y cancelar o suspender su cuenta por cualquier razón que consideremos necesaria. También acepta que no estamos obligados a proporcionarle ningún aviso anticipado de suspensión o terminación de su cuenta, y que no somos responsables ante usted ni ante ningún tercero por los daños o consecuencias causados ​​por la suspensión o terminación de su cuenta. cuenta. En caso de que decidamos suspender o cancelar su cuenta, o restringir su acceso a su cuenta o al Juego, debido a sospecha de fraude, abuso o actividad ilegal de su parte, entonces también podemos tomar todas las medidas permitidas por la ley. . Si su cuenta es suspendida o cancelada por nosotros o por su elección, ya no tendrá acceso a la información que ha publicado en el Juego ni a ninguna información relacionada con su cuenta. En ambos eventos, ya sea que finalicemos o suspendamos su cuenta o que elija cancelar su cuenta, usted reconoce y acepta que no estamos obligados a mantener su información en nuestras bases de datos, ni estamos obligados a enviar ninguna de esa información a usted o cualquier tercero."
+      },
+      "section8" : {
+        "title" : "Descargo de responsabilidad y garantías",
+        "note" : "Al usar este juego, usted entiende y acepta que su acceso y uso de este juego es bajo su propio riesgo. Usted reconoce y acepta que este Juego se proporciona tal como está y como está disponible, y que no ofrecemos ninguna garantía expresa o implícita con respecto a este Juego o acceso a este Juego. Nosotros, y cualquier parte asociada con nosotros, no ofrecemos ninguna garantía y renunciamos a todas y cada una de las garantías implícitas relacionadas con el Juego, incluidos el Sitio y los Contratos Inteligentes. Esto incluye cualquier garantía implícita relacionada con el valor del producto, idoneidad para un propósito específico, no infracción, corrección y / o confiabilidad. Ni nosotros ni ninguna de nuestras subsidiarias o afiliadas garantizan ni garantizan que su acceso o uso del Juego cumpla con sus requisitos y / o expectativas; su acceso al Juego o Sitio será ininterrumpido, libre de errores o seguro; o, que los datos representados en el contenido, servicios o características son precisos y / o están libres de virus u otro contenido o componentes dañinos."
+      },
+      "section9" : {
+        "title" : "Limitación de responsabilidad",
+        "note" : "Al utilizar este Juego y este Sitio, usted comprende y acepta que ni nosotros ni ninguna de nuestras subsidiarias o afiliadas somos responsables ante usted o cualquier otro tercero por los daños indirectos, incidentales, consecuentes o ejemplares en los que pueda incurrir, sin importar cómo esos daños ocurrieron. Nosotros y nuestras subsidiarias y afiliados tampoco somos responsables de ninguna pérdida financiera, pérdida de buena voluntad, pérdida de reputación comercial, pérdida de reputación personal, costo de comprar bienes o servicios sustitutos, o cualquier otra pérdida intangible potencial, incluso si tenía conocimiento previo de que existía un riesgo de daños y / o pérdidas. Al usar este Juego y este Sitio, usted acepta que nuestra responsabilidad total ante usted por todos y cada uno de los reclamos que surjan de o estén relacionados con estos Términos o su acceso o uso de este Juego o este Sitio está limitado a la suma de $ 100. Al usar este Juego y este Sitio, usted entiende y acepta que hemos puesto este Juego a su disposición y ha celebrado estos Términos con usted como una manera de proporcionarle el Juego. Estas limitaciones de responsabilidad descritas en estos Términos reflejan una distribución de riesgos razonable y justa entre nosotros y usted."
+      },
+      "section10" : {
+        "title" : "Indemnización",
+        "note" : "Al utilizar este Juego y este Sitio, usted acepta que OwnTheDay sea inofensivo e indemnizarnos a nosotros y a cualquiera de nuestras subsidiarias y afiliadas, así como a cualquiera de nuestros funcionarios, agentes, empleados, anunciantes, proveedores o licenciantes, desde y contra cualquier reclamo , responsabilidad, pérdida, daños reales y daños consecuentes de cualquier tipo o naturaleza, incluidos juicios, juicios, costos de litigios y honorarios de abogados que se producen o surgen debido a su incumplimiento de estos Términos y / o su violación de las leyes aplicables, Reglas y regulaciones."
+      },
+      "section11" : {
+        "title" : "Sitios externos",
+        "note" : "En algunos casos, este Juego y este Sitio pueden contener hipervínculos a otros sitios web y / o recursos para su conveniencia y la de otros usuarios. No tenemos control sobre la seguridad o el contenido encontrado en estos sitios. Usted reconoce y acepta que no somos responsables de la disponibilidad de enlaces a sitios externos, y que no respaldamos los anuncios en los sitios, los productos o servicios disponibles en esos sitios o cualquier otro material que se encuentre en esos sitios. Usted reconoce y acepta que no somos responsables de ninguna pérdida o daño que pueda sufrir usted o un tercero como resultado de la disponibilidad o la falta de disponibilidad de estos sitios, incluida la confianza depositada por usted en la necesidad de esos sitios. y / o por la integridad y / o precisión de esos sitios."
+      },
+      "section12" : {
+        "title" : "Cambios a estos Términos de Servicio",
+        "note" : "Cuando lo consideramos necesario, podemos hacer cambios a estos Términos. Cuando hagamos estos cambios, los Términos actualizados estarán disponibles en el Juego y en el Sitio, y tendrán un & quot; Última actualización & quot; fecha. Es su responsabilidad verificar estos Términos periódicamente para cualquier cambio. Su acceso continuo al Juego y al Sitio constituirá su aceptación vinculante de las actualizaciones. Todos y cada uno de los cambios realizados son aplicables en la fecha en que se realizan."
+      },
+      "section13" : {
+        "title" : "Cuando lo consideremos necesario, podemos hacer cambios a estos Términos. Cuando hagamos estos cambios, los libros de texto están disponibles en el Juego y en el Sitio, y han un & quot; Última actualización & quot; fecha. Es un solo tipo de cuenta Su acceso continuo al Juego y al Sitio constituirá su aceptación vinculante de las actualizaciones. Todos y cada uno de los cambios realizados son posibles en la fecha en que se realizan.",
+        "note" : "Siempre estamos trabajando para mejorar y expandir el Juego a fin de brindarle a usted y a nuestros otros usuarios la mejor y más sólida experiencia. Al utilizar el Juego y el Sitio, usted comprende y acepta que cualquier parte de este Juego o este Sitio puede cambiar en cualquier momento sin previo aviso. Podemos y agregaremos nuevas características y alteraremos aspectos del Juego o del Sitio en cualquier momento sin previo aviso."
+      },
+      "section14" : {
+        "title" : "Niños",
+        "note" : "Al usar este Juego y este Sitio, usted afirma que es mayor de 19 años. Este Juego y este Sitio no están destinados a ser utilizados por ningún niño menor de 19 años."
+      },
+      "section15" : {
+        "title" : "General",
+        "note" : "Estos Términos en su totalidad constituyen el acuerdo legal entre usted y OwnTheDay, y rigen su acceso y uso del Juego y el Sitio. Reemplazan cualquier acuerdo anterior entre las partes relacionado con su acceso o uso del Juego o el Sitio, ya sea oral o escrito. No hay terceros beneficiarios de estos términos; cualquier tercero es un contratista independiente, y estos Términos no forman ninguna agencia, sociedad o empresa conjunta. Usted comprende y acepta que el lenguaje en estos términos debe interpretarse en cuanto a su significado justo, y no estrictamente a favor o en contra de ninguna de las partes. No puede asignar ninguno de sus derechos u obligaciones en virtud de estos Términos sin nuestro consentimiento previo por escrito. Sin embargo, podemos ceder nuestros derechos y obligaciones bajo estos Términos a un afiliado o en conexión con una adquisición, venta o fusión a nuestro exclusivo criterio. En el caso de que alguna parte de estos Términos sea considerada inválida o inaplicable por las autoridades legales apropiadas, esa parte se aplicará mientras las partes restantes permanezcan en pleno vigor y efecto. Cualquier falla potencial de nuestra parte para hacer cumplir estos Términos no es ni será considerada una renuncia a estos Términos, en parte o en su totalidad. Cualquier acción legal o procedimiento que surja bajo estos Términos será manejado por los tribunales en Canadá, y las partes dan su consentimiento irrevocable a la jurisdicción personal y lugar allí. Finalmente, no somos responsables y no seremos responsables por cualquier falla o retraso en el cumplimiento de nuestra obligación bajo estos Términos que resulten de cualquier condición fuera de nuestro control. Esto incluye acciones gubernamentales, actos de terrorismo, terremotos, inundaciones, incendios, fallas de energía, disturbios en internet u omisiones por parte de terceros. Usted acepta que podemos enviarle un aviso de cualquier cambio a estos Términos por correo electrónico, correo ordinario o publicando en el Juego o el Sitio. Al proporcionarnos su dirección de correo electrónico, acepta dejar de recibir avisos por correo postal."
+      }
+    }
+  },
+  "notfound" : {
+    "warning" : {
+      "title" : "404 No encontrado",
+      "body"  : "404 No encontrado"
+    }
+  },
+  "component" : {
+    "calendar" : {
+      "selectMonth" : "Selecciona un mes",
+      "nextMonth" : "Próximo mes",
+      "prevMonth" : "Mes anterior",
+      "monthDominator" : "Month Dominator"
+    },
+    "account" : {
+      "noDaysOwner" : {
+        "title" : "Usted no posee ningún día.",
+        "body" : "¡Tu cumpleaños podría ser un buen lugar para comenzar!"
+      },
+      "noDaysGuest" : {
+        "title" : "Este usuario no posee ningún día.",
+        "body" : "¿Tal vez podrías comprar un Día para ellos como regalo?"
+      },
+      "viewTokens" : "Ver tokens en EtherScan"
+    },
+    "accountWarning" : {
+      "detectingBrowser" : {
+        "title" : "Detectando las capacidades del navegador",
+        "message" : "Espere mientras buscamos las capacidades del navegador Web3 (MetaMask, Mist, etc.)"
+      },
+      "invalidBrowser" : {
+        "title" : "Navegador no Web3",
+        "message" : "Necesitará un navegador Web3 basado en Ethereum como MetaMask o Mist para usar este sitio."
+      },
+      "installMetaMask" : {
+        "title" : "¿No tienes un navegador Web3?",
+        "line1" : "Obtenga la extensión de navegador MetaMask por MetaCert y Own the Day!"
+      },
+      "wrongNetwork" : {
+        "title" : "¡Red incorrecta!",
+        "messageTest" : "Por favor, conéctese a una red de prueba.",
+        "messageMain" : "Por favor, conéctese a la red principal de Ethereum."
+      },
+      "noAccount" : {
+        "title" : "Sin cuenta!",
+        "message" : "Inicie sesión en una cuenta de Ethereum con su navegador Web3 (MetaMask, Mist, etc.)"
+      }
+    },
+    "priceLevel" : {
+      "title" : "Incremento del nivel de precios",
+      "table" : {
+        "head" : {
+          "col1" : "Nivel",
+          "col2" : "Rango de precios (ETH)",
+          "col3" : "Aumento de precio",
+          "col4" : "Cortador del desarrollador"
+        },
+        "row1" : {
+          "col1" : "Nivel 1",
+          "col2" : "0.001 - 0.25",
+          "col3" : "100%",
+          "col4" : "5%"
+        },
+        "row2" : {
+          "col1" : "Nivel 2",
+          "col2" : "0.25 - 0.5",
+          "col3" : "36%",
+          "col4" : "4%"
+        },
+        "row3" : {
+          "col1" : "Nivel 3",
+          "col2" : "0.5 - 2.5",
+          "col3" : "26%",
+          "col4" : "3%"
+        },
+        "row4" : {
+          "col1" : "Nivel 4",
+          "col2" : "2.5 - 5",
+          "col3" : "18%",
+          "col4" : "3%"
+        },
+        "row5" : {
+          "col1" : "Nivel 5",
+          "col2" : "5 -",
+          "col3" : "15%",
+          "col4" : "2%"
+        }
+      }
+    },
+    "mostPopularDays" : {
+      "title" : "Días más populares"
+    },
+    "mostDays" : {
+      "title" : "La mayoría de los días poseídos"
+    },
+    "monthDominators" : {
+      "title" : "Dominadores del mes"
+    },
+    "footer" : {
+      "social" : {
+        "visitUs" : "Visítanos en __social__"
+      }
+    }
+  },
+  "modal" : {
+    "claim" : {
+      "claimDay"   : "¡Poseer el día!",
+      "claimed"    : "Has reclamado exitosamente __date__.",
+      "claimTitle" : "¡Eres el dueño del día!",
+      "info" : {
+        "line1" : "Puede solicitar <strong>__date__</strong> para <strong>__price__</strong>",
+        "line2" : "Cualquiera puede reclamar este día de usted al precio de <strong>__price__</strong>.",
+        "line3" : "Puede pujar más alto que el precio actual para asegurarse de reclamar el día. Si su oferta supera el precio actual, se le reembolsará la diferencia.",
+        "line4" : "Su transacción puede fallar si el precio se ha movido por encima de su precio de oferta, en cuyo caso se le reembolsará su oferta.",
+        "line5" : "Ajustar el precio del gas (Gwei) puede acelerar su transacción. Consulte su rastreador de gas favorito para obtener el último precio de gas propuesto."
+      },
+      "disclaimer" : "Los días son coleccionables, y como tal, no hay garantía de que otros jugadores reclamen esta colección de usted."
+    },
+    "nickname" : {
+      "title"       : "¡Define tu sobrenombre en Blockchain!",
+      "set"         : "Establecer el sobrenombre",
+      "placeholder" : "Apodo",
+      "profanities" : "NOTA: las malas palabras en su apodo serán censuradas así que no desperdicie su gasolina."
+    }
+  },
+  "generic" : {
+    "balance"      : "Equilibrar",
+    "cancel"       : "cancelar",
+    "claim"        : "Reclamación",
+    "close"        : "Cerca",
+    "days"         : "Dias",
+    "disclaimer"   : "RENUNCIA",
+    "etherUnit"    : "ETH",
+    "from"         : "de",
+    "loading"      : "Cargando por favor espere...",
+    "loadingComm"  : "(comunicándose con la cadena de bloques de Ethereum)",
+    "notice"       : "darse cuenta",
+    "own"          : "Propio",
+    "owner"        : "Propietario",
+    "price"        : "Precio",
+    "priceEther"   : "Precio en ETH",
+    "priceCurrent" : "Precio en Precio Actual",
+    "priceNext"    : "Precio siguiente",
+    "information"  : "Información",
+    "social"       : "Social",
+    "copyright1"   : "Copyright 2018 OwnTheDay.io",
+    "copyright2"   : "Todos los derechos reservados."
+  },
+  "holiday" : {
+    "jan1" : {
+      "title" : "Día de Año Nuevo",
+      "desc" : "El día de Año Nuevo, también llamado Año Nuevo o Año Nuevo, se observa el 1 de enero, el primer día del año en el calendario gregoriano moderno, así como el calendario juliano."
+    },
+
+    "jan6" : {
+      "title" : "Epifanía",
+      "desc" : "La Epifanía para el año 2018 se celebra / observa el sábado 6 de enero. La Epifanía es una celebración cristiana celebrada el 6 de enero de cada año. El día también se conoce como el Día de los Reyes Magos para ayudarnos a recordar a los tres hombres sabios que visitaron a Jesús cuando era bebé."
+    },
+
+    "jan7" : {
+      "title" : "Día de Navidad ortodoxa",
+      "desc" : "El día de Navidad ortodoxa para el año 2018 se celebra / observa el domingo 7 de enero. El día de Navidad ortodoxa se celebra el 7 de enero o más cerca de cada año según el calendario gregoriano. Para los cristianos ortodoxos, el día celebra el nacimiento de Jesucristo."
+    },
+
+    "jan14" : {
+      "title" : "Makar Sankranti",
+      "desc" : "Makar Sankranti para el año 2018 se celebra / observa el domingo 14 de enero. Makar Sankranti se celebra el 14 de enero o cerca de ese año. Hindú celebra esta vez como un festival de la cosecha y marca la llegada de la primavera y el final de la temporada de invierno."
+    },
+
+    "jan15" : {
+      "title" : "día de Martin Luther King",
+      "desc" : "El Día de Martin Luther King para el año 2018 se celebra / observa el lunes 15 de enero. El Día de Martin Luther King cae el tercer lunes de enero de cada año. El día celebra el papel de Martin Luther Kings en los derechos civiles y la igualdad racial."
+    },
+
+    "jan30" : {
+      "title" : "Tu B'Shevat",
+      "desc" : "Tu B'Shevat para el año 2018 se celebra / observa al atardecer del 30 de enero y termina al ponerse el sol el miércoles 31 de enero. Tu B'Shevat se observa el día 15 del mes de Shevat en el calendario hebreo. El día es sobre plantar árboles y hacer que la tierra sea más saludable y vibrante, similar al Día del Árbol."
+    },
+
+    "feb1" : {
+      "title" : "Día Nacional de la Libertad",
+      "desc" : "El Día Nacional de la Libertad para el año 2018 se celebra / observa el jueves 1 de febrero. El Día Nacional de la Libertad se conmemora el 1 de febrero de cada año en honor a la firma de la 13ª enmienda para prohibir la esclavitud."
+    },
+
+    "feb2" : {
+      "title" : "Día de la marmota",
+      "desc" : "El día de la marmota para el año 2018 se celebra / observa el viernes 2 de febrero. El día de la marmota se celebra el segundo día de febrero de cada año. Es el día en que la marmota predice si serán 6 meses más de invierno."
+    },
+
+    "feb12" : {
+      "title" : "El cumpleaños de Lincoln",
+      "desc" : "El cumpleaños de Lincoln para el año 2018 se celebra / celebra el lunes 12 de febrero. El cumpleaños de Lincoln se celebra el 12 de febrero de cada año y celebra el nacimiento de uno de nuestros presidentes más famosos y respetados en los Estados Unidos."
+    },
+
+    "feb13" : {
+      "title" : "Mardi Gras",
+      "desc" : "Mardi Gras para el año 2018 se celebra / observó el martes 13 de febrero. Mardi Gras o Fat Tuesday o a veces llamado Shrove Tuesday cae el día antes del Miércoles de Ceniza, que es el comienzo de la Cuaresma para los cristianos. El día incluye festivales con mucha comida antes del ayuno al día siguiente."
+    },
+
+    "feb14" : {
+      "title" : "día de San Valentín",
+      "desc" : "El Día de San Valentín, también llamado el Día de San Valentín o la Fiesta de San Valentín, se celebra anualmente el 14 de febrero. La gente lo observa en muchos países; Comunión Anglicana; Iglesia Luterana."
+    },
+
+    "feb16" : {
+      "title" : "año Nuevo Chino",
+      "desc" : "El Año Nuevo chino del año 2018 se celebra / observa el viernes 16 de febrero. El Año Nuevo chino que se celebra en el calendario chino lunisolar cae en el primer día de la luna nueva entre el 21 de enero y el 20 de febrero de cada año. El día celebra ese comienzo del nuevo año y el reflejo del año pasado."
+    },
+
+    "mar1" : {
+      "title" : "Purim",
+      "desc" : "Purim para el año 2018 se celebra / observa al atardecer del 28 de febrero y termina al atardecer el jueves 1 de marzo. Purim se celebra el día 14 en el mes de Adar según el calendario hebreo. Bajo el calendario gregoriano, el día cae en febrero o marzo. El día se conmemora en el siglo IV aC, cuando los judíos fueron salvados de un decreto de muerte según el libro de Ester."
+    },
+
+    "mar2" : {
+      "title" : "Holi",
+      "desc" : "Holi para el año 2018 se celebra / observa el viernes 2 de marzo. Holi cae en los meses de febrero y marzo de cada año. Es un festival de primavera de dos días con el primer día llamado Chhoti o Holika Dahan y el segundo día llamado Dhuleti o Rangwali Holi. El festival celebra el intercambio y el amor, así como los colores."
+    },
+
+    "mar17" : {
+      "title" : "Día de San Patricio",
+      "desc" : "El día de San Patricio para el año 2018 se celebra / observa el sábado 17 de marzo. El día de San Patricio se celebra el 17 de marzo de cada año. Este día honra al patrono de Irlanda, San Patricio, y el día marca la muerte del santo."
+    },
+
+    "mar20" : {
+      "title" : "Equinoccio de primavera",
+      "desc" : "La primavera del año 2018 comienza el 20 de marzo. La primavera a menudo se asocia con un nuevo crecimiento, floración de plantas, nieve derretida o derretida y una nueva calidez en el aire con plantas / animales que salen del largo invierno de temperaturas frías. En el hemisferio norte, la primavera llega en los meses de marzo, abril y junio, y en el hemisferio sur en los meses de septiembre, octubre y diciembre. La primavera se produce por la Tierra aumentando su inclinación del eje en relación con el sol, aumentando las temperaturas (más luz solar directa) y la duración de los días."
+    },
+
+    "mar25" : {
+      "title" : "Rama Navami",
+      "desc" : "Rama Navami para el año 2018 se celebra / observa el domingo 25 de marzo. Se observa a Rama Navami en el noveno día del mes de Chaitra, que es parte del festival de primavera de Navratri. El día celebra el cumpleaños del Dios Rama."
+    },
+
+    "mar30" : {
+      "title" : "Buen viernes",
+      "desc" : "El viernes 30 de marzo se celebra / observa el Viernes Santo para el año 2018. El Viernes Santo es el sexto día de la Semana Santa para los cristianos y se celebra dos días antes del Domingo de Pascua de cada año. El día conmemora la crucifixión de Jesucristo."
+    },
+
+    "apr1" : {
+      "title" : "Día de los Inocentes'",
+      "desc" : "El Día de los Inocentes para el año 2018 se celebra / observa el domingo 1 de abril. El día de los Inocentes se celebra el 1 de abril de cada año. El día incluye bromas y bromas pesadas jugadas entre sí."
+    },
+
+    "apr2" : {
+      "title" : "Pascua de Resurrección",
+      "desc" : "La Pascua es una fiesta cristiana que celebra la creencia en la resurrección de Jesucristo de entre los muertos. En el Nuevo Testamento de la Biblia, se dice que el evento ocurrió tres días después de que Jesús fue crucificado por los romanos y murió aproximadamente a las 30 a.D."
+    },
+
+    "apr6" : {
+      "title" : "Viernes Santo ortodoxo",
+      "desc" : "El Viernes Santo se celebra / observa el Viernes Santo ortodoxo para el año 2018. El Viernes Santo ortodoxo también se llama Gran Viernes y el Viernes Santo se observa dos días antes de la Pascua ortodoxa. Los cristianos ortodoxos observan y recuerdan la muerte de Jesús Cristo en la cruz en este día."
+    },
+
+    "apr8" : {
+      "title" : "Pascua ortodoxa",
+      "desc" : "La Pascua ortodoxa del año 2018 se celebra / observa el domingo 8 de abril. La Iglesia ortodoxa usa el calendario juliano para determinar sus días santos. La Pascua para la iglesia ortodoxa siempre caerá entre el 4 de abril y el 8 de mayo de cada año. La Pascua ortodoxa se celebra dos días después del Viernes Santo ortodoxo cada año. Para los cristianos ortodoxos, el día conmemora la crucifixión de Jesucristo."
+    },
+
+    "apr11" : {
+      "title" : "Yom Hashoah",
+      "desc" : "Yom Hashoah para el año 2018 se celebra / observa al atardecer del 11 de abril y termina al atardecer del jueves 12 de abril. Yom Hashoah se observa el día 27 de Nison según el calendario hebreo. El día es un recuerdo y conmemora las vidas de los judíos que murieron en el Holocausto durante la Segunda Guerra Mundial."
+    },
+
+    "apr12" : {
+      "title" : "Isra y Mi'raj",
+      "desc" : "Isra y Mi'raj para el año 2018 se celebran / observan al atardecer del 12 de abril y terminan al atardecer del viernes 13 de abril. Isra y Mi'raj se observan el día 27 de Rajab en el calendario islámico. El día conmemora el viaje del profeta Mahoma de La Meca a Jerusalén y su ascensión al cielo."
+    },
+
+    "apr17" : {
+      "title" : "Día Nacional de los Trabajadores de Biblioteca",
+      "desc" : "El Día de los Trabajadores de la Biblioteca Nacional se celebra / observa el martes 17 de abril. El Día Nacional de los Trabajadores de la Biblioteca se celebra todos los martes durante la Semana Nacional de la Biblioteca, que se celebra en abril de cada año. El día es reconocer las contribuciones que el trabajador de la biblioteca hace a nuestra sociedad."
+    },
+
+    "apr22" : {
+      "title" : "día de la Tierra",
+      "desc" : "El Día de la Tierra para el año 2018 se celebra / observa el domingo 22 de abril. El día de la tierra se celebra el 22 de abril de cada año. El día trae conciencia a la protección del medio ambiente de nuestro planeta tierra."
+    },
+
+    "apr26" : {
+      "title" : "Lleva a tu hijo al trabajo",
+      "desc" : "Tomemos el Día de nuestras Hijas e Hijos para Trabajar para el año 2018. Se celebra / observó el jueves 26 de abril. El Día de nuestras Hijas e Hijos se observa el cuarto jueves de abril. El día es para compartir con sus hijos su trabajo y lo que hace cada día."
+    },
+
+    "apr27" : {
+      "title" : "dia del arbol",
+      "desc" : "El viernes 27 de abril se celebra / observa el Día del árbol para el año 2018. El Día del árbol se observa generalmente el último viernes de abril, pero las fechas pueden variar según llegue la primavera a la región local. El día anima a las personas a plantar y cuidar los árboles."
+    },
+
+    "may2" : {
+      "title" : "Lag BaOmer",
+      "desc" : "Lag BaOmer para el año 2018 se celebra / observa al atardecer del 2 de mayo y termina al atardecer el jueves 3 de mayo. Lag BaOmer cae el día 18 de Lyar en el calendario hebreo. El día celebra la muerte y la vida del rabino Shimon bar Yochai, que era un sabio de la Mishná en el siglo II."
+    },
+
+    "may5" : {
+      "title" : "Cinco de Mayo",
+      "desc" : "Cinco de Mayo para el año 2018 se celebra / observa el sábado 5 de mayo. El Cinco de Mayo se celebra el 5 de mayo de cada año y celebra la derrota del ejército francés por parte del ejército mexicano durante la Batalla de Puebla en México en 1862."
+    },
+
+    "may6" : {
+      "title" : "Día Nacional de las Enfermeras",
+      "desc" : "El Día Nacional de las Enfermeras para el año 2018 se celebra / observa el domingo 6 de mayo. El Día Nacional de las Enfermeras se celebra el 6 de mayo de cada año. El día honra las contribuciones que las enfermeras hacen a nuestra sociedad."
+    },
+
+    "may10" : {
+      "title" : "Día de la Ascensión",
+      "desc" : "La ascensión para el año 2018 se celebra / observa el jueves 10 de mayo. El día de la Ascensión cada año se lleva a cabo un jueves, 39 días después del Domingo de Pascua. Este día conmemora la ascensión de Jesús Cristo al cielo."
+    },
+
+    "may13" : {
+      "title" : "Día de la Madre",
+      "desc" : "El Día de la Madre para el año 2018 se celebra / celebra el domingo 13 de mayo. El Día de la Madre se celebra el segundo domingo de mayo de cada año. El día honra y celebra a las madres, abuelas y bisabuelas por su contribución a las comunidades de sus familias y la sociedad."
+    },
+
+    "may15" : {
+      "title" : "Ramadán comienza",
+      "desc" : "El Ramadán para el año 2018 se celebra / observa al atardecer del 15 de mayo y termina al atardecer el jueves 14 de junio. Se observa el Ramadán en el noveno mes del calendario islámico. Es un mes de ayuno, oración, entrega y autoevaluación observado por los musulmanes. El mes dura de 29 a 30 días, dependiendo de los avistamientos de la luna creciente."
+    },
+
+    "may19" : {
+      "title" : "Shavuot",
+      "desc" : "Shavuot para el año 2018 se celebra / observa al atardecer del 19 de mayo y termina al atardecer el lunes 21 de mayo. Shavuot se observa el 6 o 7 de Sivan en el calendario hebreo. Shavuot es un festival de dos días. El festival marca la cosecha de trigo en Israel y conmemora el día en que Dios le dio la Torá a Israel en el Monte Sinaí."
+    },
+
+    "may20" : {
+      "title" : "Pentecostés",
+      "desc" : "El domingo 20 de mayo se celebra / observa el Pentecostés del año 2018. El séptimo domingo después de Pascua se celebra el Pentecostés, también conocido como el Domingo de Pentecostés para los cristianos. El día celebra el descenso del Espíritu Santo sobre los Apóstoles de Jesucristo."
+    },
+
+    "may21" : {
+      "title" : "Día de la victoria",
+      "desc" : "En algunas ciudades, se llevan a cabo exhibiciones de fuegos artificiales o desfiles para conmemorar el Día de Victoria. Uno de los desfiles más notables se lleva a cabo en la ciudad de Victoria, Columbia Británica, que lleva el nombre de la Reina Victoria. Muchas personas se reúnen en parques para disfrutar de exhibiciones de fuegos artificiales, que son particularmente impresionantes en Hamilton y Toronto."
+    },
+
+    "may28" : {
+      "title" : "Día de los Caídos",
+      "desc" : "El Día de la memoria para el año 2018 se celebra / observa el lunes, 28 de mayo. El Día de los Caídos se celebra el último lunes de mayo de cada año. El día honra a todos los que murieron sirviendo al ejército de los Estados Unidos."
+    },
+
+    "may31" : {
+      "title" : "Corpus Christi",
+      "desc" : "Corpus Christi para el año 2018 se celebra / observó el jueves 31 de mayo. Corpus Christi se celebra el segundo jueves después del Domingo de Pentecostés de cada año. Para los católicos es un día para la Sagrada Comunión o la Eucaristía."
+    },
+
+    "jun6" : {
+      "title" : "día D",
+      "desc" : "El Día D para el año 2018 se celebra / observa el miércoles 6 de junio. El Día D se celebra el 6 de junio de cada año para honrar a aquellos hombres y mujeres que lucharon e hicieron sacrificios el 6 de junio de 1944 en la batalla situada en Normandía, Francia. Durante la Segunda Guerra Mundial."
+    },
+
+    "jun10" : {
+      "title" : "Latlat al Qadr",
+      "desc" : "Laylat al Qadr para el año 2018 se celebra / observa al atardecer del 10 de junio y termina al ponerse el sol el lunes 11 de junio. Laylat al Qadr es una tarde de los últimos 10 días de Ramadán. Observa la noche en que el profeta Mahoma recibió el primero contra el Corán."
+    },
+
+    "jun14" : {
+      "title" : "Eid al-Fitr",
+      "desc" : "Eid al-Fitr para el año 2018 se celebra / observa al atardecer del 14 de junio y termina al atardecer del viernes 15 de junio. Eid al-Fitr cae el primer día del mes de Shawwal en el calendario islámico que marca el final del Ramadán y el comienzo de la fiesta que rompe el ayuno."
+    },
+
+    "jun17" : {
+      "title" : "Dia del padre",
+      "desc" : "El Día del Padre para el año 2018 se celebra / observa el domingo, 17 de junio. El Día del Padre se celebra el tercer domingo de junio. El día celebra la paternidad y todas las figuras paternas en nuestras vidas que ayudan a mejorar nuestras vidas."
+    },
+
+    "jun21" : {
+      "title" : "Solsticio de verano",
+      "desc" : "El verano del año 2018 comienza el 21 de junio. El verano proporciona el clima más cálido de las cuatro estaciones a medida que los días se calientan y a menudo se secan (llueve en algunas áreas asiáticas) y las noches permanecen cálidas dependiendo de su ubicación. En el hemisferio norte, el verano llega en los meses de junio, julio y agosto, y en el hemisferio sur, en los meses de diciembre, enero y febrero. El verano se produce cuando la Tierra aumenta su inclinación del eje relativa al sol hasta el solsticio de verano (del 20 al 22 de junio en el hemisferio norte), luego el sol en relación con la Tierra cambia de rumbo y comienza a retroceder hacia el ecuador."
+    },
+
+    "jul1" : {
+      "title" : "Dia de Canada",
+      "desc" : "El día de Canadá es el día nacional de Canadá. Una fiesta legal federal, celebra el aniversario de la promulgación del 1 de julio de 1867 de la Ley de la Constitución, que unió las tres colonias separadas de Canadá, Nueva Escocia y Nueva Brunswick en un solo Dominio dentro del Imperio Británico llamado Canadá."
+    },
+
+    "jul4" : {
+      "title" : "Día de la Independencia",
+      "desc" : "El 4 de julio para el año 2018 se celebra / observa el miércoles 4 de julio. El 4 de julio o 4 de julio, también llamado Día de la Independencia, siempre cae el 4 de julio de cada año. Este es el Día Nacional de América que celebra la adopción de la Declaración de Independencia el 4 de julio de 1776 declarando la independencia de Gran Bretaña."
+    },
+
+    "jul14" : {
+      "title" : "Rath Yatra ",
+      "desc" : "Rath Yatra para el año 2018 se celebra / observó el jueves 14 de julio. Rath Yatra es un festival hindú que se celebra a mediados del verano de cada año. Las tres deidades, Jagannath, Subhadra y Balabhadra son celebradas."
+    },
+
+    "jul21" : {
+      "title" : "Tisha B'Av",
+      "desc" : "Tisha B'Av se observa en el noveno día del mes de Av en el calendario hebreo. El día para los judíos trae recuerdos de la destrucción del Primer y Segundo Templo en Jerusalén."
+    },
+
+    "jul22" : {
+      "title" : "Día de los padres",
+      "desc" : "El Día de los Padres para el año 2018 se celebra / observa el domingo, 22 de julio. El Día de los Padres se celebra el cuarto domingo de julio. El día reconoce y celebra las contribuciones que los padres hacen a sus familias y comunidades."
+    },
+
+    "aug5" : {
+      "title" : "Dia de la amistad",
+      "desc" : "El Día de la Amistad para el año 2018 se celebra / observa el domingo 5 de agosto. El día de la amistad en los Estados Unidos cae el primer domingo de agosto. Este día se celebra en diferentes fechas alrededor del mundo y celebra la amistad y alienta a uno a pasar tiempo con amigos y mostrar gracias a aquellos que les importan."
+    },
+
+    "aug15" : {
+      "title" : "Asunción de María",
+      "desc" : "La asunción de María para el año 2018 se celebra / observa el miércoles, 15 de agosto. La asunción de María cae el 15 de agosto de cada año y se celebra en una fiesta para los católicos cuando su espíritu y cuerpo fueron al cielo."
+    },
+
+    "aug19" : {
+      "title" : "Día Nacional de la Aviación",
+      "desc" : "El Día Nacional de la Aviación para el año 2018 se celebra / observa el domingo 19 de agosto. El Día Nacional de la Aviación se celebra el 19 de agosto de cada año para celebrar el desarrollo y la historia de la aviación."
+    },
+
+    "aug20" : {
+      "title" : "Día de Arafat",
+      "desc" : "El día de Arafat para el año 2018 se celebra / observa al atardecer del 20 de agosto y termina al atardecer del martes 21 de agosto. El día de Arafat cae en el noveno día del mes de Dhul-Hijjah en el calendario islámico lunar. Para los musulmanes, este día se honra con una peregrinación al Monte Arafat, donde se reúnen en oración esperando el juicio."
+    },
+
+    "aug25" : {
+      "title" : "Raksha Bandhan",
+      "desc" : "Raksha Bandhan para el año 2018 se celebra / observa el sábado 25 de agosto. Raksha Bandhan también conocido como Rakhi Purnima o Rakhi es un festival hindú que se celebra en el mes de agosto. El festival enfatiza el amor entre hermanos y hermanas."
+    },
+
+    "aug26" : {
+      "title" : "Día de la Igualdad de la Mujer",
+      "desc" : "El Día de la Igualdad de la Mujer para el año 2018 se celebra / observa el domingo 26 de agosto. El Día de la Igualdad de la Mujer se celebra el 26 de agosto de cada año y conmemora el derecho de las mujeres a votar en los Estados Unidos. Esto se aprobó como la 19ª enmienda a los Estados Unidos en 1920."
+    },
+
+    "sept2" : {
+      "title" : "Krishna Janmashtami",
+      "desc" : "Krishna Janmashtami para el año 2018 se celebra / observa el domingo 2 de septiembre. Se observa a Krishna Janmashtami el 8 ° día del mes de Bhadon en el calendario hindú que cae en los meses de julio, agosto y septiembre para el calendario gregoriano. El día celebra el nacimiento del Señor Krishna."
+    },
+
+    "sept12" : {
+      "title" : "Muharram",
+      "desc" : "Muharram para el año 2018 se celebra / observa el miércoles, 12 de septiembre. Muharram es el primer mes en el calendario islámico, con el primer día Muharram es el comienzo del Año Nuevo para los musulmanes. Algunos musulmanes ayunarán durante el primer mes de Muharram."
+    },
+
+    "sept18" : {
+      "title" : "Yom Kippur",
+      "desc" : "Yom Kippur para el año 2018 se celebra / observa al atardecer del 18 de septiembre y termina a la puesta del sol el miércoles 19 de septiembre. Yom Kippur se observa el décimo día del mes de Tishri en el calendario hebreo. También conocido como el día de la Expiación, el día se dedica a la oración y al ayuno entre el pueblo de fe judío."
+    },
+
+    "sept20" : {
+      "title" : "Ashura",
+      "desc" : "Ashura para el año 2018 se celebra / observa al atardecer del 20 de septiembre y termina al atardecer del viernes 21 de septiembre. Ashura cae el décimo día del primer mes de Muharram en el calendario lunar islámico. Para los musulmanes chiítas el día conmemora la muerte de Husayn ibn Ali y para los musulmanes sunníes, el día se relaciona con cuando Moisés y sus seguidores huyeron de Egipto y donde fueron salvados por Dios separando el Mar Rojo."
+    },
+
+    "sept22" : {
+      "title" : "Equinoccio de septiembre",
+      "desc" : "Autumn for the year 2018 starts onSeptember 22. In Autumn the day light gets shorter and evenings become cooler. The plants drop their leaves and animals prepare for the cold winter ahead. In the Northern Hemisphere autumn comes in the September, October and November months and in the Southern Hemisphere it comes in the March, April and May months. Autumn comes about by the Earth decreasing its axis tilt relative to the sun decreasing the temperatures (less direct sunlight) and the shortening of the days."
+    },
+
+    "sept23" : {
+      "title" : "Sucot",
+      "desc" : "Sucot para el año 2018 se celebra / observa al atardecer del 23 de septiembre y termina a la puesta del sol el domingo 30 de septiembre. Sukkot es un festival judío de siete días cuyo primer día comienza el día 15 del mes de Tishri según el calendario hebreo. El día se relaciona con el éxodo del pueblo judío de Egipto y su deambular por el desierto durante 40 años."
+    },
+
+    "sept30" : {
+      "title" : "Shemini Atzeret",
+      "desc" : "Shemini Atzeret para el año 2018 se celebra / observa al atardecer del 31 de septiembre y termina al ponerse el sol el lunes 1 de octubre. Se observa a Shemini Atzeret el 22 de Tishrei de acuerdo con el calendario hebreo. Para muchos judíos este día representa el octavo día de Sucot y un día para enfocarse en su amor por Dios."
+    },
+
+    "oct1" : {
+      "title" : "Simchat Torah",
+      "desc" : "Simchat Torah para el año 2018 se celebra / observa al atardecer del 1 de octubre y termina el 2 de octubre al atardecer. Simjat Torá, que significa regocijo de la Torá, se observa el 22 de Tishrei en Isreal y el 23 de Tishrei en las afueras de Isreal. El día celebra el final de la lectura de la Torá del año con baile y canto."
+    },
+
+    "oct8" : {
+      "title" : "Día de Acción de Gracias - Canadá",
+      "desc" : "Muchas personas tienen un día libre el segundo lunes de octubre. A menudo usan el fin de semana de Acción de Gracias de tres días para visitar a familiares o amigos que viven lejos, o para recibirlos en sus propios hogares. Muchas personas también preparan una comida especial para comer en algún momento durante el largo fin de semana. Tradicionalmente, esto incluía pavo asado y productos de temporada, como calabaza, orejas de maíz y nueces de pacana. Ahora, la comida puede consistir en otros alimentos, particularmente si la familia no es de descendencia europea."
+    },
+
+    "oct9" : {
+      "title" : "Navratri",
+      "desc" : "Navratri para el año 2018 se celebra / observa el martes, 9 de octubre. Navratri es un festival que comienza el primer día del mes lunar de Ashwin. El festival tiene una duración de 9 noches y está dedicado a la deidad hindú Durga."
+    },
+
+    "oct18" : {
+      "title" : "Dussehra",
+      "desc" : "Dussehra para el año 2018 se celebra / observó el jueves 18 de octubre. Dussehra también conocido como Maha Navami se observa en el mes de Ashvin el día 10 de Shukla Paksha. El día celebra el bien sobre el mal."
+    },
+
+    "oct31" : {
+      "title" : "Halloween",
+      "desc" : "Halloween para el año 2018 se celebra / observa el miércoles, 31 de octubre. Halloween se celebra el 31 de octubre de cada año. Halloween se celebra cada año el 31 de octubre, la víspera de la fiesta cristiana occidental del Día de Todos los Santos o más comúnmente conocido como el Día de Todos los Santos. También se lo conoce como All Halloween, All Hallows 'Eve o All Saint's Day Eve."
+    },
+
+    "nov1" : {
+      "title" : "Todos los Santos",
+      "desc" : "El Día de Todos los Santos para el año 2018 se celebra / observa el jueves 1 de noviembre. Siempre se celebra el primero de noviembre de cada año, el Día de Todos los Santos celebra a los Santos que no son honrados en un día especial separado durante el año para que puedan ser honrado en este día."
+    },
+
+    "nov2" : {
+      "title" : "Todo el día de almas",
+      "desc" : "Se celebra / observa el Día de las Almas para el año 2018 el viernes 2 de noviembre. El Día de las Almas siempre cae el 2 de noviembre de cada año. El día nos recuerda a aquellos que están muertos y aquellos que están en el purgatorio y para que los vivos vivan vidas santas para la purificación de su alma."
+    },
+
+    "nov7" : {
+      "title" : "Diwali",
+      "desc" : "Diwali para el año 2018 se celebra / observa el miércoles, 7 de noviembre. Diwali se observa el día 15 del mes de Kartika en el calendario hindú y celebra el festival de luces."
+    },
+
+    "nov11" : {
+      "title" : "Día de los Veteranos",
+      "desc" : "El Día de los Veteranos para el año 2018 se celebra / observa el domingo 11 de noviembre. El Día de los Veteranos se celebra el 11 de noviembre de cada año y rinde homenaje a todos los veteranos que han servido anteriormente en las Fuerzas Armadas de los Estados Unidos."
+    },
+
+    "nov20" : {
+      "title" : "Cumpleaños del Profeta",
+      "desc" : "El cumpleaños del profeta para el año 2018 se celebra / observa al atardecer del 20 de noviembre y termina al atardecer el miércoles 21 de noviembre. El cumpleaños del Profeta se celebra el día 12 o 17 del mes de Rabi 'al-awwal del calendario islámico. El día marca la celebración de cumpleaños del Profeta Mahoma para los musulmanes."
+    },
+
+    "nov22" : {
+      "title" : "día de Gracias",
+      "desc" : "El jueves 22 de noviembre se celebra / observa el Día de Acción de Gracias para el año 2018. El Día de Acción de Gracias se celebra el cuarto jueves de noviembre de cada año. El día celebra la cosecha y se ha celebrado en los Estados Unidos desde 1863."
+    },
+
+    "dec2" : {
+      "title" : "Hanukkah comienza",
+      "desc" : "Hanukkah para el año 2018 se celebra / observa al atardecer del 2 de diciembre y termina al atardecer el lunes 10 de diciembre. Hanukkah cae el día 25 de Kislev en el calendario hebreo y entre finales de noviembre y finales de diciembre en el calendario gregoriano. Hanukkah es un festival judío de ocho días que conmemora la rededicación del Templo Santo en Jerusalén."
+    },
+
+    "dec21" : {
+      "title" : "Solsticio de invierno",
+      "desc" : "El invierno para el año 2018 comienza el 21 de diciembre. El invierno tiene el clima más frío de las cuatro estaciones a medida que los días se hacen más cortos y más fríos con la nieve cayendo en las áreas más frías. En el hemisferio norte, el invierno llega en los meses de diciembre, enero y febrero, y en el hemisferio sur, en los meses de junio, julio y agosto. El invierno se produce cuando la Tierra disminuye su inclinación del eje relativa al sol hasta el solsticio de invierno (20-23 de diciembre en el hemisferio norte), luego el sol en relación con la Tierra cambia de curso y comienza a retroceder hacia el ecuador."
+    },
+
+    "dec24" : {
+      "title" : "Nochebuena",
+      "desc" : "La víspera de Navidad para el año 2018 se celebra / celebra el lunes 24 de diciembre. La Nochebuena siempre se celebra el 24 de diciembre de cada año, un día antes del día de Navidad. La noche se celebra en anticipación del día siguiente con el nacimiento de Jesucristo."
+    },
+
+    "dec25" : {
+      "title" : "día de Navidad",
+      "desc" : "La Navidad es un festival anual que conmemora el nacimiento de Jesucristo, observado principalmente el 25 de diciembre como una celebración religiosa y cultural entre miles de millones de personas en todo el mundo."
+    },
+
+    "dec31" : {
+      "title" : "Vispera de Año Nuevo",
+      "desc" : "En el calendario gregoriano, la víspera de Año Nuevo, el último día del año, es el 31 de diciembre, que es el séptimo día de Christmastide. En muchos países, la Nochevieja se celebra en las reuniones sociales nocturnas, donde muchas personas bailan, comen, beben bebidas alcohólicas y miran o encienden fuegos artificiales para celebrar el año nuevo."
+    }
+  }
+}

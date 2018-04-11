@@ -1,0 +1,96 @@
+// Reference Variables & Mixins
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+@import (reference) "/imports/styles/lib/mixins.less";
+
+// Most-Popular-Day Component
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.component-wrapper {
+  &.most-popular-day-component {
+    margin-bottom: 30px;
+
+    .most-popular-days {
+      .day-card-component {
+        display: inline-block;
+        width: 35%;
+        min-width: 140px;
+
+        &.size-first {
+          .panel-day-card {
+            .panel-body {
+              .holiday-icon {
+                width: 18%;
+              }
+            }
+          }
+        }
+
+        &.size-second {
+          width: 30%;
+          opacity: 0.85;
+
+          .panel-day-card {
+            border-left: 0 none;
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+
+            .panel-heading {
+              font-size: 1em;
+              padding: 7px 15px;
+            }
+            .panel-body {
+              .day-label {
+                font-size: 3em;
+              }
+
+              .owner-label {
+                font-size: 0.8em;
+              }
+
+              .holiday-icon {
+                //.square(40px);
+                width: 16.5%;
+              }
+            }
+            .panel-footer {
+              font-size: 0.9em;
+            }
+          }
+        }
+
+        &.size-third {
+          width: 25%;
+          opacity: 0.7;
+
+          .panel-day-card {
+            border-left: 0 none;
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+
+            .panel-heading {
+              font-size: 0.8em;
+              padding: 5px 15px;
+            }
+            .panel-body {
+              .day-label {
+                font-size: 2.5em;
+              }
+
+              .owner-label {
+                font-size: 0.7em;
+              }
+
+              .holiday-icon {
+                //.square(30px);
+                width: 15%;
+              }
+            }
+            .panel-footer {
+              font-size: 0.8em;
+            }
+          }
+        }
+      }
+    }
+
+  }
+}

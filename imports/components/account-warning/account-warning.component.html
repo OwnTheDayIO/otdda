@@ -1,0 +1,41 @@
+<template name="accountWarningComponent">
+
+    {{#if isReady}}
+        {{#if hasInvalidBrowser}}
+            <div class="alert alert-danger" role="alert">
+                <strong>{{_ 'component.accountWarning.invalidBrowser.title'}}</strong><br>
+                {{_ 'component.accountWarning.invalidBrowser.message'}}
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading">{{_ 'component.accountWarning.installMetaMask.title'}}</div>
+                <div class="panel-body">
+                    <p>{{_ 'component.accountWarning.installMetaMask.line1'}}</p>
+                    <p><a href="https://metamask.io" target="_blank"><img src="/img/get-metamask.png" /></a></p>
+                </div>
+            </div>
+        {{else}}
+            {{#if hasInvalidAccount}}
+                <div class="component-wrapper no-account-component">
+                    <div class="alert alert-warning" role="alert">
+                        <strong>{{_ 'component.accountWarning.noAccount.title'}}</strong><br>
+                        {{_ 'component.accountWarning.noAccount.message'}}
+                    </div>
+                </div>
+            {{/if}}
+
+            {{#if hasInvalidNetwork}}
+                <div class="alert alert-danger" role="alert">
+                    <strong>{{_ 'component.accountWarning.wrongNetwork.title'}}</strong><br>
+                    {{_ getCorrectNetworkName}}
+                </div>
+            {{/if}}
+        {{/if}}
+    {{else}}
+        <div class="alert alert-info" role="alert">
+            <strong>{{_ 'component.accountWarning.detectingBrowser.title'}}</strong><br>
+            {{_ 'component.accountWarning.detectingBrowser.message'}}
+        </div>
+    {{/if}}
+
+</template>

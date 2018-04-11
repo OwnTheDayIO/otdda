@@ -1,0 +1,122 @@
+{
+  "parser": "babel-eslint",
+  "ecmaVersion": 6,
+  "parserOptions": {
+    "allowImportExportEverywhere": true
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "meteor": true,
+    "es6": true,
+    "jquery": true,
+    "mongo": true
+  },
+  "plugins": [
+    "meteor"
+  ],
+  "extends": [
+    "plugin:meteor/recommended"
+  ],
+  "settings": {
+    "import/resolver": "meteor",
+    "import/core-modules": [ "meteor/meteor" ],
+    "propWrapperFunctions": [ "forbidExtraProps" ]
+  },
+  "rules": {
+    "meteor/eventmap-params": [
+      "error",
+      {
+        "eventParamName": "event",
+        "templateInstanceParamName": "instance"
+      }
+    ],
+    "meteor/template-names": [
+      "off"
+    ],
+    "no-underscore-dangle": "off",
+    "indent": [
+      "error",
+      4,
+      {
+        "SwitchCase": 1
+      }
+    ],
+    "linebreak-style": [
+      "error",
+      "unix"
+    ],
+    "quotes": [
+      "error",
+      "single",
+      { "avoidEscape": true }
+    ],
+    "semi": [
+      "error",
+      "always"
+    ],
+    "no-else-return": [
+      "error"
+    ],
+    "no-eval": [
+      "error"
+    ],
+    "no-useless-concat": [
+      "error"
+    ],
+    "no-useless-escape": [
+      "error"
+    ],
+    "max-lines": [
+      "error",
+      {"max": 1500, "skipBlankLines": true, "skipComments": true}
+    ],
+    "max-nested-callbacks": [
+      "error",
+      5
+    ],
+    "max-params": [
+      "error",
+      5
+    ],
+    "max-statements-per-line": [
+      "error",
+      {"max": 3}
+    ],
+    "max-statements": [
+      "error",
+      500
+    ],
+    "no-nested-ternary": [
+      "error"
+    ],
+    "no-trailing-spaces": [
+      "error"
+    ],
+    "no-unneeded-ternary": [
+      "error"
+    ],
+    "no-array-constructor": [
+      "error"
+    ],
+    "no-loop-func": [
+      "error"
+    ],
+    "one-var": [
+      "error",
+      "never"
+    ],
+    "eol-last": [
+      "error"
+    ],
+    "space-before-blocks": [
+      "error"
+    ],
+    "no-whitespace-before-property": [
+      "error"
+    ],
+
+    "meteor/no-session": 0,
+    "spaced-comment": 0
+  }
+}
