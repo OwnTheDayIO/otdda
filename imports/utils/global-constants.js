@@ -1,4 +1,13 @@
 
+export const APP_NAME             = 'Own The Day';
+export const APP_VERSION          = 'v1.6.0';
+
+export const CONTRACT_ADDRESS = {
+    '1'    : '0x16d790ad4e33725d44741251f100e635c323beb9', // Main
+    '3'    : '0x7c28cD4F02597f598B2811b0637F141ba1400788', // Ropsten
+    '5777' : '0x345ca3e014aaf5dca488057592ee47305d9b3e10'  // Ganache
+};
+
 export const TOTAL_DAYS = 366;
 
 export const ACCOUNT_WATCH_INTERVAL = 1000;
@@ -11,10 +20,6 @@ export const MONTH_INDICES    = [ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11]
 export const DAYS_IN_MONTH    = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
 
 export const ADDRESS_DISPLAY_LENGTH = 12;
-
-export const CONTRACT_ADDRESS_DEV = '0x345ca3e014aaf5dca488057592ee47305d9b3e10';
-export const CONTRACT_ADDRESS_PRD = '0x16d790ad4e33725d44741251f100e635c323beb9';
-
 
 export const HOLIDAY_ICON_MAP = [
     {dayIndex: 0,    classname: 'jan1',  img: '/img/holidays/jan1.svg',  title: 'holiday.jan1.title',  desc: 'holiday.jan1.desc'},

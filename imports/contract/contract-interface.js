@@ -8,8 +8,7 @@ import { log } from '/imports/utils/logging';
 
 // Globals
 import {
-    CONTRACT_ADDRESS_DEV,
-    CONTRACT_ADDRESS_PRD,
+    CONTRACT_ADDRESS,
     RECEIPT_WATCH_INTERVAL
 } from '/imports/utils/global-constants';
 
@@ -30,11 +29,8 @@ export class Contract {
         return Contract._instance;
     }
 
-    connectToContract() {
-        let address = CONTRACT_ADDRESS_DEV;
-        if (/production/i.test(process.env.NODE_ENV)) {
-            address = CONTRACT_ADDRESS_PRD;
-        }
+    connectToContract(networkVersion = '1') {
+        const address = CONTRACT_ADDRESS[networkVersion];
         this.contract = this.eth.web3.eth.contract(_ABI, address).at(address);
     }
 

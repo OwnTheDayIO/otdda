@@ -1,17 +1,17 @@
 {
   "name": "OwnTheDay-DApp",
-  "version": "1.5.3",
+  "version": "1.6.0",
   "description": "Own the Day or Get Paid for it - Blockchain Collectibles",
   "author": "OwnTheDay <owntheday.io>",
   "keywords": [],
   "license": "MIT",
-  "homepage": "https://github.com/xeroblood/OwnTheDay-DApp#readme",
+  "homepage": "https://github.com/OwnTheDayIO/otdda#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xeroblood/OwnTheDay-DApp.git"
+    "url": "git+https://github.com/OwnTheDayIO/otdda.git"
   },
   "bugs": {
-    "url": "https://github.com/xeroblood/OwnTheDay-DApp/issues"
+    "url": "https://github.com/OwnTheDayIO/otdda/issues"
   },
   "scripts": {
     "start": "meteor run"

@@ -1,0 +1,11 @@
+{
+  "name": "OwnTheDay-Dapp",
+  "currentVersion": "1.6.0",
+  "versionPrefix": "v",
+  "filesList": [
+    "package.json:package",
+    "README.md",
+    "client/main.html",
+    "imports/utils/global-constants.js"
+  ]
+}

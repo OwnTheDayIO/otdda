@@ -9,8 +9,7 @@ import { log } from '/imports/utils/logging';
 
 // Globals
 import {
-    CONTRACT_ADDRESS_DEV,
-    CONTRACT_ADDRESS_PRD
+    CONTRACT_ADDRESS
 } from '/imports/utils/global-constants';
 
 // Template Component
@@ -102,10 +101,7 @@ Template.accountsComponent.helpers({
     getTokenAddress() {
         const instance = Template.instance();
         const accountId = instance.accountId.get();
-        let contractAddress = CONTRACT_ADDRESS_DEV;
-        if (/production/i.test(process.env.NODE_ENV)) {
-            contractAddress = CONTRACT_ADDRESS_PRD;
-        }
+        const contractAddress = CONTRACT_ADDRESS[instance.eth.networkVersion];
         return `https://etherscan.io/token/${contractAddress}?a=${accountId}`;
     }
 });

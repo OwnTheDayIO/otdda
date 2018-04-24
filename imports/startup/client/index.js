@@ -23,6 +23,12 @@ import './ethereum';
 import './spinner';
 import { log } from '/imports/utils/logging';
 
+import {
+    APP_NAME,
+    APP_VERSION,
+    CONTRACT_ADDRESS
+} from '/imports/utils/global-constants';
+
 import * as profanityFilter from 'profanity-filter';
 import * as profanityFilterData from '/imports/utils/profanity-filters.data.json';
 
@@ -36,8 +42,8 @@ if (location.host !== 'localhost:3000' && location.host !== '127.0.0.1:3000' && 
 // Client Startup - Equivalent to DOMReady event
 //
 Meteor.startup(function clientIndexStartup() {
-    log.log('OwnTheDay Version 1.5.7');
-    log.log('Check out our Ethereum Contract here: https://etherscan.io/address/0x16d790ad4e33725d44741251f100e635c323beb9#code');
+    log.log(`${APP_NAME} - version ${APP_VERSION}`);
+    log.log(`Check out our Ethereum Contract here: https://etherscan.io/address/${CONTRACT_ADDRESS['1']}#code`);
     log.log('Have a great Day! 📆 🚀');
     profanityFilter.seed(profanityFilterData);
 });

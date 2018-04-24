@@ -31,15 +31,21 @@ function _loadWeb3() {
         eth.isReady = true;
 
         // Check for Valid Network Version
+        //   Main    = 1
+        //   Ropsten = 3
+        //   Rinkeby = 4
+        //   Kovan   = 42
+        //   Ganache = 5777 (local)
         if (process.env.NODE_ENV === 'development') {
-            if (_.parseInt(networkVersion, 10) === 1) { return; }
+            if (networkVersion === '1') { return; }
         } else {
-            if (_.parseInt(networkVersion, 10) !== 1) { return; }
+            if (networkVersion !== '1') { return; }
         }
 
         // Network Active; Connect to Contract
         eth.hasNetwork = true;
-        contract.connectToContract();
+        eth.networkVersion = networkVersion;
+        contract.connectToContract(eth.networkVersion);
     });
 }
 window.addEventListener('load', _loadWeb3);
